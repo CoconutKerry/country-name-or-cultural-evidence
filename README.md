@@ -55,9 +55,20 @@ hashes. The preserved inference source suites can be checked separately with
 - `provenance/`: model pins, original package identities, and release hashes.
 - `docs/`: data, output-schema, inference, and public-release documentation.
 
-## Review status
+## License and Provenance
 
-This package is intended to remain private during anonymous review. Before a
-public release, complete the checklist in `docs/PUBLIC_RELEASE_CHECKLIST.md`,
-including author metadata, repository URL, code license, and source-data
-redistribution review.
+This is the public release accompanying the camera-ready version of
+"Country Name or Cultural Evidence? A Causal Audit of Population-Grounded
+Steering in Large Language Models" (AACL 2026 Workshop).
+
+- All code is released under the MIT License (see `LICENSE`).
+- Data files under `data/` and `inference/validated_sources/*/data/` are
+  derived from GlobalOpinionQA (Durmus et al., 2023), which is itself adapted
+  from the Pew Global Attitudes Survey and the World Values Survey; see
+  `LICENSES.md` for redistribution details and `provenance/` for release
+  hashes.
+- Model weights are not redistributed. Each GGUF remains subject to its
+  repository and upstream model licenses; llama.cpp remains subject to its
+  own license.
+- Files under `inference/validated_sources/` are preserved research source
+  snapshots; their inclusion does not alter third-party licensing terms.
