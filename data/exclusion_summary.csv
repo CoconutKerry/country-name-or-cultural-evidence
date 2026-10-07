@@ -1,0 +1,10 @@
+level,reason,count,question_ids,notes
+question,alias_mapping_requires_review,7,Q0006;Q0193;Q0280;Q0391;Q0545;Q0719;Q1133,
+question,country_specific_placeholder_unresolved,1,Q0550,
+question,fewer_than_two_eligible_samples,41,,
+question,incompatible_positive_option_support,407,,
+question,known_mixed_schema,23,Q0001;Q0155;Q0229;Q0256;Q0287;Q0297;Q0304;Q0321;Q0371;Q0452;Q0509;Q0581;Q0624;Q0672;Q0692;Q0768;Q0821;Q0860;Q0911;Q0963;Q1042;Q1103;Q1118,
+question,relative_time_without_survey_wave,3,Q0311;Q0475;Q1124,
+question,table_total_parser_artifact,7,,
+sample,explicit_non_national_or_old_removed,3036,,Aggregate count; row-level identifiers were not retained in the source repair summary.
+sample,insufficient_substantive_mass_removed,58,,Aggregate count; row-level identifiers were not retained in the source repair summary.

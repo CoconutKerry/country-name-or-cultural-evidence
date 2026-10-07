@@ -1,0 +1,214 @@
+{
+  "schema_version": "source-package-manifest-v1",
+  "archive_root": "gemma-2-9b-it-repaired-source-v1",
+  "model_weights_included": false,
+  "runtime_outputs_included": false,
+  "legacy_outputs_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 673,
+      "sha256": "ec546737959590e599d6d65c4823945d123080e0f1002da15cb2fc9c0ba0ee33"
+    },
+    {
+      "path": "RUNBOOK.md",
+      "size_bytes": 2346,
+      "sha256": "64d0c5a5d4f10f53f286d5542d50662903c6a89c1469e8fce16eb9a0f9072e6d"
+    },
+    {
+      "path": "audit/GEMMA_GGUF_PREINFERENCE_GATE.json",
+      "size_bytes": 4157,
+      "sha256": "d566f48c2d8e12c1e3ae233b52b204eb2378e911d75a25305b58237573195e0c"
+    },
+    {
+      "path": "audit/GEMMA_GGUF_PREINFERENCE_TEST_RESULTS.txt",
+      "size_bytes": 10559,
+      "sha256": "86b4201791848a55019d24e37557914eef8d9d003f90e706946847e814b7fb43"
+    },
+    {
+      "path": "data/audit/data_repair_summary.json",
+      "size_bytes": 1806,
+      "sha256": "a4643b3aa875b7c1c8cc31b2996e1cdd88c61b8e9d51ae59c581c1d8c6e899ce"
+    },
+    {
+      "path": "data/pairs/country_pairs_smoke.json",
+      "size_bytes": 873,
+      "sha256": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096"
+    },
+    {
+      "path": "data/pairs/country_pairs_v2.json",
+      "size_bytes": 86211,
+      "sha256": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b"
+    },
+    {
+      "path": "data/processed/dataset_v2.json",
+      "size_bytes": 7830968,
+      "sha256": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09"
+    },
+    {
+      "path": "docs/LEGACY_RESULTS_INVALID.md",
+      "size_bytes": 1151,
+      "sha256": "660f897bb21262bc30ca0a910e062270d2af02c7311a59ed7df11dd732745a51"
+    },
+    {
+      "path": "docs/RESULT_SCHEMA.md",
+      "size_bytes": 4509,
+      "sha256": "3e257430e3e9c6695dc4b39dbe29b4916627e18cd170895412750b04ca73c1e3"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "size_bytes": 5149,
+      "sha256": "5a853d86086aae1be70b723d35a75333e34363d0729cf961496f8ed13a1d273c"
+    },
+    {
+      "path": "docs/prompt_design_notes.md",
+      "size_bytes": 1988,
+      "sha256": "dc1d5470e2537c7995e1b023e2186abe6a7a87eec4bdfa7583718d0f00ab2c93"
+    },
+    {
+      "path": "requirements-inference.lock",
+      "size_bytes": 420,
+      "sha256": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a"
+    },
+    {
+      "path": "scripts/analyze_gemma_gguf_full.py",
+      "size_bytes": 46737,
+      "sha256": "37163188198acc1bc0f7bf31ca12bb2079c871fa94e15a7bc82c812e632bc80c"
+    },
+    {
+      "path": "scripts/build_gguf_score_helper.py",
+      "size_bytes": 1685,
+      "sha256": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7"
+    },
+    {
+      "path": "scripts/package_gemma_gguf_full.py",
+      "size_bytes": 28089,
+      "sha256": "ee063b87c60b7a59bfe6aaa09fddebc2f0c237130b21ef99426e9ba9f664ca47"
+    },
+    {
+      "path": "scripts/run_gemma_gguf_full.py",
+      "size_bytes": 83515,
+      "sha256": "517e370dc632440fe9892c5ca14b78076a8db7f72cad2eaa7c9692891c05d1c7"
+    },
+    {
+      "path": "scripts/run_genuine_gemma_gguf_smoke.py",
+      "size_bytes": 25844,
+      "sha256": "e23a4bfb764eb2182108323fc0077b3d29975428775013b36634d0562ad9dc09"
+    },
+    {
+      "path": "scripts/validate_data.py",
+      "size_bytes": 3727,
+      "sha256": "e1fb7b2bf4f29764ae83b4cb85ea8fdb5dd0bcc5e423e14535694b438213aac6"
+    },
+    {
+      "path": "scripts/write_gemma_preinference_gate.py",
+      "size_bytes": 5214,
+      "sha256": "3d728a7cd7a85c436f306e09a1d9ae9ec9a6bca8044f8e8252479b714f2d44d6"
+    },
+    {
+      "path": "src/__init__.py",
+      "size_bytes": 48,
+      "sha256": "bdb93c4e89751d2e0ba5266bd7e251697b4767b3031067f1dc21b88987460935"
+    },
+    {
+      "path": "src/clustered_bootstrap.py",
+      "size_bytes": 16413,
+      "sha256": "dd93f8cc8b9119b809eed868212b6d8508086b169039a9a14d331cba5b720be6"
+    },
+    {
+      "path": "src/data_loader.py",
+      "size_bytes": 7233,
+      "sha256": "1e831d443daae419fdd207735122a5ecbe5e1f23ffe6dbcf45f518cd888bde63"
+    },
+    {
+      "path": "src/gemma_gguf_spec.py",
+      "size_bytes": 6433,
+      "sha256": "a4fa666db24163ef6f9ba38900081e4f26dc6d4248638bfd7cbf33e824687674"
+    },
+    {
+      "path": "src/gguf_runner.py",
+      "size_bytes": 33174,
+      "sha256": "bff9da82714bc5c12eb28b418a2b8d5307a7824ec4ce0e94dc329ff719a311e0"
+    },
+    {
+      "path": "src/gguf_score_helper.cpp",
+      "size_bytes": 27643,
+      "sha256": "bb23f566eeabb6275d75b4d8813fd3984441b77a554699a02d48f945eaa7cc77"
+    },
+    {
+      "path": "src/main.py",
+      "size_bytes": 20293,
+      "sha256": "336eaafad059b260bd4780bacc4c0aea4a24249ca1139f14790c446ee368495a"
+    },
+    {
+      "path": "src/metrics.py",
+      "size_bytes": 9399,
+      "sha256": "6e584728b571a63eb2c382222e3304c5d41a815e18a9729af53de2da1525fb9b"
+    },
+    {
+      "path": "src/model_runner.py",
+      "size_bytes": 23027,
+      "sha256": "c24a3a4ac0fa00aa16087364e5256bec86f6fd961c3ccd9400e1aab1cb61f10b"
+    },
+    {
+      "path": "src/prompt_builder.py",
+      "size_bytes": 5616,
+      "sha256": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0"
+    },
+    {
+      "path": "src/scoring.py",
+      "size_bytes": 6316,
+      "sha256": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size_bytes": 60,
+      "sha256": "9f0043fcc52decdad62e619583382e5787069b48c5b77a34c3f560a39d708edc"
+    },
+    {
+      "path": "tests/test_data_loader.py",
+      "size_bytes": 3878,
+      "sha256": "87b40a8a3056e9431b5fdc85e606d05a67203b26af596ee63822f52aba363167"
+    },
+    {
+      "path": "tests/test_gemma_gguf_full.py",
+      "size_bytes": 19358,
+      "sha256": "9e8cf13a93cbb89f0ce9d07bb9f35bf7317e97054e33462046da191fc53277cd"
+    },
+    {
+      "path": "tests/test_gemma_gguf_full_analysis.py",
+      "size_bytes": 15306,
+      "sha256": "8b31c2ff29e68c14c28498e74db932245645b4c75cc1b9b4aaa132f52f661feb"
+    },
+    {
+      "path": "tests/test_gemma_package_provenance.py",
+      "size_bytes": 8926,
+      "sha256": "e593e4aa9df8f6e0b1c357dbf03b7903503a73237b341d3bdf9770fdea7d00ad"
+    },
+    {
+      "path": "tests/test_gguf_runner.py",
+      "size_bytes": 12491,
+      "sha256": "5d086cfb96794772193960e51c9d73476b322344293bffa356b838b8c24aaf69"
+    },
+    {
+      "path": "tests/test_guardrails.py",
+      "size_bytes": 508,
+      "sha256": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "size_bytes": 2869,
+      "sha256": "50f145e76acec2e996d95a02fba817d644de8bab01b9ef94ebeccc1317ab80e2"
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "size_bytes": 2162,
+      "sha256": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3"
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "size_bytes": 9965,
+      "sha256": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812"
+    }
+  ]
+}

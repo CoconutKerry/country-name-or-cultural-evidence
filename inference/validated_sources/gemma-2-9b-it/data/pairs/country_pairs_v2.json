@@ -1,0 +1,3050 @@
+[
+  {
+    "unit_id": "Q1322::Maldives=>South Korea",
+    "question_id": "Q1322",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "South Korea",
+    "conflict_country_display": "South Korea",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7859567365581546,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::South Korea=>Maldives",
+    "question_id": "Q1322",
+    "country": "South Korea",
+    "country_display": "South Korea",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7859567365581546,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Peru=>Singapore",
+    "question_id": "Q1510",
+    "country": "Peru",
+    "country_display": "Peru",
+    "conflict_country": "Singapore",
+    "conflict_country_display": "Singapore",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7790879974649998,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Singapore=>Peru",
+    "question_id": "Q1510",
+    "country": "Singapore",
+    "country_display": "Singapore",
+    "conflict_country": "Peru",
+    "conflict_country_display": "Peru",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7790879974649998,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::Maldives=>Taiwan ROC",
+    "question_id": "Q1322",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "Taiwan ROC",
+    "conflict_country_display": "Taiwan ROC",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.768215637092206,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::Taiwan ROC=>Maldives",
+    "question_id": "Q1322",
+    "country": "Taiwan ROC",
+    "country_display": "Taiwan ROC",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.768215637092206,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::China=>Maldives",
+    "question_id": "Q1322",
+    "country": "China",
+    "country_display": "China",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7627681504634822,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::Maldives=>China",
+    "question_id": "Q1322",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "China",
+    "conflict_country_display": "China",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7627681504634822,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Myanmar=>Netherlands",
+    "question_id": "Q1508",
+    "country": "Myanmar",
+    "country_display": "Myanmar",
+    "conflict_country": "Netherlands",
+    "conflict_country_display": "Netherlands",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7521644100905975,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Netherlands=>Myanmar",
+    "question_id": "Q1508",
+    "country": "Netherlands",
+    "country_display": "Netherlands",
+    "conflict_country": "Myanmar",
+    "conflict_country_display": "Myanmar",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7521644100905975,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Colombia=>Singapore",
+    "question_id": "Q1510",
+    "country": "Colombia",
+    "country_display": "Colombia",
+    "conflict_country": "Singapore",
+    "conflict_country_display": "Singapore",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7413545010221024,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Singapore=>Colombia",
+    "question_id": "Q1510",
+    "country": "Singapore",
+    "country_display": "Singapore",
+    "conflict_country": "Colombia",
+    "conflict_country_display": "Colombia",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7413545010221024,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Myanmar=>Northern Ireland",
+    "question_id": "Q1508",
+    "country": "Myanmar",
+    "country_display": "Myanmar",
+    "conflict_country": "Northern Ireland",
+    "conflict_country_display": "Northern Ireland",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.741285619717533,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Northern Ireland=>Myanmar",
+    "question_id": "Q1508",
+    "country": "Northern Ireland",
+    "country_display": "Northern Ireland",
+    "conflict_country": "Myanmar",
+    "conflict_country_display": "Myanmar",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.741285619717533,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Germany=>Myanmar",
+    "question_id": "Q1508",
+    "country": "Germany",
+    "country_display": "Germany",
+    "conflict_country": "Myanmar",
+    "conflict_country_display": "Myanmar",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.737776578239926,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1508::Myanmar=>Germany",
+    "question_id": "Q1508",
+    "country": "Myanmar",
+    "country_display": "Myanmar",
+    "conflict_country": "Germany",
+    "conflict_country_display": "Germany",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.737776578239926,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::Palest. ter.=>Senegal",
+    "question_id": "Q0595",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Senegal",
+    "conflict_country_display": "Senegal",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.7353238676305371,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::Senegal=>Palest. ter.",
+    "question_id": "Q0595",
+    "country": "Senegal",
+    "country_display": "Senegal",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.7353238676305371,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::Israel=>Palest. ter.",
+    "question_id": "Q0595",
+    "country": "Israel",
+    "country_display": "Israel",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.7331999389469508,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::Palest. ter.=>Israel",
+    "question_id": "Q0595",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Israel",
+    "conflict_country_display": "Israel",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.7331999389469508,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Uruguay=>Vietnam",
+    "question_id": "Q1375",
+    "country": "Uruguay",
+    "country_display": "Uruguay",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7315111776248019,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Vietnam=>Uruguay",
+    "question_id": "Q1375",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Uruguay",
+    "conflict_country_display": "Uruguay",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7315111776248019,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Australia=>Vietnam",
+    "question_id": "Q1375",
+    "country": "Australia",
+    "country_display": "Australia",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7292287054330324,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Vietnam=>Australia",
+    "question_id": "Q1375",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Australia",
+    "conflict_country_display": "Australia",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7292287054330324,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Brazil=>Singapore",
+    "question_id": "Q1510",
+    "country": "Brazil",
+    "country_display": "Brazil",
+    "conflict_country": "Singapore",
+    "conflict_country_display": "Singapore",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7265670018172548,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1510::Singapore=>Brazil",
+    "question_id": "Q1510",
+    "country": "Singapore",
+    "country_display": "Singapore",
+    "conflict_country": "Brazil",
+    "conflict_country_display": "Brazil",
+    "options": [
+      "1 There is no corruption in the respondent's country",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10 There is abundant corruption in the respondent's country"
+    ],
+    "divergence_bits": 0.7265670018172548,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Great Britain=>Vietnam",
+    "question_id": "Q1375",
+    "country": "Great Britain",
+    "country_display": "Great Britain",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7238621733466031,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1375::Vietnam=>Great Britain",
+    "question_id": "Q1375",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Great Britain",
+    "conflict_country_display": "Great Britain",
+    "options": [
+      "Mentioned",
+      "Not mentioned"
+    ],
+    "divergence_bits": 0.7238621733466031,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Ghana=>Sweden",
+    "question_id": "Q1035",
+    "country": "Ghana",
+    "country_display": "Ghana",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7121644220992763,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Sweden=>Ghana",
+    "question_id": "Q1035",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Ghana",
+    "conflict_country_display": "Ghana",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7121644220992763,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Indonesia=>Sweden",
+    "question_id": "Q1035",
+    "country": "Indonesia",
+    "country_display": "Indonesia",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7121644220992763,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Sweden=>Indonesia",
+    "question_id": "Q1035",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Indonesia",
+    "conflict_country_display": "Indonesia",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7121644220992763,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Pakistan=>Sweden",
+    "question_id": "Q1035",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7118437325465838,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1035::Sweden=>Pakistan",
+    "question_id": "Q1035",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Not necessary to believe in God to be moral/have good values",
+      "Necessary to believe in God to be moral/have good values"
+    ],
+    "divergence_bits": 0.7118437325465838,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Indonesia=>Sweden",
+    "question_id": "Q1155",
+    "country": "Indonesia",
+    "country_display": "Indonesia",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.7048000736734097,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Sweden=>Indonesia",
+    "question_id": "Q1155",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Indonesia",
+    "conflict_country_display": "Indonesia",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.7048000736734097,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1392::Australia=>Vietnam",
+    "question_id": "Q1392",
+    "country": "Australia",
+    "country_display": "Australia",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.7001788727141993,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1392::Vietnam=>Australia",
+    "question_id": "Q1392",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Australia",
+    "conflict_country_display": "Australia",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.7001788727141993,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Sweden=>Vietnam",
+    "question_id": "Q0914",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.7001511865589192,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Vietnam=>Sweden",
+    "question_id": "Q0914",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.7001511865589192,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::El Salvador=>India (Current national sample)",
+    "question_id": "Q0059",
+    "country": "El Salvador",
+    "country_display": "El Salvador",
+    "conflict_country": "India (Current national sample)",
+    "conflict_country_display": "India",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6965896310567401,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::India (Current national sample)=>El Salvador",
+    "question_id": "Q0059",
+    "country": "India (Current national sample)",
+    "country_display": "India",
+    "conflict_country": "El Salvador",
+    "conflict_country_display": "El Salvador",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6965896310567401,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::Australia=>Palest. ter.",
+    "question_id": "Q0394",
+    "country": "Australia",
+    "country_display": "Australia",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6921415633321317,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::Palest. ter.=>Australia",
+    "question_id": "Q0394",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Australia",
+    "conflict_country_display": "Australia",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6921415633321317,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::India (Current national sample)=>Pakistan",
+    "question_id": "Q0059",
+    "country": "India (Current national sample)",
+    "country_display": "India",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.691155478714181,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::Pakistan=>India (Current national sample)",
+    "question_id": "Q0059",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "India (Current national sample)",
+    "conflict_country_display": "India",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.691155478714181,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::El Salvador=>Palest. ter.",
+    "question_id": "Q0595",
+    "country": "El Salvador",
+    "country_display": "El Salvador",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6901072111573756,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0595::Palest. ter.=>El Salvador",
+    "question_id": "Q0595",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "El Salvador",
+    "conflict_country_display": "El Salvador",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6901072111573756,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::Jordan=>Morocco",
+    "question_id": "Q0747",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Morocco",
+    "conflict_country_display": "Morocco",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.6812462483690935,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::Morocco=>Jordan",
+    "question_id": "Q0747",
+    "country": "Morocco",
+    "country_display": "Morocco",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.6812462483690935,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::Jordan=>Uzbekistan",
+    "question_id": "Q0160",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Uzbekistan",
+    "conflict_country_display": "Uzbekistan",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.6716232696980773,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::Uzbekistan=>Jordan",
+    "question_id": "Q0160",
+    "country": "Uzbekistan",
+    "country_display": "Uzbekistan",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.6716232696980773,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Nigeria=>Sweden",
+    "question_id": "Q1024",
+    "country": "Nigeria",
+    "country_display": "Nigeria",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6697987553656326,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Sweden=>Nigeria",
+    "question_id": "Q1024",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Nigeria",
+    "conflict_country_display": "Nigeria",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6697987553656326,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0956::Israel=>Pakistan",
+    "question_id": "Q0956",
+    "country": "Israel",
+    "country_display": "Israel",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "A lot of confidence",
+      "Some confidence",
+      "Not too much confidence",
+      "No confidence at all"
+    ],
+    "divergence_bits": 0.6697242689836025,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0956::Pakistan=>Israel",
+    "question_id": "Q0956",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Israel",
+    "conflict_country_display": "Israel",
+    "options": [
+      "A lot of confidence",
+      "Some confidence",
+      "Not too much confidence",
+      "No confidence at all"
+    ],
+    "divergence_bits": 0.6697242689836025,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Argentina=>Maldives",
+    "question_id": "Q1483",
+    "country": "Argentina",
+    "country_display": "Argentina",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6586919162613145,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Maldives=>Argentina",
+    "question_id": "Q1483",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "Argentina",
+    "conflict_country_display": "Argentina",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6586919162613145,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::Germany=>Pakistan",
+    "question_id": "Q0448",
+    "country": "Germany",
+    "country_display": "Germany",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.6583119466544525,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::Pakistan=>Germany",
+    "question_id": "Q0448",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Germany",
+    "conflict_country_display": "Germany",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.6583119466544525,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Philippines=>Sweden",
+    "question_id": "Q1155",
+    "country": "Philippines",
+    "country_display": "Philippines",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.657235061596538,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Sweden=>Philippines",
+    "question_id": "Q1155",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Philippines",
+    "conflict_country_display": "Philippines",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.657235061596538,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::India (Current national sample)=>S. Korea",
+    "question_id": "Q0059",
+    "country": "India (Current national sample)",
+    "country_display": "India",
+    "conflict_country": "S. Korea",
+    "conflict_country_display": "S. Korea",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6568571795442454,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0059::S. Korea=>India (Current national sample)",
+    "question_id": "Q0059",
+    "country": "S. Korea",
+    "country_display": "S. Korea",
+    "conflict_country": "India (Current national sample)",
+    "conflict_country_display": "India",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6568571795442454,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1321::Greece=>Vietnam",
+    "question_id": "Q1321",
+    "country": "Greece",
+    "country_display": "Greece",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.6508190652072225,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1321::Vietnam=>Greece",
+    "question_id": "Q1321",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Greece",
+    "conflict_country_display": "Greece",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.6508190652072225,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::Jordan=>Vietnam",
+    "question_id": "Q0817",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.6506484805087149,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::Vietnam=>Jordan",
+    "question_id": "Q0817",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.6506484805087149,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Poland=>Vietnam",
+    "question_id": "Q0914",
+    "country": "Poland",
+    "country_display": "Poland",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6499727436972612,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Vietnam=>Poland",
+    "question_id": "Q0914",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Poland",
+    "conflict_country_display": "Poland",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6499727436972612,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Pakistan=>Sweden",
+    "question_id": "Q0630",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6474319550220777,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Sweden=>Pakistan",
+    "question_id": "Q0630",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6474319550220777,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0238::Israel=>Morocco",
+    "question_id": "Q0238",
+    "country": "Israel",
+    "country_display": "Israel",
+    "conflict_country": "Morocco",
+    "conflict_country_display": "Morocco",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6472971768171922,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0238::Morocco=>Israel",
+    "question_id": "Q0238",
+    "country": "Morocco",
+    "country_display": "Morocco",
+    "conflict_country": "Israel",
+    "conflict_country_display": "Israel",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6472971768171922,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0830::Palest. ter.=>United States",
+    "question_id": "Q0830",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "United States",
+    "conflict_country_display": "United States",
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "divergence_bits": 0.6453028743565086,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0830::United States=>Palest. ter.",
+    "question_id": "Q0830",
+    "country": "United States",
+    "country_display": "United States",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "divergence_bits": 0.6453028743565086,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0703::Senegal=>Turkey",
+    "question_id": "Q0703",
+    "country": "Senegal",
+    "country_display": "Senegal",
+    "conflict_country": "Turkey",
+    "conflict_country_display": "Turkey",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6444694189554501,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0703::Turkey=>Senegal",
+    "question_id": "Q0703",
+    "country": "Turkey",
+    "country_display": "Turkey",
+    "conflict_country": "Senegal",
+    "conflict_country_display": "Senegal",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6444694189554501,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::China=>Vietnam",
+    "question_id": "Q0514",
+    "country": "China",
+    "country_display": "China",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6404681467648121,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::Vietnam=>China",
+    "question_id": "Q0514",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "China",
+    "conflict_country_display": "China",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6404681467648121,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Greece=>Maldives",
+    "question_id": "Q1483",
+    "country": "Greece",
+    "country_display": "Greece",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6401640074467863,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Maldives=>Greece",
+    "question_id": "Q1483",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "Greece",
+    "conflict_country_display": "Greece",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6401640074467863,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1371::Argentina=>Vietnam",
+    "question_id": "Q1371",
+    "country": "Argentina",
+    "country_display": "Argentina",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.6399554541187114,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1371::Vietnam=>Argentina",
+    "question_id": "Q1371",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Argentina",
+    "conflict_country_display": "Argentina",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.6399554541187114,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::Australia=>China",
+    "question_id": "Q0514",
+    "country": "Australia",
+    "country_display": "Australia",
+    "conflict_country": "China",
+    "conflict_country_display": "China",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6383521657920577,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::China=>Australia",
+    "question_id": "Q0514",
+    "country": "China",
+    "country_display": "China",
+    "conflict_country": "Australia",
+    "conflict_country_display": "Australia",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6383521657920577,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Italy=>Pakistan",
+    "question_id": "Q1223",
+    "country": "Italy",
+    "country_display": "Italy",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.638169192569451,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Pakistan=>Italy",
+    "question_id": "Q1223",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Italy",
+    "conflict_country_display": "Italy",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.638169192569451,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::Japan=>Pakistan",
+    "question_id": "Q0448",
+    "country": "Japan",
+    "country_display": "Japan",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.6369722860499394,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::Pakistan=>Japan",
+    "question_id": "Q0448",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Japan",
+    "conflict_country_display": "Japan",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.6369722860499394,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::Palest. ter.=>United States",
+    "question_id": "Q0394",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "United States",
+    "conflict_country_display": "United States",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6364597201290224,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::United States=>Palest. ter.",
+    "question_id": "Q0394",
+    "country": "United States",
+    "country_display": "United States",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6364597201290224,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Kenya=>Sweden",
+    "question_id": "Q1155",
+    "country": "Kenya",
+    "country_display": "Kenya",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.6358454772072516,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1155::Sweden=>Kenya",
+    "question_id": "Q1155",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Kenya",
+    "conflict_country_display": "Kenya",
+    "options": [
+      "It is not necessary to believe in God in order to be moral and have good values",
+      "It is necessary to believe in God in order to be moral and have good values"
+    ],
+    "divergence_bits": 0.6358454772072516,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0410::Japan=>Pakistan",
+    "question_id": "Q0410",
+    "country": "Japan",
+    "country_display": "Japan",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6330664449670143,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0410::Pakistan=>Japan",
+    "question_id": "Q0410",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Japan",
+    "conflict_country_display": "Japan",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6330664449670143,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Maldives=>Vietnam",
+    "question_id": "Q1483",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6327213768333106,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1483::Vietnam=>Maldives",
+    "question_id": "Q1483",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Make sense of life after death",
+      "Make sense of life in this world"
+    ],
+    "divergence_bits": 0.6327213768333106,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0868::France=>Pakistan",
+    "question_id": "Q0868",
+    "country": "France",
+    "country_display": "France",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "France",
+      "Germany",
+      "China",
+      "Britain",
+      "Japan",
+      "United States",
+      "Russia",
+      "None of these (VOL)"
+    ],
+    "divergence_bits": 0.6319856661672846,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0868::Pakistan=>France",
+    "question_id": "Q0868",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "France",
+    "conflict_country_display": "France",
+    "options": [
+      "France",
+      "Germany",
+      "China",
+      "Britain",
+      "Japan",
+      "United States",
+      "Russia",
+      "None of these (VOL)"
+    ],
+    "divergence_bits": 0.6319856661672846,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::Canada=>Palest. ter.",
+    "question_id": "Q0394",
+    "country": "Canada",
+    "country_display": "Canada",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6310558767588286,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0394::Palest. ter.=>Canada",
+    "question_id": "Q0394",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Canada",
+    "conflict_country_display": "Canada",
+    "options": [
+      "Better off",
+      "Worse off"
+    ],
+    "divergence_bits": 0.6310558767588286,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::El Salvador=>Jordan",
+    "question_id": "Q0747",
+    "country": "El Salvador",
+    "country_display": "El Salvador",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.6286499519466835,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::Jordan=>El Salvador",
+    "question_id": "Q0747",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "El Salvador",
+    "conflict_country_display": "El Salvador",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.6286499519466835,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Netherlands=>Vietnam",
+    "question_id": "Q0914",
+    "country": "Netherlands",
+    "country_display": "Netherlands",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6259390899474663,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0914::Vietnam=>Netherlands",
+    "question_id": "Q0914",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Netherlands",
+    "conflict_country_display": "Netherlands",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6259390899474663,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Indonesia=>Sweden",
+    "question_id": "Q1024",
+    "country": "Indonesia",
+    "country_display": "Indonesia",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6176080787173241,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Sweden=>Indonesia",
+    "question_id": "Q1024",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Indonesia",
+    "conflict_country_display": "Indonesia",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6176080787173241,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1094::Jordan=>Uzbekistan",
+    "question_id": "Q1094",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Uzbekistan",
+    "conflict_country_display": "Uzbekistan",
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "divergence_bits": 0.617395402748474,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1094::Uzbekistan=>Jordan",
+    "question_id": "Q1094",
+    "country": "Uzbekistan",
+    "country_display": "Uzbekistan",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "divergence_bits": 0.617395402748474,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::Pakistan=>United States",
+    "question_id": "Q0448",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "United States",
+    "conflict_country_display": "United States",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.616369129690707,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0448::United States=>Pakistan",
+    "question_id": "Q0448",
+    "country": "United States",
+    "country_display": "United States",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Good",
+      "Bad"
+    ],
+    "divergence_bits": 0.616369129690707,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::China=>Thailand",
+    "question_id": "Q0514",
+    "country": "China",
+    "country_display": "China",
+    "conflict_country": "Thailand",
+    "conflict_country_display": "Thailand",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6160487700664435,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0514::Thailand=>China",
+    "question_id": "Q0514",
+    "country": "Thailand",
+    "country_display": "Thailand",
+    "conflict_country": "China",
+    "conflict_country_display": "China",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6160487700664435,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::Pakistan=>S. Korea",
+    "question_id": "Q0268",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "S. Korea",
+    "conflict_country_display": "S. Korea",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.6141907059218394,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::S. Korea=>Pakistan",
+    "question_id": "Q0268",
+    "country": "S. Korea",
+    "country_display": "S. Korea",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.6141907059218394,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Netherlands=>Nigeria",
+    "question_id": "Q1024",
+    "country": "Netherlands",
+    "country_display": "Netherlands",
+    "conflict_country": "Nigeria",
+    "conflict_country_display": "Nigeria",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6132412439687787,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1024::Nigeria=>Netherlands",
+    "question_id": "Q1024",
+    "country": "Nigeria",
+    "country_display": "Nigeria",
+    "conflict_country": "Netherlands",
+    "conflict_country_display": "Netherlands",
+    "options": [
+      "Homosexuality should be accepted by society",
+      "Homosexuality should not be accepted by society"
+    ],
+    "divergence_bits": 0.6132412439687787,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Greece=>Pakistan",
+    "question_id": "Q0558",
+    "country": "Greece",
+    "country_display": "Greece",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6126758353549904,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Pakistan=>Greece",
+    "question_id": "Q0558",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Greece",
+    "conflict_country_display": "Greece",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6126758353549904,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0410::Italy=>Pakistan",
+    "question_id": "Q0410",
+    "country": "Italy",
+    "country_display": "Italy",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6111895422698541,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0410::Pakistan=>Italy",
+    "question_id": "Q0410",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Italy",
+    "conflict_country_display": "Italy",
+    "options": [
+      "More of a partner",
+      "More of an enemy",
+      "Neither"
+    ],
+    "divergence_bits": 0.6111895422698541,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1456::Ethiopia=>South Korea",
+    "question_id": "Q1456",
+    "country": "Ethiopia",
+    "country_display": "Ethiopia",
+    "conflict_country": "South Korea",
+    "conflict_country_display": "South Korea",
+    "options": [
+      "In the long run, hard work usually brings a better life",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "Hard work doesn't generally bring success - it's more a matter of luck and connections"
+    ],
+    "divergence_bits": 0.6111131899975281,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1456::South Korea=>Ethiopia",
+    "question_id": "Q1456",
+    "country": "South Korea",
+    "country_display": "South Korea",
+    "conflict_country": "Ethiopia",
+    "conflict_country_display": "Ethiopia",
+    "options": [
+      "In the long run, hard work usually brings a better life",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "Hard work doesn't generally bring success - it's more a matter of luck and connections"
+    ],
+    "divergence_bits": 0.6111131899975281,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0703::Turkey=>Ukraine",
+    "question_id": "Q0703",
+    "country": "Turkey",
+    "country_display": "Turkey",
+    "conflict_country": "Ukraine",
+    "conflict_country_display": "Ukraine",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6109569005693887,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0703::Ukraine=>Turkey",
+    "question_id": "Q0703",
+    "country": "Ukraine",
+    "country_display": "Ukraine",
+    "conflict_country": "Turkey",
+    "conflict_country_display": "Turkey",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.6109569005693887,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Pakistan=>Spain",
+    "question_id": "Q1223",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Spain",
+    "conflict_country_display": "Spain",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6098936502472225,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Spain=>Pakistan",
+    "question_id": "Q1223",
+    "country": "Spain",
+    "country_display": "Spain",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.6098936502472225,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0710::Kenya=>Ukraine",
+    "question_id": "Q0710",
+    "country": "Kenya",
+    "country_display": "Kenya",
+    "conflict_country": "Ukraine",
+    "conflict_country_display": "Ukraine",
+    "options": [
+      "Making progress",
+      "Losing ground",
+      "About the same"
+    ],
+    "divergence_bits": 0.6086288305734484,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0710::Ukraine=>Kenya",
+    "question_id": "Q0710",
+    "country": "Ukraine",
+    "country_display": "Ukraine",
+    "conflict_country": "Kenya",
+    "conflict_country_display": "Kenya",
+    "options": [
+      "Making progress",
+      "Losing ground",
+      "About the same"
+    ],
+    "divergence_bits": 0.6086288305734484,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::El Salvador=>Vietnam",
+    "question_id": "Q0817",
+    "country": "El Salvador",
+    "country_display": "El Salvador",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.608193397219119,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::Vietnam=>El Salvador",
+    "question_id": "Q0817",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "El Salvador",
+    "conflict_country_display": "El Salvador",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.608193397219119,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Peru=>Vietnam",
+    "question_id": "Q1333",
+    "country": "Peru",
+    "country_display": "Peru",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.6057706462698444,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Vietnam=>Peru",
+    "question_id": "Q1333",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Peru",
+    "conflict_country_display": "Peru",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.6057706462698444,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0758::Jordan=>Spain",
+    "question_id": "Q0758",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Spain",
+    "conflict_country_display": "Spain",
+    "options": [
+      "Yes, sympathetic",
+      "No, not sympathetic"
+    ],
+    "divergence_bits": 0.6025435716815075,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0758::Spain=>Jordan",
+    "question_id": "Q0758",
+    "country": "Spain",
+    "country_display": "Spain",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Yes, sympathetic",
+      "No, not sympathetic"
+    ],
+    "divergence_bits": 0.6025435716815075,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0758::Egypt=>Spain",
+    "question_id": "Q0758",
+    "country": "Egypt",
+    "country_display": "Egypt",
+    "conflict_country": "Spain",
+    "conflict_country_display": "Spain",
+    "options": [
+      "Yes, sympathetic",
+      "No, not sympathetic"
+    ],
+    "divergence_bits": 0.6022336975659345,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0758::Spain=>Egypt",
+    "question_id": "Q0758",
+    "country": "Spain",
+    "country_display": "Spain",
+    "conflict_country": "Egypt",
+    "conflict_country_display": "Egypt",
+    "options": [
+      "Yes, sympathetic",
+      "No, not sympathetic"
+    ],
+    "divergence_bits": 0.6022336975659345,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::Ghana=>Jordan",
+    "question_id": "Q0160",
+    "country": "Ghana",
+    "country_display": "Ghana",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.6013827143416202,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::Jordan=>Ghana",
+    "question_id": "Q0160",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Ghana",
+    "conflict_country_display": "Ghana",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.6013827143416202,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0956::Israel=>Kuwait",
+    "question_id": "Q0956",
+    "country": "Israel",
+    "country_display": "Israel",
+    "conflict_country": "Kuwait",
+    "conflict_country_display": "Kuwait",
+    "options": [
+      "A lot of confidence",
+      "Some confidence",
+      "Not too much confidence",
+      "No confidence at all"
+    ],
+    "divergence_bits": 0.5972214528974148,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0956::Kuwait=>Israel",
+    "question_id": "Q0956",
+    "country": "Kuwait",
+    "country_display": "Kuwait",
+    "conflict_country": "Israel",
+    "conflict_country_display": "Israel",
+    "options": [
+      "A lot of confidence",
+      "Some confidence",
+      "Not too much confidence",
+      "No confidence at all"
+    ],
+    "divergence_bits": 0.5972214528974148,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Pakistan=>Spain",
+    "question_id": "Q0558",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Spain",
+    "conflict_country_display": "Spain",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5952885910453402,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Spain=>Pakistan",
+    "question_id": "Q0558",
+    "country": "Spain",
+    "country_display": "Spain",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5952885910453402,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::Jordan=>Thailand",
+    "question_id": "Q0817",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Thailand",
+    "conflict_country_display": "Thailand",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.5942839844256911,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0817::Thailand=>Jordan",
+    "question_id": "Q0817",
+    "country": "Thailand",
+    "country_display": "Thailand",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "divergence_bits": 0.5942839844256911,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::Japan=>Pakistan",
+    "question_id": "Q0268",
+    "country": "Japan",
+    "country_display": "Japan",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.5932523633986714,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::Pakistan=>Japan",
+    "question_id": "Q0268",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Japan",
+    "conflict_country_display": "Japan",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.5932523633986714,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0830::Jordan=>United States",
+    "question_id": "Q0830",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "United States",
+    "conflict_country_display": "United States",
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "divergence_bits": 0.5927387064783436,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0830::United States=>Jordan",
+    "question_id": "Q0830",
+    "country": "United States",
+    "country_display": "United States",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Tried very hard",
+      "Didn't try hard enough"
+    ],
+    "divergence_bits": 0.5927387064783436,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1094::Palest. ter.=>Uzbekistan",
+    "question_id": "Q1094",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Uzbekistan",
+    "conflict_country_display": "Uzbekistan",
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "divergence_bits": 0.5902913629685391,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1094::Uzbekistan=>Palest. ter.",
+    "question_id": "Q1094",
+    "country": "Uzbekistan",
+    "country_display": "Uzbekistan",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "I favor the US-led efforts to fight terrorism",
+      "I oppose the US-led efforts to fight terrorism"
+    ],
+    "divergence_bits": 0.5902913629685391,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::Jordan=>Venezuela",
+    "question_id": "Q0747",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Venezuela",
+    "conflict_country_display": "Venezuela",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.5900025684404819,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0747::Venezuela=>Jordan",
+    "question_id": "Q0747",
+    "country": "Venezuela",
+    "country_display": "Venezuela",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very important",
+      "Somewhat important",
+      "Not too important",
+      "Not important at all"
+    ],
+    "divergence_bits": 0.5900025684404819,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::El Salvador=>Jordan",
+    "question_id": "Q0160",
+    "country": "El Salvador",
+    "country_display": "El Salvador",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.5899290685338898,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0160::Jordan=>El Salvador",
+    "question_id": "Q0160",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "El Salvador",
+    "conflict_country_display": "El Salvador",
+    "options": [
+      "Very well",
+      "Somewhat well",
+      "Not too well",
+      "Not well at all"
+    ],
+    "divergence_bits": 0.5899290685338898,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1262::Germany=>Peru",
+    "question_id": "Q1262",
+    "country": "Germany",
+    "country_display": "Germany",
+    "conflict_country": "Peru",
+    "conflict_country_display": "Peru",
+    "options": [
+      "None of them",
+      "Few of them",
+      "Most of them",
+      "All of them"
+    ],
+    "divergence_bits": 0.5897030937739742,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1262::Peru=>Germany",
+    "question_id": "Q1262",
+    "country": "Peru",
+    "country_display": "Peru",
+    "conflict_country": "Germany",
+    "conflict_country_display": "Germany",
+    "options": [
+      "None of them",
+      "Few of them",
+      "Most of them",
+      "All of them"
+    ],
+    "divergence_bits": 0.5897030937739742,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1110::Sweden=>Vietnam",
+    "question_id": "Q1110",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5888353359853353,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1110::Vietnam=>Sweden",
+    "question_id": "Q1110",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5888353359853353,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Lebanon=>Vietnam",
+    "question_id": "Q1333",
+    "country": "Lebanon",
+    "country_display": "Lebanon",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5886147811367974,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Vietnam=>Lebanon",
+    "question_id": "Q1333",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Lebanon",
+    "conflict_country_display": "Lebanon",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5886147811367974,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1321::Tunisia=>Vietnam",
+    "question_id": "Q1321",
+    "country": "Tunisia",
+    "country_display": "Tunisia",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5861121970829526,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1321::Vietnam=>Tunisia",
+    "question_id": "Q1321",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Tunisia",
+    "conflict_country_display": "Tunisia",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5861121970829526,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1395::Iran=>New Zealand",
+    "question_id": "Q1395",
+    "country": "Iran",
+    "country_display": "Iran",
+    "conflict_country": "New Zealand",
+    "conflict_country_display": "New Zealand",
+    "options": [
+      "Very good",
+      "Fairly good",
+      "Bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5852191694132678,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1395::New Zealand=>Iran",
+    "question_id": "Q1395",
+    "country": "New Zealand",
+    "country_display": "New Zealand",
+    "conflict_country": "Iran",
+    "conflict_country_display": "Iran",
+    "options": [
+      "Very good",
+      "Fairly good",
+      "Bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5852191694132678,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Serbia=>Vietnam",
+    "question_id": "Q1333",
+    "country": "Serbia",
+    "country_display": "Serbia",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5846332363770668,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1333::Vietnam=>Serbia",
+    "question_id": "Q1333",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Serbia",
+    "conflict_country_display": "Serbia",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5846332363770668,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Germany=>Pakistan",
+    "question_id": "Q1223",
+    "country": "Germany",
+    "country_display": "Germany",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5841075357002965,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1223::Pakistan=>Germany",
+    "question_id": "Q1223",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Germany",
+    "conflict_country_display": "Germany",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5841075357002965,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Italy=>Pakistan",
+    "question_id": "Q0558",
+    "country": "Italy",
+    "country_display": "Italy",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5822831564948757,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0558::Pakistan=>Italy",
+    "question_id": "Q0558",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Italy",
+    "conflict_country_display": "Italy",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5822831564948757,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1395::Iran=>Japan",
+    "question_id": "Q1395",
+    "country": "Iran",
+    "country_display": "Iran",
+    "conflict_country": "Japan",
+    "conflict_country_display": "Japan",
+    "options": [
+      "Very good",
+      "Fairly good",
+      "Bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.581940459120433,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1395::Japan=>Iran",
+    "question_id": "Q1395",
+    "country": "Japan",
+    "country_display": "Japan",
+    "conflict_country": "Iran",
+    "conflict_country_display": "Iran",
+    "options": [
+      "Very good",
+      "Fairly good",
+      "Bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.581940459120433,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Pakistan=>Poland",
+    "question_id": "Q0630",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Poland",
+    "conflict_country_display": "Poland",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5818753856350695,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Poland=>Pakistan",
+    "question_id": "Q0630",
+    "country": "Poland",
+    "country_display": "Poland",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5818753856350695,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0238::Morocco=>Turkey",
+    "question_id": "Q0238",
+    "country": "Morocco",
+    "country_display": "Morocco",
+    "conflict_country": "Turkey",
+    "conflict_country_display": "Turkey",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.5818583486755851,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0238::Turkey=>Morocco",
+    "question_id": "Q0238",
+    "country": "Turkey",
+    "country_display": "Turkey",
+    "conflict_country": "Morocco",
+    "conflict_country_display": "Morocco",
+    "options": [
+      "Very favorable",
+      "Somewhat favorable",
+      "Somewhat unfavorable",
+      "Very unfavorable"
+    ],
+    "divergence_bits": 0.5818583486755851,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Australia=>Pakistan",
+    "question_id": "Q0630",
+    "country": "Australia",
+    "country_display": "Australia",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5816344287119914,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0630::Pakistan=>Australia",
+    "question_id": "Q0630",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Australia",
+    "conflict_country_display": "Australia",
+    "options": [
+      "Yes, respects personal freedoms",
+      "No, does not respect personal freedoms"
+    ],
+    "divergence_bits": 0.5816344287119914,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0739::Jordan=>Turkey",
+    "question_id": "Q0739",
+    "country": "Jordan",
+    "country_display": "Jordan",
+    "conflict_country": "Turkey",
+    "conflict_country_display": "Turkey",
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "divergence_bits": 0.5806547242445943,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0739::Turkey=>Jordan",
+    "question_id": "Q0739",
+    "country": "Turkey",
+    "country_display": "Turkey",
+    "conflict_country": "Jordan",
+    "conflict_country_display": "Jordan",
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "divergence_bits": 0.5806547242445943,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0254::Indonesia=>Sweden",
+    "question_id": "Q0254",
+    "country": "Indonesia",
+    "country_display": "Indonesia",
+    "conflict_country": "Sweden",
+    "conflict_country_display": "Sweden",
+    "options": [
+      "Completely agree",
+      "Mostly agree",
+      "Mostly disagree",
+      "Completely disagree"
+    ],
+    "divergence_bits": 0.5790499602674615,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0254::Sweden=>Indonesia",
+    "question_id": "Q0254",
+    "country": "Sweden",
+    "country_display": "Sweden",
+    "conflict_country": "Indonesia",
+    "conflict_country_display": "Indonesia",
+    "options": [
+      "Completely agree",
+      "Mostly agree",
+      "Mostly disagree",
+      "Completely disagree"
+    ],
+    "divergence_bits": 0.5790499602674615,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1139::Palest. ter.=>Uganda",
+    "question_id": "Q1139",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Uganda",
+    "conflict_country_display": "Uganda",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5785912182410178,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1139::Uganda=>Palest. ter.",
+    "question_id": "Q1139",
+    "country": "Uganda",
+    "country_display": "Uganda",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5785912182410178,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0710::Mali=>Ukraine",
+    "question_id": "Q0710",
+    "country": "Mali",
+    "country_display": "Mali",
+    "conflict_country": "Ukraine",
+    "conflict_country_display": "Ukraine",
+    "options": [
+      "Making progress",
+      "Losing ground",
+      "About the same"
+    ],
+    "divergence_bits": 0.5759118178995788,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0710::Ukraine=>Mali",
+    "question_id": "Q0710",
+    "country": "Ukraine",
+    "country_display": "Ukraine",
+    "conflict_country": "Mali",
+    "conflict_country_display": "Mali",
+    "options": [
+      "Making progress",
+      "Losing ground",
+      "About the same"
+    ],
+    "divergence_bits": 0.5759118178995788,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0868::Pakistan=>United States",
+    "question_id": "Q0868",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "United States",
+    "conflict_country_display": "United States",
+    "options": [
+      "France",
+      "Germany",
+      "China",
+      "Britain",
+      "Japan",
+      "United States",
+      "Russia",
+      "None of these (VOL)"
+    ],
+    "divergence_bits": 0.5737564067865735,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0868::United States=>Pakistan",
+    "question_id": "Q0868",
+    "country": "United States",
+    "country_display": "United States",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "France",
+      "Germany",
+      "China",
+      "Britain",
+      "Japan",
+      "United States",
+      "Russia",
+      "None of these (VOL)"
+    ],
+    "divergence_bits": 0.5737564067865735,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1430::Tunisia=>Vietnam",
+    "question_id": "Q1430",
+    "country": "Tunisia",
+    "country_display": "Tunisia",
+    "conflict_country": "Vietnam",
+    "conflict_country_display": "Vietnam",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5734254045666216,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1430::Vietnam=>Tunisia",
+    "question_id": "Q1430",
+    "country": "Vietnam",
+    "country_display": "Vietnam",
+    "conflict_country": "Tunisia",
+    "conflict_country_display": "Tunisia",
+    "options": [
+      "A great deal",
+      "Quite a lot",
+      "Not very much",
+      "None at all"
+    ],
+    "divergence_bits": 0.5734254045666216,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1139::Kenya=>Palest. ter.",
+    "question_id": "Q1139",
+    "country": "Kenya",
+    "country_display": "Kenya",
+    "conflict_country": "Palest. ter.",
+    "conflict_country_display": "Palest. ter.",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5717233805908641,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1139::Palest. ter.=>Kenya",
+    "question_id": "Q1139",
+    "country": "Palest. ter.",
+    "country_display": "Palest. ter.",
+    "conflict_country": "Kenya",
+    "conflict_country_display": "Kenya",
+    "options": [
+      "Very good",
+      "Somewhat good",
+      "Somewhat bad",
+      "Very bad"
+    ],
+    "divergence_bits": 0.5717233805908641,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0990::Canada=>Pakistan",
+    "question_id": "Q0990",
+    "country": "Canada",
+    "country_display": "Canada",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "I like American music, movies and television",
+      "I dislike American music, movies and television"
+    ],
+    "divergence_bits": 0.5697831697045985,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0990::Pakistan=>Canada",
+    "question_id": "Q0990",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Canada",
+    "conflict_country_display": "Canada",
+    "options": [
+      "I like American music, movies and television",
+      "I dislike American music, movies and television"
+    ],
+    "divergence_bits": 0.5697831697045985,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0574::Israel=>Pakistan",
+    "question_id": "Q0574",
+    "country": "Israel",
+    "country_display": "Israel",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "divergence_bits": 0.5692126126975559,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0574::Pakistan=>Israel",
+    "question_id": "Q0574",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "Israel",
+    "conflict_country_display": "Israel",
+    "options": [
+      "Favor",
+      "Oppose"
+    ],
+    "divergence_bits": 0.5692126126975559,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::India (Current national sample)=>Pakistan",
+    "question_id": "Q0268",
+    "country": "India (Current national sample)",
+    "country_display": "India",
+    "conflict_country": "Pakistan",
+    "conflict_country_display": "Pakistan",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.5676049719495263,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q0268::Pakistan=>India (Current national sample)",
+    "question_id": "Q0268",
+    "country": "Pakistan",
+    "country_display": "Pakistan",
+    "conflict_country": "India (Current national sample)",
+    "conflict_country_display": "India",
+    "options": [
+      "Major threat",
+      "Minor threat",
+      "Not a threat"
+    ],
+    "divergence_bits": 0.5676049719495263,
+    "mapping_status": "exact_shared_response_schema"
+  }
+]

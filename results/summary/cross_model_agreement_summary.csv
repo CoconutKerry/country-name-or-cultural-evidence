@@ -1,0 +1,10 @@
+statistic,count,percent
+all_four_evidence_side,161,80.5
+at_least_three_evidence_side,190,95.0
+all_four_label_side,0,0.0
+any_cross_model_disagreement,39,19.5
+three_evidence_one_label,29,14.499999999999998
+one_evidence_three_label,3,1.5
+three_to_one_splits_total,32,16.0
+two_to_two_splits,7,3.5000000000000004
+mistral_only_label_side,20,10.0

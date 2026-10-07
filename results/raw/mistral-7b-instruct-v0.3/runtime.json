@@ -1,0 +1,53 @@
+{
+  "helper_ldd": "linux-vdso.so.1 (0x00007f2a4834a000)\n\tlibllama.so.0 => /workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/llama.cpp/build-cpu/bin/libllama.so.0 (0x00007f2a47f31000)\n\tlibggml.so.0 => /workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/llama.cpp/build-cpu/bin/libggml.so.0 (0x00007f2a47f24000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f2a47c9e000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f2a47bb5000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f2a47b87000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2a47973000)\n\tlibggml-base.so.0 => /workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/llama.cpp/build-cpu/bin/libggml-base.so.0 (0x00007f2a4789e000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f2a4834c000)\n\tlibggml-cpu.so.0 => /workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/llama.cpp/build-cpu/bin/libggml-cpu.so.0 (0x00007f2a476dd000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007f2a47687000)",
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_files": [
+    {
+      "actual_sha256": "1270d22c0fbb3d092fb725d4d96c457b7b687a5f5a715abe1e818da303e562b6",
+      "actual_size_bytes": 4372812000,
+      "filename": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "local_path": "/workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/models/mistral/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+      "role": "selected_entrypoint",
+      "sha256": "1270d22c0fbb3d092fb725d4d96c457b7b687a5f5a715abe1e818da303e562b6",
+      "size_bytes": 4372812000,
+      "verified": true
+    }
+  ],
+  "recorded_at_utc": "2026-08-31T19:56:22.157786+00:00",
+  "remote_model_last_modified": "2024-05-22T19:09:41Z",
+  "remote_weight_commit": null,
+  "run_fingerprint": "517bfed01deed63bb45a20c80762b9aba772bb016296b9d7d2f44643688be94f",
+  "runtime": {
+    "actual_context_size": 4096,
+    "assistant_label_prefix": "",
+    "backend": "llama.cpp",
+    "bos_token_id": 1,
+    "candidate_scoring": "full_vocabulary_low_level_logits",
+    "canonical_tokenization_add_special": false,
+    "chat_profile": "mistral-v0.3",
+    "chat_template": "{{ bos_token }}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + eos_token}}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
+    "chat_template_sha256": "26a59556925c987317ce5291811ba3b7f32ec4c647c400c6cc7e3a9993007ba7",
+    "chat_template_source": "embedded_gguf_metadata",
+    "embedded_chat_template": "{{ bos_token }}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + eos_token}}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
+    "generated_answer_parsing": false,
+    "gpu_layers": 0,
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+    "llama_version": "0.3.0-dev",
+    "loaded_model_size_bytes": 4372054016,
+    "model_description": "llama 7B Q4_K - Medium",
+    "model_identifier": "bartowski/Mistral-7B-Instruct-v0.3-GGUF@61fd4167fff3ab01ee1cfe0da183fa27a944db48:Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+    "model_parameter_count": 7248023552,
+    "model_path": "/workspace/scratch/b559804f604f/mistral_deadline_20260831_1940/runtime/models/mistral/Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+    "quantization": "Q4_K_M",
+    "repository": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "requested_context_size": 4096,
+    "revision": "61fd4167fff3ab01ee1cfe0da183fa27a944db48",
+    "synthetic": false,
+    "template_equivalence_policy": "embedded_serialization_token_ids_equal_canonical_with_one_leading_bos",
+    "threads": 9,
+    "tokenization_add_special": true,
+    "tokenizer_add_special_tokens": true,
+    "type": "ready",
+    "vocabulary_size": 32768
+  }
+}

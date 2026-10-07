@@ -1,0 +1,236 @@
+{
+  "schema_version": "source-package-manifest-v2",
+  "archive_root": "llama-3.1-8b-instruct-repaired-source-v2",
+  "supersedes_outer_sha256": "1b5ed59f773f324728335ab248db0acf278fa2705e23561db414dcffe30c102f",
+  "packaging_correction": "Includes the three pre-existing protected approval-gate files required by the genuine smoke entrypoint and corrects the final result ZIP destination in RUNBOOK.md. No inference or scientific protocol change.",
+  "model_weights_included": false,
+  "runtime_outputs_included": false,
+  "legacy_outputs_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 1004,
+      "sha256": "95ecce1730db9855b22b90b8d6d51f46aed65f3c77e3614e587d0c57b7d8aee3"
+    },
+    {
+      "path": "RUNBOOK.md",
+      "size_bytes": 2108,
+      "sha256": "1d48d4fffe04d26fcece97b1a1b1f341c149ecc97e4bb30fae665799606295c6"
+    },
+    {
+      "path": "audit/PREINFERENCE_GATE.json",
+      "size_bytes": 4616,
+      "sha256": "9e25d5afa823b4f419d1c5f640894524cef51f4f0af77c7a38399f56c548cafa"
+    },
+    {
+      "path": "audit/PREINFERENCE_TEST_RESULTS.txt",
+      "size_bytes": 8053,
+      "sha256": "0f135dea712b9d544a424930b4d48ed21bd3c4e7a43249ac712f72339148c5c6"
+    },
+    {
+      "path": "audit/V2_PACKAGING_FIX.md",
+      "size_bytes": 1063,
+      "sha256": "592bb8c443c3389b19e98e3f2a7800487f047cb3ee3080bec768306cd67575e5"
+    },
+    {
+      "path": "cultural_alignment_audit_colab.ipynb",
+      "size_bytes": 22364,
+      "sha256": "315124add7b257af66abd1c9ec2120486222d894e009ae4773f7c11601a666f3"
+    },
+    {
+      "path": "data/audit/data_repair_summary.json",
+      "size_bytes": 1806,
+      "sha256": "a4643b3aa875b7c1c8cc31b2996e1cdd88c61b8e9d51ae59c581c1d8c6e899ce"
+    },
+    {
+      "path": "data/pairs/country_pairs_smoke.json",
+      "size_bytes": 873,
+      "sha256": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096"
+    },
+    {
+      "path": "data/pairs/country_pairs_v2.json",
+      "size_bytes": 86211,
+      "sha256": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b"
+    },
+    {
+      "path": "data/processed/dataset_v2.json",
+      "size_bytes": 7830968,
+      "sha256": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09"
+    },
+    {
+      "path": "docs/LEGACY_RESULTS_INVALID.md",
+      "size_bytes": 1151,
+      "sha256": "660f897bb21262bc30ca0a910e062270d2af02c7311a59ed7df11dd732745a51"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "size_bytes": 4454,
+      "sha256": "8d523ffb96314c831e9bbd5c8c0f1c5468b9d318ff6b6cd5f2699e48cfcc3637"
+    },
+    {
+      "path": "docs/prompt_design_notes.md",
+      "size_bytes": 1988,
+      "sha256": "dc1d5470e2537c7995e1b023e2186abe6a7a87eec4bdfa7583718d0f00ab2c93"
+    },
+    {
+      "path": "requirements-inference.lock",
+      "size_bytes": 420,
+      "sha256": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a"
+    },
+    {
+      "path": "scripts/analyze_llama_gguf_full.py",
+      "size_bytes": 45121,
+      "sha256": "6ee7c93387c80ad2076d185115fa96872bf45dfa863a39a0ff0955156ad2bb00"
+    },
+    {
+      "path": "scripts/build_colab_notebook.py",
+      "size_bytes": 23582,
+      "sha256": "4cc8274e46fca7ce78c8527e088c588624dd2bfb45961efc535d6ebba39e667d"
+    },
+    {
+      "path": "scripts/build_gguf_score_helper.py",
+      "size_bytes": 1685,
+      "sha256": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7"
+    },
+    {
+      "path": "scripts/package_llama_gguf_full.py",
+      "size_bytes": 46350,
+      "sha256": "4d2a227933f3b797bb48e9acc25292e94d3ff5d0bc837d25d68db29f716918e3"
+    },
+    {
+      "path": "scripts/run_genuine_llama_gguf_smoke.py",
+      "size_bytes": 65268,
+      "sha256": "b79622fc17af4618ef074c782d1c5968cb7c79d8e3a813d858300f16fe584a7d"
+    },
+    {
+      "path": "scripts/run_llama_gguf_full.py",
+      "size_bytes": 85278,
+      "sha256": "2ea65cbcaecd120ae96ece2adf2c8221266bb9eefbd5c5ca592b5224dcc4e6ee"
+    },
+    {
+      "path": "scripts/validate_data.py",
+      "size_bytes": 3727,
+      "sha256": "e1fb7b2bf4f29764ae83b4cb85ea8fdb5dd0bcc5e423e14535694b438213aac6"
+    },
+    {
+      "path": "scripts/write_source_preinference_gate.py",
+      "size_bytes": 5087,
+      "sha256": "074b57387027e7370acf62e05677e64480d490b2db3d922b5186c57ad0c7f9a0"
+    },
+    {
+      "path": "src/__init__.py",
+      "size_bytes": 48,
+      "sha256": "bdb93c4e89751d2e0ba5266bd7e251697b4767b3031067f1dc21b88987460935"
+    },
+    {
+      "path": "src/clustered_bootstrap.py",
+      "size_bytes": 17929,
+      "sha256": "d7a0b6a1475aa981d8634df65be1851cd478974775c984052bec66b66081ee94"
+    },
+    {
+      "path": "src/colab_runner.py",
+      "size_bytes": 72351,
+      "sha256": "70ae53b6420163bac6b5862df9084ac0dc0933f2c13dfebb1cb85a15196a90ae"
+    },
+    {
+      "path": "src/data_loader.py",
+      "size_bytes": 7012,
+      "sha256": "d7cfe0011972388380a092823b7eb47c4b17f1266cd33ec7ab7023dbf2d766aa"
+    },
+    {
+      "path": "src/gguf_runner.py",
+      "size_bytes": 11369,
+      "sha256": "db5f995ea75a4f8404ff1a1b9d5a0e275a54ede41e2064a1728cbb9fbccc2283"
+    },
+    {
+      "path": "src/gguf_score_helper.cpp",
+      "size_bytes": 17394,
+      "sha256": "235ea664e5183786ef066f3d6ea692d60d2dcacaece0063a84a1ec6e5454871b"
+    },
+    {
+      "path": "src/llama_gguf_runner.py",
+      "size_bytes": 10614,
+      "sha256": "8171285f70d19c8d88e323112b54c78de41e5f829a6c0aeeb176bc76e85c2d27"
+    },
+    {
+      "path": "src/main.py",
+      "size_bytes": 19681,
+      "sha256": "8d74b98b09621b7a66fc3db917483cfdc91d731c64e5c7aba8ec9d831b073c78"
+    },
+    {
+      "path": "src/metrics.py",
+      "size_bytes": 9908,
+      "sha256": "bcb11e9e5b3025829085feedab53767ef91c10c628d272a2356d4ca3b3d544c6"
+    },
+    {
+      "path": "src/model_runner.py",
+      "size_bytes": 23027,
+      "sha256": "c24a3a4ac0fa00aa16087364e5256bec86f6fd961c3ccd9400e1aab1cb61f10b"
+    },
+    {
+      "path": "src/prompt_builder.py",
+      "size_bytes": 5616,
+      "sha256": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0"
+    },
+    {
+      "path": "src/scoring.py",
+      "size_bytes": 6316,
+      "sha256": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size_bytes": 60,
+      "sha256": "9f0043fcc52decdad62e619583382e5787069b48c5b77a34c3f560a39d708edc"
+    },
+    {
+      "path": "tests/test_data_loader.py",
+      "size_bytes": 3091,
+      "sha256": "52b2713b69632bc0a3379d93d2ac9dfec5220668a4fac5fb2170cf4ef65730e1"
+    },
+    {
+      "path": "tests/test_gguf_runner.py",
+      "size_bytes": 3547,
+      "sha256": "ae55eccb64d1828c5439f17c8c16c305a0a57f36263c72f44a70b9e40cbb9f1a"
+    },
+    {
+      "path": "tests/test_guardrails.py",
+      "size_bytes": 508,
+      "sha256": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839"
+    },
+    {
+      "path": "tests/test_llama_full_gates.py",
+      "size_bytes": 14929,
+      "sha256": "4862e505a42f5529cbf24d4d0fd300c252812f8f5a5330c76c224cc44c77f2c7"
+    },
+    {
+      "path": "tests/test_llama_gguf_contract.py",
+      "size_bytes": 6851,
+      "sha256": "6083dcc349ba4647c495ff03018a5d4c6b1dafe6e622f67baef7c964b9ecfca7"
+    },
+    {
+      "path": "tests/test_llama_package_contract.py",
+      "size_bytes": 2389,
+      "sha256": "f50882ebf2c46e63e4ebc6d955b8b5e89f214ef8908e527130cfba4cba86baa3"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "size_bytes": 4214,
+      "sha256": "1c438e051f06adde5abf1abb6e262604ae1b8dfc609be33f64cd897dd703701e"
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "size_bytes": 2162,
+      "sha256": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3"
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "size_bytes": 9965,
+      "sha256": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812"
+    },
+    {
+      "path": "tests/test_source_package_completeness.py",
+      "size_bytes": 1343,
+      "sha256": "00bb8254c4624c4475a4efd40824b1f0e7f60b87a19e62bbd412064802aeb9da"
+    }
+  ]
+}

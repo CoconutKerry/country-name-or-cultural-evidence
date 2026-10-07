@@ -1,0 +1,40 @@
+{
+  "completed_at_utc": "2026-08-31T23:16:38.318310+00:00",
+  "conditions": [
+    "baseline",
+    "country_label",
+    "evidence",
+    "conflict"
+  ],
+  "conflict_classification_counts": {
+    "evidence-side": 193,
+    "label-side": 7
+  },
+  "directed_units": 200,
+  "elapsed_seconds": 737.4855243429993,
+  "genuine_smoke_gate": {
+    "analysis_sha256": "49ae84bd246aa1d18d682b95d7183f85bfefeb7db510f8a8239e8c7acaadacfe",
+    "assertion_count": 23,
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "model_identifier": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:Q4_K_M",
+    "model_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+    "result_rows": 8,
+    "results_sha256": "6befb470435c72e801f0652a556cc7085a61c71a98e15cd4616688d1a7c4900e",
+    "status": "PASS"
+  },
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_identifier": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:Q4_K_M",
+  "model_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+  "newly_completed_units": 8,
+  "partial_resumed_rows": 0,
+  "question_clusters": 44,
+  "results_path": "/workspace/scratch/0c8a82611444/llama_repaired_source_v2_clean/llama-3.1-8b-instruct-repaired-source-v2/experiments/llama_gguf_full/results.jsonl",
+  "resumed_units": 192,
+  "rows": 800,
+  "run_fingerprint": "ecd01540748b126d8a5390374c1256a7a8d447a78622493d0ac239285b725b1f",
+  "schema_version": "llama-gguf-full-v2",
+  "status": "PASS",
+  "target_units": 144,
+  "unique_directed_condition_keys": 800
+}

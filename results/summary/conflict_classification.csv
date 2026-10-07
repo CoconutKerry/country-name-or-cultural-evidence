@@ -1,0 +1,5 @@
+model_key,model,evidence_side_n,evidence_side_pct,label_side_n,label_side_pct,tie_n,tie_pct
+qwen,Qwen2.5-7B-Instruct,189,94.5,11,5.5,0,0.0
+llama,Llama-3.1-8B-Instruct,193,96.5,7,3.5,0,0.0
+mistral,Mistral-7B-Instruct-v0.3,171,85.5,29,14.5,0,0.0
+gemma,Gemma-2-9B-It,195,97.5,5,2.5,0,0.0

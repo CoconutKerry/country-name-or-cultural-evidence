@@ -1,0 +1,81 @@
+{
+  "source_questions": 1527,
+  "source_question_country_units": 41684,
+  "source_non_national_sample_units": 3013,
+  "source_old_national_sample_units": 102,
+  "numeric_option_questions_canonicalized": 24,
+  "repaired_questions": 1038,
+  "excluded_questions_by_reason": {
+    "alias_mapping_requires_review": 7,
+    "country_specific_placeholder_unresolved": 1,
+    "fewer_than_two_eligible_samples": 41,
+    "incompatible_positive_option_support": 407,
+    "known_mixed_schema": 23,
+    "relative_time_without_survey_wave": 3,
+    "table_total_parser_artifact": 7
+  },
+  "candidate_path_removed_samples_by_reason": {
+    "explicit_non_national_or_old_removed": 3036,
+    "insufficient_substantive_mass_removed": 58
+  },
+  "quarantined_mixed_schema_ids": [
+    "Q0001",
+    "Q0155",
+    "Q0229",
+    "Q0256",
+    "Q0287",
+    "Q0297",
+    "Q0304",
+    "Q0321",
+    "Q0371",
+    "Q0452",
+    "Q0509",
+    "Q0581",
+    "Q0624",
+    "Q0672",
+    "Q0692",
+    "Q0768",
+    "Q0821",
+    "Q0860",
+    "Q0911",
+    "Q0963",
+    "Q1042",
+    "Q1103",
+    "Q1118"
+  ],
+  "quarantined_alias_review_ids": [
+    "Q0006",
+    "Q0193",
+    "Q0280",
+    "Q0391",
+    "Q0545",
+    "Q0719",
+    "Q1133"
+  ],
+  "quarantined_country_specific_placeholder_ids": [
+    "Q0550"
+  ],
+  "quarantined_relative_time_ids": [
+    "Q0311",
+    "Q0475",
+    "Q1124"
+  ],
+  "normalized_question_text_ids": [
+    "Q0154",
+    "Q0160",
+    "Q0268",
+    "Q0410",
+    "Q0595",
+    "Q0630",
+    "Q0710",
+    "Q0914",
+    "Q1510"
+  ],
+  "minimum_substantive_mass_exclusive": 0.5,
+  "sample_year_and_size_validation": "unavailable_in_source_archive",
+  "source_current_national_sample_units": 351,
+  "retained_current_national_sample_units": 218,
+  "directed_pairs_written": 200,
+  "reciprocal_pair_balance": true,
+  "jensen_shannon_base": 2
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "unit_id": "Q1322::Maldives=>South Korea",
+    "question_id": "Q1322",
+    "country": "Maldives",
+    "country_display": "Maldives",
+    "conflict_country": "South Korea",
+    "conflict_country_display": "South Korea",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7859567365581546,
+    "mapping_status": "exact_shared_response_schema"
+  },
+  {
+    "unit_id": "Q1322::South Korea=>Maldives",
+    "question_id": "Q1322",
+    "country": "South Korea",
+    "country_display": "South Korea",
+    "conflict_country": "Maldives",
+    "conflict_country_display": "Maldives",
+    "options": [
+      "Strongly agree",
+      "Agree",
+      "Disagree",
+      "Strongly disagree"
+    ],
+    "divergence_bits": 0.7859567365581546,
+    "mapping_status": "exact_shared_response_schema"
+  }
+]

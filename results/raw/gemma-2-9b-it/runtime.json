@@ -1,0 +1,200 @@
+{
+  "genuine_smoke_gate": {
+    "analysis_sha256": "851e66cf73096306ef9c939e9ff4a6309bcef58adee63954a4eb4ab5231f058c",
+    "assertions": {
+      "EO_raw_and_normalized_orientation": true,
+      "byte_or_token_id_equivalent_serialization": true,
+      "candidate_labels_scored_at_answer_position": true,
+      "correct_model_loaded": true,
+      "exact_gemma_assistant_answer_suffix": true,
+      "exactly_eight_valid_rows": true,
+      "exactly_one_template_bos_token": true,
+      "finite_normalized_probabilities": true,
+      "fixed_option_permutations": true,
+      "genuine_llama_cpp_backend": true,
+      "model_specific_embedded_template": true,
+      "no_generation_parsing_fallback_or_substitution": true,
+      "reciprocal_units_not_overwritten": true,
+      "same_first_word_options_independent": true,
+      "serialization_only_live_preflight": true,
+      "synthetic_false": true,
+      "user_only_message_structure": true
+    },
+    "compatibility": {
+      "context_size": 4096,
+      "fingerprint": "61226f4e1ced35ad11dd6542f69839dc11962bc395715bd81cb8c42e45633206",
+      "helper_sha256": "21c1abf7719373282c28b3cfcbdf65e4e74245dec3dd3be55b98e753e712aa56",
+      "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+      "model_files": [
+        {
+          "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+          "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+          "size_bytes": 5761057728
+        }
+      ],
+      "model_identifier": "bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+      "model_repository": "bartowski/gemma-2-9b-it-GGUF",
+      "model_revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+      "preinference_gate_completed_at_utc": "2026-08-31T19:52:15.364002+00:00",
+      "preinference_gate_sha256": "a6e0b72581ef84bf35192a07c38a20692c9b3d6414d3e1429937be608e6b7772",
+      "source_sha256": {
+        "scripts/run_gemma_gguf_full.py": "517e370dc632440fe9892c5ca14b78076a8db7f72cad2eaa7c9692891c05d1c7",
+        "scripts/run_genuine_gemma_gguf_smoke.py": "e23a4bfb764eb2182108323fc0077b3d29975428775013b36634d0562ad9dc09",
+        "src/gemma_gguf_spec.py": "a4fa666db24163ef6f9ba38900081e4f26dc6d4248638bfd7cbf33e824687674",
+        "src/gguf_runner.py": "bff9da82714bc5c12eb28b418a2b8d5307a7824ec4ce0e94dc329ff719a311e0",
+        "src/gguf_score_helper.cpp": "bb23f566eeabb6275d75b4d8813fd3984441b77a554699a02d48f945eaa7cc77",
+        "src/main.py": "336eaafad059b260bd4780bacc4c0aea4a24249ca1139f14790c446ee368495a",
+        "src/metrics.py": "6e584728b571a63eb2c382222e3304c5d41a815e18a9729af53de2da1525fb9b",
+        "src/prompt_builder.py": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0",
+        "src/scoring.py": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4"
+      },
+      "threads": 8
+    },
+    "completed_at_utc": "2026-08-31T20:07:30.411128+00:00",
+    "results_sha256": "f67f28d86298ec59f223bdc9847398870cce05f7bbbe71af3085b4fc47453b48",
+    "row_count": 8,
+    "serialization_preflight_sha256": "24c28fe0f5c7edfd74ab44af5db50508e96d3a91b11b7f8a2ab169659540dbf7",
+    "status": "PASS"
+  },
+  "helper_ldd": "linux-vdso.so.1 (0x00007f09abc24000)\n\tlibllama.so.0 => /workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/llama.cpp/build-cpu/bin/libllama.so.0 (0x00007f09ab808000)\n\tlibggml.so.0 => /workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/llama.cpp/build-cpu/bin/libggml.so.0 (0x00007f09ab7fb000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f09ab575000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f09ab48c000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f09ab45c000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f09ab24a000)\n\tlibggml-base.so.0 => /workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/llama.cpp/build-cpu/bin/libggml-base.so.0 (0x00007f09ab175000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f09abc26000)\n\tlibggml-cpu.so.0 => /workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/llama.cpp/build-cpu/bin/libggml-cpu.so.0 (0x00007f09aafb4000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007f09aaf5e000)",
+  "llama_cpp_checkout": {
+    "commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "directory": "/workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/llama.cpp",
+    "tracked_sources_clean": true,
+    "version": "0.3.0-dev"
+  },
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_files": [
+    {
+      "actual_sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+      "actual_size_bytes": 5761057728,
+      "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+      "local_path": "/workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/models/gemma-2-9b-it/gemma-2-9b-it-Q4_K_M.gguf",
+      "role": "selected_entrypoint",
+      "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+      "size_bytes": 5761057728,
+      "verified": true
+    }
+  ],
+  "model_provenance": {
+    "files": [
+      {
+        "actual_sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+        "actual_size_bytes": 5761057728,
+        "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+        "local_path": "/workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/models/gemma-2-9b-it/gemma-2-9b-it-Q4_K_M.gguf",
+        "role": "selected_entrypoint",
+        "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+        "size_bytes": 5761057728,
+        "verified": true
+      }
+    ],
+    "gguf_file_introducing_commit": "9e6247fc6440e1f0b9a320edcb783829aa9b5077",
+    "gguf_repository": "bartowski/gemma-2-9b-it-GGUF",
+    "gguf_repository_revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+    "model_identifier": "bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "paper_model_name": "Gemma-2-9B-It",
+    "quantization": "Q4_K_M",
+    "upstream_checkpoint": "google/gemma-2-9b-it",
+    "upstream_revision": "11c9b309abf73637e4b6f9a3fa1e92e615547819",
+    "upstream_revision_note": "current pinned upstream revision; the quantizer does not attest that this was the exact historical conversion-source revision"
+  },
+  "preinference_gate": {
+    "complete_unit_test_suite": true,
+    "completed_at_utc": "2026-08-31T19:52:15.364002+00:00",
+    "data_validation": "PASS",
+    "data_validation_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "scripts/validate_data.py"
+    ],
+    "data_validation_returncode": 0,
+    "status": "PASS",
+    "test_transcript": "audit/GEMMA_GGUF_PREINFERENCE_TEST_RESULTS.txt",
+    "test_transcript_sha256": "924616470691b866cbbd6e01b4652febd449148ef3b61c54c890a03f7a642b99",
+    "unit_test_command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "unit_test_count": 61,
+    "unit_test_returncode": 0,
+    "validated_file_sha256": {
+      "data/audit/data_repair_summary.json": "a4643b3aa875b7c1c8cc31b2996e1cdd88c61b8e9d51ae59c581c1d8c6e899ce",
+      "data/pairs/country_pairs_smoke.json": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096",
+      "data/pairs/country_pairs_v2.json": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b",
+      "data/processed/dataset_v2.json": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09",
+      "requirements-inference.lock": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a",
+      "scripts/analyze_gemma_gguf_full.py": "37163188198acc1bc0f7bf31ca12bb2079c871fa94e15a7bc82c812e632bc80c",
+      "scripts/build_gguf_score_helper.py": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7",
+      "scripts/package_gemma_gguf_full.py": "ee063b87c60b7a59bfe6aaa09fddebc2f0c237130b21ef99426e9ba9f664ca47",
+      "scripts/run_gemma_gguf_full.py": "517e370dc632440fe9892c5ca14b78076a8db7f72cad2eaa7c9692891c05d1c7",
+      "scripts/run_genuine_gemma_gguf_smoke.py": "e23a4bfb764eb2182108323fc0077b3d29975428775013b36634d0562ad9dc09",
+      "scripts/validate_data.py": "e1fb7b2bf4f29764ae83b4cb85ea8fdb5dd0bcc5e423e14535694b438213aac6",
+      "scripts/write_gemma_preinference_gate.py": "3d728a7cd7a85c436f306e09a1d9ae9ec9a6bca8044f8e8252479b714f2d44d6",
+      "src/__init__.py": "bdb93c4e89751d2e0ba5266bd7e251697b4767b3031067f1dc21b88987460935",
+      "src/clustered_bootstrap.py": "dd93f8cc8b9119b809eed868212b6d8508086b169039a9a14d331cba5b720be6",
+      "src/data_loader.py": "1e831d443daae419fdd207735122a5ecbe5e1f23ffe6dbcf45f518cd888bde63",
+      "src/gemma_gguf_spec.py": "a4fa666db24163ef6f9ba38900081e4f26dc6d4248638bfd7cbf33e824687674",
+      "src/gguf_runner.py": "bff9da82714bc5c12eb28b418a2b8d5307a7824ec4ce0e94dc329ff719a311e0",
+      "src/gguf_score_helper.cpp": "bb23f566eeabb6275d75b4d8813fd3984441b77a554699a02d48f945eaa7cc77",
+      "src/main.py": "336eaafad059b260bd4780bacc4c0aea4a24249ca1139f14790c446ee368495a",
+      "src/metrics.py": "6e584728b571a63eb2c382222e3304c5d41a815e18a9729af53de2da1525fb9b",
+      "src/model_runner.py": "c24a3a4ac0fa00aa16087364e5256bec86f6fd961c3ccd9400e1aab1cb61f10b",
+      "src/prompt_builder.py": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0",
+      "src/scoring.py": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4",
+      "tests/__init__.py": "9f0043fcc52decdad62e619583382e5787069b48c5b77a34c3f560a39d708edc",
+      "tests/test_data_loader.py": "87b40a8a3056e9431b5fdc85e606d05a67203b26af596ee63822f52aba363167",
+      "tests/test_gemma_gguf_full.py": "9e8cf13a93cbb89f0ce9d07bb9f35bf7317e97054e33462046da191fc53277cd",
+      "tests/test_gemma_gguf_full_analysis.py": "8b31c2ff29e68c14c28498e74db932245645b4c75cc1b9b4aaa132f52f661feb",
+      "tests/test_gemma_package_provenance.py": "e593e4aa9df8f6e0b1c357dbf03b7903503a73237b341d3bdf9770fdea7d00ad",
+      "tests/test_gguf_runner.py": "5d086cfb96794772193960e51c9d73476b322344293bffa356b838b8c24aaf69",
+      "tests/test_guardrails.py": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839",
+      "tests/test_metrics.py": "50f145e76acec2e996d95a02fba817d644de8bab01b9ef94ebeccc1317ab80e2",
+      "tests/test_prompts.py": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3",
+      "tests/test_scoring.py": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812"
+    }
+  },
+  "recorded_at_utc": "2026-08-31T20:08:18.742654+00:00",
+  "run_fingerprint": "a5e7cad6e2122293bdf1ed9e6867bed1ec689b04cc67a7236cd2b5625468f23f",
+  "runtime": {
+    "actual_context_size": 4096,
+    "backend": "llama.cpp",
+    "candidate_scoring": "full_vocabulary_low_level_logits",
+    "chat_template": "{{ bos_token }}{% if messages[0]['role'] == 'system' %}{{ raise_exception('System role not supported') }}{% endif %}{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if (message['role'] == 'assistant') %}{% set role = 'model' %}{% else %}{% set role = message['role'] %}{% endif %}{{ '<start_of_turn>' + role + '\n' + message['content'] | trim + '<end_of_turn>\n' }}{% endfor %}{% if add_generation_prompt %}{{'<start_of_turn>model\n'}}{% endif %}",
+    "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+    "chat_template_source": "embedded_gguf_metadata",
+    "generated_answer_parsing": false,
+    "gpu_layers": 0,
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+    "llama_version": "0.3.0-dev",
+    "loaded_model_size_bytes": 5755000832,
+    "model_description": "gemma2 9B Q4_K - Medium",
+    "model_identifier": "bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "model_parameter_count": 9241705984,
+    "model_path": "/workspace/scratch/a5afcf7d1a8a/gemma_repaired_fresh_resume_20260831_2/gemma-2-9b-it-repaired-source-v1/runtime/models/gemma-2-9b-it/gemma-2-9b-it-Q4_K_M.gguf",
+    "quantization": "Q4_K_M",
+    "repository": "bartowski/gemma-2-9b-it-GGUF",
+    "requested_context_size": 4096,
+    "revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+    "selected_model_metadata": {
+      "gemma2.context_length": "8192",
+      "general.architecture": "gemma2",
+      "general.file_type": "15",
+      "general.name": "gemma-2-9b-it",
+      "general.quantization_version": "2",
+      "tokenizer.ggml.bos_token_id": "2",
+      "tokenizer.ggml.eos_token_id": "1",
+      "tokenizer.ggml.model": "llama"
+    },
+    "synthetic": false,
+    "threads": 8,
+    "type": "ready",
+    "vocabulary_size": 256000
+  }
+}

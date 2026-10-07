@@ -1,0 +1,40 @@
+{
+  "title": "Country Name or Cultural Evidence? A Causal Audit of Population-Grounded Steering in Large Language Models",
+  "conditions": [
+    "baseline",
+    "country_label",
+    "population_evidence",
+    "conflict"
+  ],
+  "raw_condition_aliases": {
+    "evidence": "population_evidence"
+  },
+  "directed_unit_key": [
+    "question_id",
+    "label_country",
+    "evidence_country"
+  ],
+  "directed_units": 200,
+  "unordered_population_pairs": 100,
+  "target_units": 144,
+  "question_clusters": 44,
+  "models": [
+    "qwen",
+    "llama",
+    "mistral",
+    "gemma"
+  ],
+  "predictions_per_model": 800,
+  "predictions_total": 3200,
+  "permutation_key": "question_id::label_country",
+  "jensen_shannon_base": 2,
+  "bootstrap": {
+    "cluster_key": "question_id",
+    "replicates": 10000,
+    "seed": 42,
+    "interval": "percentile",
+    "quantile_method": "linear",
+    "shared_draw_across_models_and_estimands": true
+  },
+  "conflict_tolerance": 1e-12
+}

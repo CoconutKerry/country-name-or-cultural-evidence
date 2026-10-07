@@ -1,0 +1,218 @@
+{
+  "created_at_utc": "2026-08-30T16:27:32.082415+00:00",
+  "exclusion_note": "Model and llama.cpp provenance, sizes, and checksums are recorded in analysis.json and GENUINE_QWEN_GGUF_SMOKE_REPORT.md.",
+  "files": [
+    {
+      "path": "src/gguf_score_helper.cpp",
+      "sha256": "9a2832b5ec82ea4fdd403fee4b92f4a42c3c8e3c3b40706c778e7e83c4790caf",
+      "size_bytes": 15806
+    },
+    {
+      "path": "src/gguf_runner.py",
+      "sha256": "db5f995ea75a4f8404ff1a1b9d5a0e275a54ede41e2064a1728cbb9fbccc2283",
+      "size_bytes": 11369
+    },
+    {
+      "path": "scripts/build_gguf_score_helper.py",
+      "sha256": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7",
+      "size_bytes": 1685
+    },
+    {
+      "path": "scripts/run_genuine_qwen_gguf_smoke.py",
+      "sha256": "f9cef41d05ddecf954160c2624b46bffc69388a067fc78d9517fa2295d39e3af",
+      "size_bytes": 46099
+    },
+    {
+      "path": "scripts/package_genuine_qwen_gguf_smoke.py",
+      "sha256": "4bd4321b8343109041ddb1ed98e71cb7f6db74f2b8da75cf432820a99f33f342",
+      "size_bytes": 5247
+    },
+    {
+      "path": "tests/test_gguf_runner.py",
+      "sha256": "ae55eccb64d1828c5439f17c8c16c305a0a57f36263c72f44a70b9e40cbb9f1a",
+      "size_bytes": 3547
+    },
+    {
+      "path": "experiments/smoke_genuine_qwen_gguf/results.jsonl",
+      "sha256": "dcfcd3a3c8fcce69f4cdc4b0ee9e72b717d5a3c8c5bbbfae079942f3de51f9f7",
+      "size_bytes": 86762
+    },
+    {
+      "path": "experiments/smoke_genuine_qwen_gguf/analysis.json",
+      "sha256": "ea49773915bb75d1aebc4c9e86cbb76cda6f45fa50c019b1812c0c93ae65dd22",
+      "size_bytes": 19034
+    },
+    {
+      "path": "experiments/smoke_genuine_qwen_gguf/run.log",
+      "sha256": "8f6869f75f6810d2b69bc14d9e924ad92dc85f18a64a840ecd0934e1fbaf540d",
+      "size_bytes": 72172
+    },
+    {
+      "path": "audit/GENUINE_QWEN_GGUF_SMOKE_REPORT.md",
+      "sha256": "612ad4dfb3cd829f29e2c0c40560c0b7ae51341fcc584faa025901684678e1b6",
+      "size_bytes": 3865
+    },
+    {
+      "path": "audit/GENUINE_QWEN_GGUF_TEST_RESULTS.txt",
+      "sha256": "f61b7079f1212d3ab667fb87ca0cf3f59c56894933ba2af92e7556620c4efaec",
+      "size_bytes": 1164
+    },
+    {
+      "path": "audit/GENUINE_QWEN_GGUF_CHANGED_FILES.txt",
+      "sha256": "4ef84daa14d99015da04f41c8d284ca213de7a46370a5be65b2ba38590deee44",
+      "size_bytes": 855
+    },
+    {
+      "path": "data/processed/dataset_v2.json",
+      "sha256": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09",
+      "size_bytes": 7830968
+    },
+    {
+      "path": "data/pairs/country_pairs_smoke.json",
+      "sha256": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096",
+      "size_bytes": 873
+    },
+    {
+      "path": "experiments/smoke/results_smoke.json",
+      "sha256": "53167ec10df9c3953d26aa021d97744a6e5f3825aac44761338d6adaea7ad3d8",
+      "size_bytes": 32555
+    },
+    {
+      "path": "src/data_loader.py",
+      "sha256": "d7cfe0011972388380a092823b7eb47c4b17f1266cd33ec7ab7023dbf2d766aa",
+      "size_bytes": 7012
+    },
+    {
+      "path": "src/main.py",
+      "sha256": "8d74b98b09621b7a66fc3db917483cfdc91d731c64e5c7aba8ec9d831b073c78",
+      "size_bytes": 19681
+    },
+    {
+      "path": "src/metrics.py",
+      "sha256": "dc0af969777e09c12f17b99de62d4ee52bb8aaa2b9680ee8a28e553607e9192e",
+      "size_bytes": 7578
+    },
+    {
+      "path": "src/prompt_builder.py",
+      "sha256": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0",
+      "size_bytes": 5616
+    },
+    {
+      "path": "src/scoring.py",
+      "sha256": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4",
+      "size_bytes": 6316
+    },
+    {
+      "path": "src/result_utils.py",
+      "sha256": "6915e1d4f7aa9435411f038fe800ed3643b7f03a620ca0e620cc0d828134dc26",
+      "size_bytes": 2425
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "509546d284f454865872cd48ecc02153de20349fa20bafb7f1b22c8c5940311a",
+      "size_bytes": 1203
+    },
+    {
+      "path": "requirements-inference.lock",
+      "sha256": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a",
+      "size_bytes": 420
+    },
+    {
+      "path": "tests/test_analyze_results.py",
+      "sha256": "355da7263b28719cfe235aacbea96f3842491adfaeeabc443a19e65a7e98a781",
+      "size_bytes": 6058
+    },
+    {
+      "path": "tests/test_clustered_bootstrap.py",
+      "sha256": "f7de105a98753e9b081e00d4250bfbd4ac3fef63a81729813b0f94e3b79a7ac2",
+      "size_bytes": 13421
+    },
+    {
+      "path": "tests/test_colab_handoff.py",
+      "sha256": "abd0bcf3da544f1fb5dfeb2209fe7ef8d6cbd0beeda3ceeb816244f6fd5016d5",
+      "size_bytes": 16762
+    },
+    {
+      "path": "tests/test_data_loader.py",
+      "sha256": "52b2713b69632bc0a3379d93d2ac9dfec5220668a4fac5fb2170cf4ef65730e1",
+      "size_bytes": 3091
+    },
+    {
+      "path": "tests/test_data_repair.py",
+      "sha256": "00feb2e5be320d0d58fefc0d98842d16a18115bc26892fa10d36a1a5231d3315",
+      "size_bytes": 4024
+    },
+    {
+      "path": "tests/test_guardrails.py",
+      "sha256": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839",
+      "size_bytes": 508
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "sha256": "000c3c1dbba67461e94dbb525146f8132ea807be078336f4fe929a1c9d39fb07",
+      "size_bytes": 2176
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "sha256": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3",
+      "size_bytes": 2162
+    },
+    {
+      "path": "tests/test_result_utils.py",
+      "sha256": "57753acf8cfb828b223e8cac443f3303538989e9aa498874f3bfcf97a6f5fd02",
+      "size_bytes": 1651
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "sha256": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812",
+      "size_bytes": 9965
+    }
+  ],
+  "llama_cpp_binaries_included": false,
+  "model_weights_included": false,
+  "new_and_changed_files": [
+    "src/gguf_score_helper.cpp",
+    "src/gguf_runner.py",
+    "scripts/build_gguf_score_helper.py",
+    "scripts/run_genuine_qwen_gguf_smoke.py",
+    "scripts/package_genuine_qwen_gguf_smoke.py",
+    "tests/test_gguf_runner.py",
+    "experiments/smoke_genuine_qwen_gguf/results.jsonl",
+    "experiments/smoke_genuine_qwen_gguf/analysis.json",
+    "experiments/smoke_genuine_qwen_gguf/run.log",
+    "audit/GENUINE_QWEN_GGUF_SMOKE_REPORT.md",
+    "audit/GENUINE_QWEN_GGUF_TEST_RESULTS.txt",
+    "audit/GENUINE_QWEN_GGUF_CHANGED_FILES.txt"
+  ],
+  "package_scope": "genuine_qwen_gguf_cpu_smoke_delta",
+  "test_files": [
+    "tests/test_analyze_results.py",
+    "tests/test_clustered_bootstrap.py",
+    "tests/test_colab_handoff.py",
+    "tests/test_data_loader.py",
+    "tests/test_data_repair.py",
+    "tests/test_gguf_runner.py",
+    "tests/test_guardrails.py",
+    "tests/test_metrics.py",
+    "tests/test_prompts.py",
+    "tests/test_result_utils.py",
+    "tests/test_scoring.py"
+  ],
+  "unchanged_audit_inputs": [
+    "data/processed/dataset_v2.json",
+    "data/pairs/country_pairs_smoke.json",
+    "experiments/smoke/results_smoke.json",
+    "src/data_loader.py",
+    "src/main.py",
+    "src/metrics.py",
+    "src/prompt_builder.py",
+    "src/scoring.py",
+    "src/result_utils.py",
+    "requirements.txt",
+    "requirements-inference.lock"
+  ],
+  "validation": {
+    "directed_condition_key_count": 8,
+    "row_count": 8
+  }
+}

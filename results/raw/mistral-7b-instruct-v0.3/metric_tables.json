@@ -1,0 +1,61 @@
+{
+  "conflict_classification": [
+    {
+      "classification": "evidence-side",
+      "count": 171,
+      "percent": 85.5,
+      "proportion": 0.855
+    },
+    {
+      "classification": "label-side",
+      "count": 29,
+      "percent": 14.499999999999998,
+      "proportion": 0.145
+    },
+    {
+      "classification": "tie",
+      "count": 0,
+      "percent": 0.0,
+      "proportion": 0.0
+    }
+  ],
+  "model_metrics": [
+    {
+      "bootstrap_replicates": 10000,
+      "ci_95_lower": 0.004066352664046308,
+      "ci_95_upper": 0.08922959940759602,
+      "estimate": 0.044677631687046866,
+      "metric": "country_influence",
+      "n": 144,
+      "question_id_clusters": 44
+    },
+    {
+      "bootstrap_replicates": 10000,
+      "ci_95_lower": 0.16473473010745493,
+      "ci_95_upper": 0.2786246714795455,
+      "estimate": 0.22053033433821237,
+      "metric": "evidence_influence",
+      "n": 144,
+      "question_id_clusters": 44
+    },
+    {
+      "bootstrap_replicates": 10000,
+      "ci_95_lower": 0.427308247061161,
+      "ci_95_upper": 0.6017720232006585,
+      "estimate": 0.5167487916525012,
+      "metric": "EO_raw",
+      "n": 200,
+      "question_id_clusters": 44
+    },
+    {
+      "bootstrap_replicates": 10000,
+      "ci_95_lower": 0.4408328343812688,
+      "ci_95_upper": 0.6420706385614148,
+      "estimate": 0.5433332134305028,
+      "metric": "EO_normalized",
+      "n": 200,
+      "question_id_clusters": 44
+    }
+  ],
+  "schema_version": "mistral_gguf_full_metric_tables_v1"
+}

@@ -1,0 +1,13 @@
+{
+  "predictions": 3200,
+  "target_unit_metrics": 576,
+  "directed_unit_metrics": 800,
+  "models": [
+    "gemma",
+    "llama",
+    "mistral",
+    "qwen"
+  ],
+  "question_clusters": 44,
+  "status": "PASS"
+}

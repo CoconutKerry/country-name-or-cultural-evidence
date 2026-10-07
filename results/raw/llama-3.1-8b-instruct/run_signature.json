@@ -1,0 +1,1073 @@
+{
+  "backend": "llama.cpp",
+  "code_data_dependency_sha256": {
+    "data/pairs/country_pairs_v2.json": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b",
+    "data/processed/dataset_v2.json": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09",
+    "requirements-inference.lock": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a",
+    "scripts/run_genuine_llama_gguf_smoke.py": "b79622fc17af4618ef074c782d1c5968cb7c79d8e3a813d858300f16fe584a7d",
+    "scripts/run_llama_gguf_full.py": "2ea65cbcaecd120ae96ece2adf2c8221266bb9eefbd5c5ca592b5224dcc4e6ee",
+    "src/data_loader.py": "d7cfe0011972388380a092823b7eb47c4b17f1266cd33ec7ab7023dbf2d766aa",
+    "src/gguf_runner.py": "db5f995ea75a4f8404ff1a1b9d5a0e275a54ede41e2064a1728cbb9fbccc2283",
+    "src/gguf_score_helper.cpp": "235ea664e5183786ef066f3d6ea692d60d2dcacaece0063a84a1ec6e5454871b",
+    "src/llama_gguf_runner.py": "8171285f70d19c8d88e323112b54c78de41e5f829a6c0aeeb176bc76e85c2d27",
+    "src/main.py": "8d74b98b09621b7a66fc3db917483cfdc91d731c64e5c7aba8ec9d831b073c78",
+    "src/metrics.py": "bcb11e9e5b3025829085feedab53767ef91c10c628d272a2356d4ca3b3d544c6",
+    "src/prompt_builder.py": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0",
+    "src/scoring.py": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4"
+  },
+  "conditions": [
+    "baseline",
+    "country_label",
+    "evidence",
+    "conflict"
+  ],
+  "context_size": 4096,
+  "directed_unit_key": [
+    "question_id",
+    "label_country",
+    "evidence_country"
+  ],
+  "directed_units": [
+    [
+      "Q1322",
+      "Maldives",
+      "South Korea"
+    ],
+    [
+      "Q1322",
+      "South Korea",
+      "Maldives"
+    ],
+    [
+      "Q1510",
+      "Peru",
+      "Singapore"
+    ],
+    [
+      "Q1510",
+      "Singapore",
+      "Peru"
+    ],
+    [
+      "Q1322",
+      "Maldives",
+      "Taiwan ROC"
+    ],
+    [
+      "Q1322",
+      "Taiwan ROC",
+      "Maldives"
+    ],
+    [
+      "Q1322",
+      "China",
+      "Maldives"
+    ],
+    [
+      "Q1322",
+      "Maldives",
+      "China"
+    ],
+    [
+      "Q1508",
+      "Myanmar",
+      "Netherlands"
+    ],
+    [
+      "Q1508",
+      "Netherlands",
+      "Myanmar"
+    ],
+    [
+      "Q1510",
+      "Colombia",
+      "Singapore"
+    ],
+    [
+      "Q1510",
+      "Singapore",
+      "Colombia"
+    ],
+    [
+      "Q1508",
+      "Myanmar",
+      "Northern Ireland"
+    ],
+    [
+      "Q1508",
+      "Northern Ireland",
+      "Myanmar"
+    ],
+    [
+      "Q1508",
+      "Germany",
+      "Myanmar"
+    ],
+    [
+      "Q1508",
+      "Myanmar",
+      "Germany"
+    ],
+    [
+      "Q0595",
+      "Palest. ter.",
+      "Senegal"
+    ],
+    [
+      "Q0595",
+      "Senegal",
+      "Palest. ter."
+    ],
+    [
+      "Q0595",
+      "Israel",
+      "Palest. ter."
+    ],
+    [
+      "Q0595",
+      "Palest. ter.",
+      "Israel"
+    ],
+    [
+      "Q1375",
+      "Uruguay",
+      "Vietnam"
+    ],
+    [
+      "Q1375",
+      "Vietnam",
+      "Uruguay"
+    ],
+    [
+      "Q1375",
+      "Australia",
+      "Vietnam"
+    ],
+    [
+      "Q1375",
+      "Vietnam",
+      "Australia"
+    ],
+    [
+      "Q1510",
+      "Brazil",
+      "Singapore"
+    ],
+    [
+      "Q1510",
+      "Singapore",
+      "Brazil"
+    ],
+    [
+      "Q1375",
+      "Great Britain",
+      "Vietnam"
+    ],
+    [
+      "Q1375",
+      "Vietnam",
+      "Great Britain"
+    ],
+    [
+      "Q1035",
+      "Ghana",
+      "Sweden"
+    ],
+    [
+      "Q1035",
+      "Sweden",
+      "Ghana"
+    ],
+    [
+      "Q1035",
+      "Indonesia",
+      "Sweden"
+    ],
+    [
+      "Q1035",
+      "Sweden",
+      "Indonesia"
+    ],
+    [
+      "Q1035",
+      "Pakistan",
+      "Sweden"
+    ],
+    [
+      "Q1035",
+      "Sweden",
+      "Pakistan"
+    ],
+    [
+      "Q1155",
+      "Indonesia",
+      "Sweden"
+    ],
+    [
+      "Q1155",
+      "Sweden",
+      "Indonesia"
+    ],
+    [
+      "Q1392",
+      "Australia",
+      "Vietnam"
+    ],
+    [
+      "Q1392",
+      "Vietnam",
+      "Australia"
+    ],
+    [
+      "Q0914",
+      "Sweden",
+      "Vietnam"
+    ],
+    [
+      "Q0914",
+      "Vietnam",
+      "Sweden"
+    ],
+    [
+      "Q0059",
+      "El Salvador",
+      "India (Current national sample)"
+    ],
+    [
+      "Q0059",
+      "India (Current national sample)",
+      "El Salvador"
+    ],
+    [
+      "Q0394",
+      "Australia",
+      "Palest. ter."
+    ],
+    [
+      "Q0394",
+      "Palest. ter.",
+      "Australia"
+    ],
+    [
+      "Q0059",
+      "India (Current national sample)",
+      "Pakistan"
+    ],
+    [
+      "Q0059",
+      "Pakistan",
+      "India (Current national sample)"
+    ],
+    [
+      "Q0595",
+      "El Salvador",
+      "Palest. ter."
+    ],
+    [
+      "Q0595",
+      "Palest. ter.",
+      "El Salvador"
+    ],
+    [
+      "Q0747",
+      "Jordan",
+      "Morocco"
+    ],
+    [
+      "Q0747",
+      "Morocco",
+      "Jordan"
+    ],
+    [
+      "Q0160",
+      "Jordan",
+      "Uzbekistan"
+    ],
+    [
+      "Q0160",
+      "Uzbekistan",
+      "Jordan"
+    ],
+    [
+      "Q1024",
+      "Nigeria",
+      "Sweden"
+    ],
+    [
+      "Q1024",
+      "Sweden",
+      "Nigeria"
+    ],
+    [
+      "Q0956",
+      "Israel",
+      "Pakistan"
+    ],
+    [
+      "Q0956",
+      "Pakistan",
+      "Israel"
+    ],
+    [
+      "Q1483",
+      "Argentina",
+      "Maldives"
+    ],
+    [
+      "Q1483",
+      "Maldives",
+      "Argentina"
+    ],
+    [
+      "Q0448",
+      "Germany",
+      "Pakistan"
+    ],
+    [
+      "Q0448",
+      "Pakistan",
+      "Germany"
+    ],
+    [
+      "Q1155",
+      "Philippines",
+      "Sweden"
+    ],
+    [
+      "Q1155",
+      "Sweden",
+      "Philippines"
+    ],
+    [
+      "Q0059",
+      "India (Current national sample)",
+      "S. Korea"
+    ],
+    [
+      "Q0059",
+      "S. Korea",
+      "India (Current national sample)"
+    ],
+    [
+      "Q1321",
+      "Greece",
+      "Vietnam"
+    ],
+    [
+      "Q1321",
+      "Vietnam",
+      "Greece"
+    ],
+    [
+      "Q0817",
+      "Jordan",
+      "Vietnam"
+    ],
+    [
+      "Q0817",
+      "Vietnam",
+      "Jordan"
+    ],
+    [
+      "Q0914",
+      "Poland",
+      "Vietnam"
+    ],
+    [
+      "Q0914",
+      "Vietnam",
+      "Poland"
+    ],
+    [
+      "Q0630",
+      "Pakistan",
+      "Sweden"
+    ],
+    [
+      "Q0630",
+      "Sweden",
+      "Pakistan"
+    ],
+    [
+      "Q0238",
+      "Israel",
+      "Morocco"
+    ],
+    [
+      "Q0238",
+      "Morocco",
+      "Israel"
+    ],
+    [
+      "Q0830",
+      "Palest. ter.",
+      "United States"
+    ],
+    [
+      "Q0830",
+      "United States",
+      "Palest. ter."
+    ],
+    [
+      "Q0703",
+      "Senegal",
+      "Turkey"
+    ],
+    [
+      "Q0703",
+      "Turkey",
+      "Senegal"
+    ],
+    [
+      "Q0514",
+      "China",
+      "Vietnam"
+    ],
+    [
+      "Q0514",
+      "Vietnam",
+      "China"
+    ],
+    [
+      "Q1483",
+      "Greece",
+      "Maldives"
+    ],
+    [
+      "Q1483",
+      "Maldives",
+      "Greece"
+    ],
+    [
+      "Q1371",
+      "Argentina",
+      "Vietnam"
+    ],
+    [
+      "Q1371",
+      "Vietnam",
+      "Argentina"
+    ],
+    [
+      "Q0514",
+      "Australia",
+      "China"
+    ],
+    [
+      "Q0514",
+      "China",
+      "Australia"
+    ],
+    [
+      "Q1223",
+      "Italy",
+      "Pakistan"
+    ],
+    [
+      "Q1223",
+      "Pakistan",
+      "Italy"
+    ],
+    [
+      "Q0448",
+      "Japan",
+      "Pakistan"
+    ],
+    [
+      "Q0448",
+      "Pakistan",
+      "Japan"
+    ],
+    [
+      "Q0394",
+      "Palest. ter.",
+      "United States"
+    ],
+    [
+      "Q0394",
+      "United States",
+      "Palest. ter."
+    ],
+    [
+      "Q1155",
+      "Kenya",
+      "Sweden"
+    ],
+    [
+      "Q1155",
+      "Sweden",
+      "Kenya"
+    ],
+    [
+      "Q0410",
+      "Japan",
+      "Pakistan"
+    ],
+    [
+      "Q0410",
+      "Pakistan",
+      "Japan"
+    ],
+    [
+      "Q1483",
+      "Maldives",
+      "Vietnam"
+    ],
+    [
+      "Q1483",
+      "Vietnam",
+      "Maldives"
+    ],
+    [
+      "Q0868",
+      "France",
+      "Pakistan"
+    ],
+    [
+      "Q0868",
+      "Pakistan",
+      "France"
+    ],
+    [
+      "Q0394",
+      "Canada",
+      "Palest. ter."
+    ],
+    [
+      "Q0394",
+      "Palest. ter.",
+      "Canada"
+    ],
+    [
+      "Q0747",
+      "El Salvador",
+      "Jordan"
+    ],
+    [
+      "Q0747",
+      "Jordan",
+      "El Salvador"
+    ],
+    [
+      "Q0914",
+      "Netherlands",
+      "Vietnam"
+    ],
+    [
+      "Q0914",
+      "Vietnam",
+      "Netherlands"
+    ],
+    [
+      "Q1024",
+      "Indonesia",
+      "Sweden"
+    ],
+    [
+      "Q1024",
+      "Sweden",
+      "Indonesia"
+    ],
+    [
+      "Q1094",
+      "Jordan",
+      "Uzbekistan"
+    ],
+    [
+      "Q1094",
+      "Uzbekistan",
+      "Jordan"
+    ],
+    [
+      "Q0448",
+      "Pakistan",
+      "United States"
+    ],
+    [
+      "Q0448",
+      "United States",
+      "Pakistan"
+    ],
+    [
+      "Q0514",
+      "China",
+      "Thailand"
+    ],
+    [
+      "Q0514",
+      "Thailand",
+      "China"
+    ],
+    [
+      "Q0268",
+      "Pakistan",
+      "S. Korea"
+    ],
+    [
+      "Q0268",
+      "S. Korea",
+      "Pakistan"
+    ],
+    [
+      "Q1024",
+      "Netherlands",
+      "Nigeria"
+    ],
+    [
+      "Q1024",
+      "Nigeria",
+      "Netherlands"
+    ],
+    [
+      "Q0558",
+      "Greece",
+      "Pakistan"
+    ],
+    [
+      "Q0558",
+      "Pakistan",
+      "Greece"
+    ],
+    [
+      "Q0410",
+      "Italy",
+      "Pakistan"
+    ],
+    [
+      "Q0410",
+      "Pakistan",
+      "Italy"
+    ],
+    [
+      "Q1456",
+      "Ethiopia",
+      "South Korea"
+    ],
+    [
+      "Q1456",
+      "South Korea",
+      "Ethiopia"
+    ],
+    [
+      "Q0703",
+      "Turkey",
+      "Ukraine"
+    ],
+    [
+      "Q0703",
+      "Ukraine",
+      "Turkey"
+    ],
+    [
+      "Q1223",
+      "Pakistan",
+      "Spain"
+    ],
+    [
+      "Q1223",
+      "Spain",
+      "Pakistan"
+    ],
+    [
+      "Q0710",
+      "Kenya",
+      "Ukraine"
+    ],
+    [
+      "Q0710",
+      "Ukraine",
+      "Kenya"
+    ],
+    [
+      "Q0817",
+      "El Salvador",
+      "Vietnam"
+    ],
+    [
+      "Q0817",
+      "Vietnam",
+      "El Salvador"
+    ],
+    [
+      "Q1333",
+      "Peru",
+      "Vietnam"
+    ],
+    [
+      "Q1333",
+      "Vietnam",
+      "Peru"
+    ],
+    [
+      "Q0758",
+      "Jordan",
+      "Spain"
+    ],
+    [
+      "Q0758",
+      "Spain",
+      "Jordan"
+    ],
+    [
+      "Q0758",
+      "Egypt",
+      "Spain"
+    ],
+    [
+      "Q0758",
+      "Spain",
+      "Egypt"
+    ],
+    [
+      "Q0160",
+      "Ghana",
+      "Jordan"
+    ],
+    [
+      "Q0160",
+      "Jordan",
+      "Ghana"
+    ],
+    [
+      "Q0956",
+      "Israel",
+      "Kuwait"
+    ],
+    [
+      "Q0956",
+      "Kuwait",
+      "Israel"
+    ],
+    [
+      "Q0558",
+      "Pakistan",
+      "Spain"
+    ],
+    [
+      "Q0558",
+      "Spain",
+      "Pakistan"
+    ],
+    [
+      "Q0817",
+      "Jordan",
+      "Thailand"
+    ],
+    [
+      "Q0817",
+      "Thailand",
+      "Jordan"
+    ],
+    [
+      "Q0268",
+      "Japan",
+      "Pakistan"
+    ],
+    [
+      "Q0268",
+      "Pakistan",
+      "Japan"
+    ],
+    [
+      "Q0830",
+      "Jordan",
+      "United States"
+    ],
+    [
+      "Q0830",
+      "United States",
+      "Jordan"
+    ],
+    [
+      "Q1094",
+      "Palest. ter.",
+      "Uzbekistan"
+    ],
+    [
+      "Q1094",
+      "Uzbekistan",
+      "Palest. ter."
+    ],
+    [
+      "Q0747",
+      "Jordan",
+      "Venezuela"
+    ],
+    [
+      "Q0747",
+      "Venezuela",
+      "Jordan"
+    ],
+    [
+      "Q0160",
+      "El Salvador",
+      "Jordan"
+    ],
+    [
+      "Q0160",
+      "Jordan",
+      "El Salvador"
+    ],
+    [
+      "Q1262",
+      "Germany",
+      "Peru"
+    ],
+    [
+      "Q1262",
+      "Peru",
+      "Germany"
+    ],
+    [
+      "Q1110",
+      "Sweden",
+      "Vietnam"
+    ],
+    [
+      "Q1110",
+      "Vietnam",
+      "Sweden"
+    ],
+    [
+      "Q1333",
+      "Lebanon",
+      "Vietnam"
+    ],
+    [
+      "Q1333",
+      "Vietnam",
+      "Lebanon"
+    ],
+    [
+      "Q1321",
+      "Tunisia",
+      "Vietnam"
+    ],
+    [
+      "Q1321",
+      "Vietnam",
+      "Tunisia"
+    ],
+    [
+      "Q1395",
+      "Iran",
+      "New Zealand"
+    ],
+    [
+      "Q1395",
+      "New Zealand",
+      "Iran"
+    ],
+    [
+      "Q1333",
+      "Serbia",
+      "Vietnam"
+    ],
+    [
+      "Q1333",
+      "Vietnam",
+      "Serbia"
+    ],
+    [
+      "Q1223",
+      "Germany",
+      "Pakistan"
+    ],
+    [
+      "Q1223",
+      "Pakistan",
+      "Germany"
+    ],
+    [
+      "Q0558",
+      "Italy",
+      "Pakistan"
+    ],
+    [
+      "Q0558",
+      "Pakistan",
+      "Italy"
+    ],
+    [
+      "Q1395",
+      "Iran",
+      "Japan"
+    ],
+    [
+      "Q1395",
+      "Japan",
+      "Iran"
+    ],
+    [
+      "Q0630",
+      "Pakistan",
+      "Poland"
+    ],
+    [
+      "Q0630",
+      "Poland",
+      "Pakistan"
+    ],
+    [
+      "Q0238",
+      "Morocco",
+      "Turkey"
+    ],
+    [
+      "Q0238",
+      "Turkey",
+      "Morocco"
+    ],
+    [
+      "Q0630",
+      "Australia",
+      "Pakistan"
+    ],
+    [
+      "Q0630",
+      "Pakistan",
+      "Australia"
+    ],
+    [
+      "Q0739",
+      "Jordan",
+      "Turkey"
+    ],
+    [
+      "Q0739",
+      "Turkey",
+      "Jordan"
+    ],
+    [
+      "Q0254",
+      "Indonesia",
+      "Sweden"
+    ],
+    [
+      "Q0254",
+      "Sweden",
+      "Indonesia"
+    ],
+    [
+      "Q1139",
+      "Palest. ter.",
+      "Uganda"
+    ],
+    [
+      "Q1139",
+      "Uganda",
+      "Palest. ter."
+    ],
+    [
+      "Q0710",
+      "Mali",
+      "Ukraine"
+    ],
+    [
+      "Q0710",
+      "Ukraine",
+      "Mali"
+    ],
+    [
+      "Q0868",
+      "Pakistan",
+      "United States"
+    ],
+    [
+      "Q0868",
+      "United States",
+      "Pakistan"
+    ],
+    [
+      "Q1430",
+      "Tunisia",
+      "Vietnam"
+    ],
+    [
+      "Q1430",
+      "Vietnam",
+      "Tunisia"
+    ],
+    [
+      "Q1139",
+      "Kenya",
+      "Palest. ter."
+    ],
+    [
+      "Q1139",
+      "Palest. ter.",
+      "Kenya"
+    ],
+    [
+      "Q0990",
+      "Canada",
+      "Pakistan"
+    ],
+    [
+      "Q0990",
+      "Pakistan",
+      "Canada"
+    ],
+    [
+      "Q0574",
+      "Israel",
+      "Pakistan"
+    ],
+    [
+      "Q0574",
+      "Pakistan",
+      "Israel"
+    ],
+    [
+      "Q0268",
+      "India (Current national sample)",
+      "Pakistan"
+    ],
+    [
+      "Q0268",
+      "Pakistan",
+      "India (Current national sample)"
+    ]
+  ],
+  "fingerprint": "ecd01540748b126d8a5390374c1256a7a8d447a78622493d0ac239285b725b1f",
+  "genuine_smoke_gate": {
+    "analysis_sha256": "49ae84bd246aa1d18d682b95d7183f85bfefeb7db510f8a8239e8c7acaadacfe",
+    "assertion_count": 23,
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "model_identifier": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:Q4_K_M",
+    "model_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+    "result_rows": 8,
+    "results_sha256": "6befb470435c72e801f0652a556cc7085a61c71a98e15cd4616688d1a7c4900e",
+    "status": "PASS"
+  },
+  "jensen_shannon_base": 2,
+  "llama_cpp": {
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "helper_sha256": "799e14a3952eafab3467299730185fbeaf7b1bf75e10232b1f4ff079ee1ccd96",
+    "version": "0.3.0-dev"
+  },
+  "model": {
+    "files": [
+      {
+        "filename": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+        "size_bytes": 4920739232
+      }
+    ],
+    "identifier": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:Q4_K_M",
+    "quantization": "Q4_K_M",
+    "remote_last_modified": "2024-12-01T04:12:27Z",
+    "repository": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+    "weight_upload_commit": "4f0c246f125fc7594238ebe7beb1435a8335f519"
+  },
+  "permutation_key": "question_id::label_country",
+  "question_clusters": 44,
+  "schema_version": "llama-gguf-full-v2",
+  "scoring": "full_contextual_option_label_sequence_log_probability",
+  "seed": 42,
+  "target_units": 144,
+  "threads": 8
+}

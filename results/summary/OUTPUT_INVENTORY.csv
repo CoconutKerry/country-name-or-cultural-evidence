@@ -1,0 +1,19 @@
+path,artifact_type,row_count,description,bytes,sha256
+results/processed/predictions_all_models.jsonl.gz,harmonized predictions,3200,Common cross-model prediction schema,431393,a47633c3636774b8841ed2bf38352b1f91d5c95cf2342c4a4b7948c60aa00c89
+results/processed/target_unit_metrics.csv,target metrics,576,"CI, EI, and EI-CI analysis units",322225,0b54a0c11b6239d98568b639914b8310645b00e4bbbd325bb74e114e092c5474
+results/processed/directed_unit_metrics.csv,directed metrics,800,Evidence Override and conflict classifications,455393,be069c9872a7cf4229edaa5d2b3bc8fd4202ea8c9d1495d471b05c8bb1d23033
+results/processed/bootstrap_metrics_long.csv,bootstrap summary,20,Five estimands for four models,2433,4ad47d0839038818e7813d12460ef4d755a8fd0d8d0b6535b40d35ecf81e1364
+results/summary/main_metrics.csv,paper summary,4,Point estimates and 95% intervals,1646,12eb30f75e1fb87e8aaca9518b4b7905689b82561f7da8ea265cdaf7768b8b01
+results/summary/conflict_classification.csv,paper summary,4,"Evidence-side, label-side, and tie counts",285,8362115c12a57207da41c39c6fefe78be616d7101f506d73179f5917a49f29e0
+results/summary/cross_model_agreement_by_unit.csv,agreement detail,200,Per-contrast classifications and EO values,46656,089a6227a1e78862ae136154e81e35e915f32028922d3501262ec6e7dba7ed7b
+results/summary/cross_model_agreement_summary.csv,agreement summary,10,Agreement and split statistics,340,df052793dd6b4d0cff8b1860bfe37c8f61707be396409fd6a24b4a8338814bd6
+results/summary/source_stratified_metrics.csv,source analysis,8,Global Attitudes and WVS results,1399,c3528c302911ea6068578396d8c52b9a61f6e69ce711d6148e54cdae9cdfbcc3
+results/summary/illustrative_cases.csv,case analysis,3,Deterministically selected examples,1056,25fe88a2a5f4b3e4f0650cbc8f2ae8405a72ddc3f12c58b38e3d53ac1074c2f1
+results/summary/model_runtime.csv,runtime summary,4,Runtime and fingerprint by model,799,a372bb2fde70fdfff504e644035f99a22e9f3736da58ea1535ee530ef53438bb
+results/summary/paper_results.json,machine-readable summary,,All headline results in one JSON file,12633,758c37fa43652dbcfb2b82dbaa4b9c764ccbce7953f3a291bb97e67c2b691ac5
+results/summary/RESULTS.md,human-readable summary,,Concise report with all paper-facing outputs,5218,c41aed402c9cdace1b08bcbe295d2725851fa77a8cb3adf185246abc4beb516b
+results/figures/cue_effects.pdf,figure,,Vector Figure 2,15659,797b9f5de0f5eb6b6e7b1b0d72f592f1f01592646f325b79eaa853fd04a54885
+results/figures/cue_effects.png,figure,,Raster Figure 2,65524,11ddfeae55103a36769c3981144e55fc7c4ac24e41ee0d4b36df0c7a3bcaadf1
+results/latex/main_metrics_rows.tex,LaTeX rows,4,Table 2 body,460,c270b4d7cef1915ce63aeb23820390d6de0de54c1a62983fa86357e1c37e220d
+results/latex/conflict_rows.tex,LaTeX rows,4,Table 3 body,438,acd9f49b3e17343f2bdaca8ac6b3bbb469429ab612e13e036aa13865ea91beab
+results/latex/illustrative_cases_rows.tex,LaTeX rows,3,Table 4 body,676,d523a5c61b09dff81a84cbe4a78ca2ec529b02ed3aaf6c98b3ced07320ae5cb5

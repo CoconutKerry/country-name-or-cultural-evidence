@@ -1,0 +1,30 @@
+{
+  "completed_at_utc": "2026-08-31T23:56:37.989696+00:00",
+  "conditions": [
+    "baseline",
+    "country_label",
+    "evidence",
+    "conflict"
+  ],
+  "conflict_classification_counts": {
+    "evidence-side": 171,
+    "label-side": 29
+  },
+  "directed_units": 200,
+  "elapsed_seconds": 3423.0502008190015,
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_identifier": "bartowski/Mistral-7B-Instruct-v0.3-GGUF@61fd4167fff3ab01ee1cfe0da183fa27a944db48:Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+  "model_revision": "61fd4167fff3ab01ee1cfe0da183fa27a944db48",
+  "newly_completed_rows": 248,
+  "newly_completed_units": 62,
+  "question_clusters": 44,
+  "results_path": "/workspace/scratch/b559804f604f/mistral_source_clean_PtWvXK/mistral-7b-instruct-v0.3-repaired-source-v1/experiments/mistral_gguf_full/results.jsonl",
+  "resumed_rows": 552,
+  "resumed_units": 138,
+  "rows": 800,
+  "run_fingerprint": "517bfed01deed63bb45a20c80762b9aba772bb016296b9d7d2f44643688be94f",
+  "schema_version": "mistral-gguf-full-v2",
+  "status": "PASS",
+  "target_units": 144,
+  "unique_directed_condition_keys": 800
+}

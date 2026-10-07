@@ -1,0 +1,42 @@
+$ make reproduce
+PYTHONPATH=src python3 scripts/reproduce_analysis.py
+{
+  "predictions": 3200,
+  "target_unit_metrics": 576,
+  "directed_unit_metrics": 800,
+  "models": [
+    "gemma",
+    "llama",
+    "mistral",
+    "qwen"
+  ],
+  "question_clusters": 44,
+  "status": "PASS"
+}
+PYTHONPATH=src python3 scripts/make_figure2.py
+Generated Figure 2 with Tinos.
+python3 scripts/export_release_metadata.py
+Wrote result and provenance metadata.
+PYTHONPATH=src python3 scripts/verify_release.py
+VERIFY PASS: 3,200 rows, 144 targets/model, 200 directed contrasts/model, published metrics reproduced.
+PYTHONPATH=src python3 -m pytest -q
+....                                                                     [100%]
+4 passed in 1.69s
+
+$ make validate-inference
+python3 scripts/validate_inference_sources.py
+==> validating qwen2.5-7b-instruct
+.............................................................................. [ 89%]
+.........                                                                [100%]
+87 passed, 19218 subtests passed in 2.56s
+==> validating llama-3.1-8b-instruct
+...............................................              [100%]
+47 passed, 12 subtests passed in 0.57s
+==> validating mistral-7b-instruct-v0.3
+.............................................            [100%]
+45 passed, 16 subtests passed in 0.47s
+==> validating gemma-2-9b-it
+............................................................ [ 98%]
+.                                                                        [100%]
+61 passed, 12 subtests passed in 1.42s
+INFERENCE SOURCE TESTS PASS

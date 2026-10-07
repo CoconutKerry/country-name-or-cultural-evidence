@@ -1,0 +1,55 @@
+{
+  "helper_ldd": "linux-vdso.so.1 (0x00007f7c5dc3b000)\n\tlibllama.so.0 => /workspace/scratch/1ec176fb5364/runtime/llama.cpp/build-cpu/bin/libllama.so.0 (0x00007f7c5d82c000)\n\tlibggml.so.0 => /workspace/scratch/1ec176fb5364/runtime/llama.cpp/build-cpu/bin/libggml.so.0 (0x00007f7c5d81f000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f7c5d599000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f7c5d4b0000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f7c5d482000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f7c5d26e000)\n\tlibggml-base.so.0 => /workspace/scratch/1ec176fb5364/runtime/llama.cpp/build-cpu/bin/libggml-base.so.0 (0x00007f7c5d199000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007f7c5dc3d000)\n\tlibggml-cpu.so.0 => /workspace/scratch/1ec176fb5364/runtime/llama.cpp/build-cpu/bin/libggml-cpu.so.0 (0x00007f7c5cfd8000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007f7c5cf82000)",
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_files": [
+    {
+      "actual_sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+      "actual_size_bytes": 3993201344,
+      "filename": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+      "local_path": "/workspace/scratch/1ec176fb5364/runtime/models/Qwen2.5-7B-Instruct-GGUF-Q4_K_M/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+      "role": "selected_entrypoint",
+      "sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+      "size_bytes": 3993201344,
+      "verified": true
+    },
+    {
+      "actual_sha256": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a",
+      "actual_size_bytes": 689872288,
+      "filename": "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf",
+      "local_path": "/workspace/scratch/1ec176fb5364/runtime/models/Qwen2.5-7B-Instruct-GGUF-Q4_K_M/qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf",
+      "role": "companion_shard",
+      "sha256": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a",
+      "size_bytes": 689872288,
+      "verified": true
+    }
+  ],
+  "recorded_at_utc": "2026-08-31T01:28:58.566176+00:00",
+  "remote_model_last_modified": "2024-09-20T06:38:28.000Z",
+  "remote_weight_commit": "293ca9a10157b0e5fc5cb32af8b636a88bede891",
+  "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5",
+  "runtime": {
+    "actual_context_size": 4096,
+    "backend": "llama.cpp",
+    "candidate_scoring": "full_vocabulary_low_level_logits",
+    "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- messages[0]['content'] }}\n    {%- else %}\n        {{- 'You are Qwen, created by Alibaba Cloud. You are a helpful assistant.' }}\n    {%- endif %}\n    {{- \"\\n\\n# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0]['role'] == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0]['content'] + '<|im_end|>\\n' }}\n    {%- else %}\n        {{- '<|im_start|>system\\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- for message in messages %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) or (message.role == \"assistant\" and not message.tool_calls) %}\n        {{- '<|im_start|>' + message.role + '\\n' + message.content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {{- '<|im_start|>' + message.role }}\n        {%- if message.content %}\n            {{- '\\n' + message.content }}\n        {%- endif %}\n        {%- for tool_call in message.tool_calls %}\n            {%- if tool_call.function is defined %}\n                {%- set tool_call = tool_call.function %}\n            {%- endif %}\n            {{- '\\n<tool_call>\\n{\"name\": \"' }}\n            {{- tool_call.name }}\n            {{- '\", \"arguments\": ' }}\n            {{- tool_call.arguments | tojson }}\n            {{- '}\\n</tool_call>' }}\n        {%- endfor %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if (loop.index0 == 0) or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- message.content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n{%- endif %}\n",
+    "chat_template_sha256": "d5495a1e5db0611132a97e46a65dbb64a642a499421228b9c8b93229097fa9a4",
+    "chat_template_source": "embedded_gguf_metadata",
+    "generated_answer_parsing": false,
+    "gpu_layers": 0,
+    "llama_system_info": "CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | AVX512 = 1 | AVX512_VBMI = 1 | AVX512_VNNI = 1 | AVX512_BF16 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+    "llama_version": "0.3.0-dev",
+    "loaded_model_size_bytes": 4677120000,
+    "model_description": "qwen2 7B Q4_K - Medium",
+    "model_identifier": "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M",
+    "model_parameter_count": 7615616512,
+    "model_path": "/workspace/scratch/1ec176fb5364/runtime/models/Qwen2.5-7B-Instruct-GGUF-Q4_K_M/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+    "quantization": "Q4_K_M",
+    "repository": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "requested_context_size": 4096,
+    "revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+    "synthetic": false,
+    "threads": 8,
+    "type": "ready",
+    "vocabulary_size": 152064
+  }
+}

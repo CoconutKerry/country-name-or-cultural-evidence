@@ -1,0 +1,381 @@
+{
+  "$id": "https://example.invalid/cultural-alignment/qwen-gguf-full-v2.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "condition": {
+            "enum": [
+              "baseline",
+              "country_label"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence_presented": {
+            "const": false
+          },
+          "presented_evidence_distribution": {
+            "type": "null"
+          },
+          "source_evidence_distribution": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "condition": {
+            "enum": [
+              "evidence",
+              "conflict"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence_presented": {
+            "const": true
+          },
+          "presented_evidence_distribution": {
+            "additionalProperties": {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            "description": "Semantic-option probability map; finite values sum to one.",
+            "minProperties": 2,
+            "type": "object"
+          },
+          "source_evidence_distribution": {
+            "additionalProperties": {
+              "maximum": 1.0,
+              "minimum": 0.0,
+              "type": "number"
+            },
+            "description": "Semantic-option probability map; finite values sum to one.",
+            "minProperties": 2,
+            "type": "object"
+          }
+        }
+      }
+    }
+  ],
+  "properties": {
+    "EO_normalized": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "type": "number"
+    },
+    "EO_raw": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "type": "number"
+    },
+    "backend": {
+      "const": "llama.cpp"
+    },
+    "base2_jensen_shannon_divergences": {
+      "additionalProperties": {
+        "maximum": 1.0,
+        "minimum": 0.0,
+        "type": "number"
+      },
+      "minProperties": 7,
+      "type": "object"
+    },
+    "candidate_label_token_ids": {
+      "additionalProperties": {
+        "items": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "minItems": 1,
+        "type": "array"
+      },
+      "minProperties": 2,
+      "type": "object"
+    },
+    "condition": {
+      "enum": [
+        "baseline",
+        "country_label",
+        "evidence",
+        "conflict"
+      ]
+    },
+    "country_influence": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "type": "number"
+    },
+    "displayed_label_to_option": {
+      "additionalProperties": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minProperties": 2,
+      "type": "object"
+    },
+    "displayed_option_labels": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 2,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "displayed_options": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 2,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "evidence_country": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "evidence_country_human_distribution": {
+      "additionalProperties": {
+        "maximum": 1.0,
+        "minimum": 0.0,
+        "type": "number"
+      },
+      "description": "Semantic-option probability map; finite values sum to one.",
+      "minProperties": 2,
+      "type": "object"
+    },
+    "evidence_influence": {
+      "maximum": 1.0,
+      "minimum": -1.0,
+      "type": "number"
+    },
+    "evidence_presented": {
+      "type": "boolean"
+    },
+    "generated_answer": {
+      "type": "null"
+    },
+    "jensen_shannon_base": {
+      "const": 2
+    },
+    "jensen_shannon_measure": {
+      "const": "divergence_bits"
+    },
+    "label_country": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "label_country_human_distribution": {
+      "additionalProperties": {
+        "maximum": 1.0,
+        "minimum": 0.0,
+        "type": "number"
+      },
+      "description": "Semantic-option probability map; finite values sum to one.",
+      "minProperties": 2,
+      "type": "object"
+    },
+    "model_identifier": {
+      "const": "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M"
+    },
+    "model_name": {
+      "const": "Qwen2.5-7B-Instruct-GGUF-Q4_K_M"
+    },
+    "model_repository": {
+      "const": "Qwen/Qwen2.5-7B-Instruct-GGUF"
+    },
+    "model_revision": {
+      "const": "bb5d59e06d9551d752d08b292a50eb208b07ab1f"
+    },
+    "normalized_label_probabilities": {
+      "additionalProperties": {
+        "maximum": 1.0,
+        "minimum": 0.0,
+        "type": "number"
+      },
+      "description": "Semantic-option probability map; finite values sum to one.",
+      "minProperties": 2,
+      "type": "object"
+    },
+    "normalized_prediction": {
+      "additionalProperties": {
+        "maximum": 1.0,
+        "minimum": 0.0,
+        "type": "number"
+      },
+      "description": "Semantic-option probability map; finite values sum to one.",
+      "minProperties": 2,
+      "type": "object"
+    },
+    "original_options": {
+      "items": {
+        "minLength": 1,
+        "type": "string"
+      },
+      "minItems": 2,
+      "type": "array",
+      "uniqueItems": true
+    },
+    "presented_evidence_distribution": {
+      "oneOf": [
+        {
+          "additionalProperties": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "description": "Semantic-option probability map; finite values sum to one.",
+          "minProperties": 2,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "quantization": {
+      "type": "object"
+    },
+    "question_id": {
+      "pattern": "^Q[0-9]{4}$",
+      "type": "string"
+    },
+    "raw_candidate_scores": {
+      "additionalProperties": {
+        "type": "number"
+      },
+      "minProperties": 2,
+      "type": "object"
+    },
+    "raw_user_prompt": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "qwen-gguf-full-v2"
+    },
+    "scoring_method": {
+      "const": "full_contextual_option_label_sequence_log_probability"
+    },
+    "scoring_trace": {
+      "type": "object"
+    },
+    "serialized_chat_templated_prompt": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "serialized_prompt_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "source_evidence_distribution": {
+      "oneOf": [
+        {
+          "additionalProperties": {
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "type": "number"
+          },
+          "description": "Semantic-option probability map; finite values sum to one.",
+          "minProperties": 2,
+          "type": "object"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "structured_messages": {
+      "items": {
+        "properties": {
+          "content": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "role": {
+            "enum": [
+              "system",
+              "user",
+              "assistant"
+            ]
+          }
+        },
+        "required": [
+          "role",
+          "content"
+        ],
+        "type": "object"
+      },
+      "minItems": 2,
+      "type": "array"
+    },
+    "synthetic": {
+      "const": false
+    },
+    "target_unit_id": {
+      "minLength": 1,
+      "type": "string"
+    },
+    "unit_id": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "question_id",
+    "label_country",
+    "evidence_country",
+    "condition",
+    "unit_id",
+    "target_unit_id",
+    "model_name",
+    "model_identifier",
+    "model_repository",
+    "model_revision",
+    "backend",
+    "synthetic",
+    "quantization",
+    "structured_messages",
+    "raw_user_prompt",
+    "serialized_chat_templated_prompt",
+    "serialized_prompt_sha256",
+    "original_options",
+    "displayed_options",
+    "displayed_option_labels",
+    "displayed_label_to_option",
+    "candidate_label_token_ids",
+    "raw_candidate_scores",
+    "normalized_label_probabilities",
+    "normalized_prediction",
+    "label_country_human_distribution",
+    "evidence_country_human_distribution",
+    "presented_evidence_distribution",
+    "source_evidence_distribution",
+    "evidence_presented",
+    "scoring_method",
+    "scoring_trace",
+    "generated_answer",
+    "jensen_shannon_base",
+    "jensen_shannon_measure",
+    "base2_jensen_shannon_divergences",
+    "country_influence",
+    "evidence_influence",
+    "EO_raw",
+    "EO_normalized"
+  ],
+  "title": "Cultural alignment Qwen GGUF full-run result row",
+  "type": "object"
+}

@@ -1,0 +1,66 @@
+COMPLETE UNIT TEST SUITE
+========================
+Command: /opt/pyvenv/bin/python -m unittest discover -s tests -p test_*.py -v
+
+Loading fake from fake/model...
+Model loaded; prompt tensors will use cuda:0
+test_distribution_must_contain_every_canonical_option (test_data_loader.DataLoaderSchemaTests.test_distribution_must_contain_every_canonical_option) ... ok
+test_distribution_must_not_contain_extra_options (test_data_loader.DataLoaderSchemaTests.test_distribution_must_not_contain_extra_options) ... ok
+test_exact_pair_schema_is_accepted (test_data_loader.DataLoaderSchemaTests.test_exact_pair_schema_is_accepted) ... ok
+test_pair_options_must_match_canonical_order_and_membership (test_data_loader.DataLoaderSchemaTests.test_pair_options_must_match_canonical_order_and_membership) ... ok
+test_complete_sequence_scores_map_to_displayed_semantics (test_gguf_runner.GGUFRunnerTests.test_complete_sequence_scores_map_to_displayed_semantics) ... ok
+test_missing_candidate_label_fails_closed (test_gguf_runner.GGUFRunnerTests.test_missing_candidate_label_fails_closed) ... ok
+test_qwen_default_system_serialization_is_explicit_and_byte_exact (test_gguf_runner.GGUFRunnerTests.test_qwen_default_system_serialization_is_explicit_and_byte_exact) ... ok
+test_main_run_requires_explicit_approval_before_any_setup (test_guardrails.RunGuardrailTests.test_main_run_requires_explicit_approval_before_any_setup) ... ok
+test_pilot_run_is_also_approval_gated (test_guardrails.RunGuardrailTests.test_pilot_run_is_also_approval_gated) ... ok
+test_partial_marker_and_condition_prefix_fail_closed (test_llama_full_gates.RowGranularCheckpointTests.test_partial_marker_and_condition_prefix_fail_closed) ... ok
+test_unfinalized_four_row_checkpoint_resumes_with_zero_inference (test_llama_full_gates.RowGranularCheckpointTests.test_unfinalized_four_row_checkpoint_resumes_with_zero_inference) ... ok
+test_exact_pass_artifacts_open_gate_and_are_hash_bound (test_llama_full_gates.SmokePassGateTests.test_exact_pass_artifacts_open_gate_and_are_hash_bound) ... ok
+test_full_entrypoint_requires_smoke_artifacts_before_filesystem_mutation (test_llama_full_gates.SmokePassGateTests.test_full_entrypoint_requires_smoke_artifacts_before_filesystem_mutation) ... ok
+test_gate_rejects_fail_status_false_assertion_and_missing_required_assertion (test_llama_full_gates.SmokePassGateTests.test_gate_rejects_fail_status_false_assertion_and_missing_required_assertion) ... ok
+test_gate_rejects_model_substitution_and_nonreciprocal_rows (test_llama_full_gates.SmokePassGateTests.test_gate_rejects_model_substitution_and_nonreciprocal_rows) ... ok
+test_analysis_uses_question_clustered_bootstrap (test_llama_gguf_contract.LlamaGGUFContractTests.test_analysis_uses_question_clustered_bootstrap) ... ok
+test_cpp_helper_scores_complete_contextual_candidate_sequences (test_llama_gguf_contract.LlamaGGUFContractTests.test_cpp_helper_scores_complete_contextual_candidate_sequences) ... ok
+test_exact_model_provenance_is_pinned (test_llama_gguf_contract.LlamaGGUFContractTests.test_exact_model_provenance_is_pinned) ... ok
+test_llama_cpp_and_data_revisions_are_pinned (test_llama_gguf_contract.LlamaGGUFContractTests.test_llama_cpp_and_data_revisions_are_pinned) ... ok
+test_llama_outputs_use_explicit_metric_and_evidence_schema (test_llama_gguf_contract.LlamaGGUFContractTests.test_llama_outputs_use_explicit_metric_and_evidence_schema) ... ok
+test_llama_serialization_contract_and_default_preamble (test_llama_gguf_contract.LlamaGGUFContractTests.test_llama_serialization_contract_and_default_preamble) ... ok
+test_raw_template_accepts_literal_or_jinja_bos_and_rejects_missing_bos (test_llama_gguf_contract.LlamaGGUFContractTests.test_raw_template_accepts_literal_or_jinja_bos_and_rejects_missing_bos) ... ok
+test_smoke_units_and_cross_model_permutations_are_fixed (test_llama_gguf_contract.LlamaGGUFContractTests.test_smoke_units_and_cross_model_permutations_are_fixed) ... ok
+test_exactly_one_verified_gguf_identity_is_accepted (test_llama_package_contract.LlamaPackageContractTests.test_exactly_one_verified_gguf_identity_is_accepted) ... ok
+test_selected_repository_members_respect_exclusion_policy (test_llama_package_contract.LlamaPackageContractTests.test_selected_repository_members_respect_exclusion_policy) ... ok
+test_weights_runtime_fragments_and_legacy_outputs_are_excluded (test_llama_package_contract.LlamaPackageContractTests.test_weights_runtime_fragments_and_legacy_outputs_are_excluded) ... ok
+test_compute_all_metrics_uses_explicit_evidence_override_keys (test_metrics.DistributionAndMetricTests.test_compute_all_metrics_uses_explicit_evidence_override_keys) ... ok
+test_evidence_override_compatibility_alias_is_raw_metric (test_metrics.DistributionAndMetricTests.test_evidence_override_compatibility_alias_is_raw_metric) ... ok
+test_evidence_override_normalized_exact_reference_endpoints (test_metrics.DistributionAndMetricTests.test_evidence_override_normalized_exact_reference_endpoints) ... ok
+test_evidence_override_normalized_rejects_identical_references (test_metrics.DistributionAndMetricTests.test_evidence_override_normalized_rejects_identical_references) ... ok
+test_evidence_override_raw_sign (test_metrics.DistributionAndMetricTests.test_evidence_override_raw_sign) ... ok
+test_js_divergence_rejects_incompatible_option_keys (test_metrics.DistributionAndMetricTests.test_js_divergence_rejects_incompatible_option_keys) ... ok
+test_js_divergence_uses_base_two (test_metrics.DistributionAndMetricTests.test_js_divergence_uses_base_two) ... ok
+test_probability_normalization (test_metrics.DistributionAndMetricTests.test_probability_normalization) ... ok
+test_probability_normalization_rejects_invalid_values (test_metrics.DistributionAndMetricTests.test_probability_normalization_rejects_invalid_values) ... ok
+test_core_conditions_share_one_prompt_skeleton (test_prompts.PromptAndEvidenceTests.test_core_conditions_share_one_prompt_skeleton) ... ok
+test_option_permutation_seed_is_target_not_conflict_specific (test_prompts.PromptAndEvidenceTests.test_option_permutation_seed_is_target_not_conflict_specific) ... ok
+test_presented_evidence_sums_exactly_and_matches_text (test_prompts.PromptAndEvidenceTests.test_presented_evidence_sums_exactly_and_matches_text) ... ok
+test_chat_template_and_label_separator_are_model_specific (test_scoring.OptionLabelScoringTests.test_chat_template_and_label_separator_are_model_specific) ... ok
+test_hub_verified_revision_does_not_require_private_tokenizer_commit_field (test_scoring.OptionLabelScoringTests.test_hub_verified_revision_does_not_require_private_tokenizer_commit_field) ... ok
+test_log_score_normalization_is_stable (test_scoring.OptionLabelScoringTests.test_log_score_normalization_is_stable) ... ok
+test_log_score_normalization_rejects_invalid_inputs (test_scoring.OptionLabelScoringTests.test_log_score_normalization_rejects_invalid_inputs) ... ok
+test_option_permutation_recovers_semantic_distribution (test_scoring.OptionLabelScoringTests.test_option_permutation_recovers_semantic_distribution) ... ok
+test_production_loop_sums_all_tokens_of_each_label (test_scoring.OptionLabelScoringTests.test_production_loop_sums_all_tokens_of_each_label) ... ok
+test_shared_answer_prefixes_are_scored_by_option_label (test_scoring.OptionLabelScoringTests.test_shared_answer_prefixes_are_scored_by_option_label)
+Long answers sharing a first word must retain distinct A/B scores. ... ok
+test_runbook_packages_outside_project_root (test_source_package_completeness.SourcePackageCompletenessTests.test_runbook_packages_outside_project_root) ... ok
+test_smoke_protected_gate_files_are_packaged (test_source_package_completeness.SourcePackageCompletenessTests.test_smoke_protected_gate_files_are_packaged) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.546s
+
+OK
+
+REPAIRED DATA VALIDATION
+========================
+Command: /opt/pyvenv/bin/python scripts/validate_data.py
+
+DATA VALIDATION PASS: 1038 questions, 200 unique reciprocal directed units, base-2 divergences verified
+

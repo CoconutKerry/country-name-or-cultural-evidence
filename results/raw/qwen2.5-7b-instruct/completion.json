@@ -1,0 +1,28 @@
+{
+  "completed_at_utc": "2026-08-31T02:11:17.329281+00:00",
+  "conditions": [
+    "baseline",
+    "country_label",
+    "evidence",
+    "conflict"
+  ],
+  "conflict_classification_counts": {
+    "evidence-side": 189,
+    "label-side": 11
+  },
+  "directed_units": 200,
+  "elapsed_seconds": 2548.517024175999,
+  "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+  "model_identifier": "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M",
+  "model_revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+  "newly_completed_units": 200,
+  "question_clusters": 44,
+  "results_path": "/workspace/scratch/1ec176fb5364/combined/cultural-alignment-audit-main/experiments/qwen_gguf_full/results.jsonl",
+  "resumed_units": 0,
+  "rows": 800,
+  "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5",
+  "schema_version": "qwen-gguf-full-v2",
+  "status": "PASS",
+  "target_units": 144,
+  "unique_directed_condition_keys": 800
+}

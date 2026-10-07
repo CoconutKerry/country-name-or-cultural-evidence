@@ -1,0 +1,199 @@
+{
+  "schema_version": "source-package-manifest-v1",
+  "archive_root": "mistral-7b-instruct-v0.3-repaired-source-v1",
+  "model_weights_included": false,
+  "runtime_outputs_included": false,
+  "legacy_outputs_included": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 565,
+      "sha256": "e0469cdcf9639b7f1e3bc7e22129afe8823b1346929deff282d9dc212f97e5ba"
+    },
+    {
+      "path": "RUNBOOK.md",
+      "size_bytes": 1849,
+      "sha256": "470aa700018c9f04c345bb907e3e1bebcaa6337e0d3c5b35ee77435b97ae2ee4"
+    },
+    {
+      "path": "audit/PREINFERENCE_GATE.json",
+      "size_bytes": 4072,
+      "sha256": "416d5c689c494620a8cd0ad21b8486b68de9c824f0839c3f6a926428f3192a01"
+    },
+    {
+      "path": "audit/PREINFERENCE_TEST_RESULTS.txt",
+      "size_bytes": 7761,
+      "sha256": "8342945e36e364463d7df93fae3e45bac571eccde45ef42f0e7bbec042e8d6eb"
+    },
+    {
+      "path": "data/audit/data_repair_summary.json",
+      "size_bytes": 1806,
+      "sha256": "a4643b3aa875b7c1c8cc31b2996e1cdd88c61b8e9d51ae59c581c1d8c6e899ce"
+    },
+    {
+      "path": "data/pairs/country_pairs_smoke.json",
+      "size_bytes": 873,
+      "sha256": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096"
+    },
+    {
+      "path": "data/pairs/country_pairs_v2.json",
+      "size_bytes": 86211,
+      "sha256": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b"
+    },
+    {
+      "path": "data/processed/dataset_v2.json",
+      "size_bytes": 7830968,
+      "sha256": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09"
+    },
+    {
+      "path": "docs/LEGACY_RESULTS_INVALID.md",
+      "size_bytes": 1151,
+      "sha256": "660f897bb21262bc30ca0a910e062270d2af02c7311a59ed7df11dd732745a51"
+    },
+    {
+      "path": "docs/RESULT_SCHEMA.md",
+      "size_bytes": 3427,
+      "sha256": "86866ac72d7026863293170a20624b7f8b9cf7880f412b42944d4bfc661df7d1"
+    },
+    {
+      "path": "docs/experiment_protocol.md",
+      "size_bytes": 5149,
+      "sha256": "5a853d86086aae1be70b723d35a75333e34363d0729cf961496f8ed13a1d273c"
+    },
+    {
+      "path": "docs/prompt_design_notes.md",
+      "size_bytes": 1988,
+      "sha256": "dc1d5470e2537c7995e1b023e2186abe6a7a87eec4bdfa7583718d0f00ab2c93"
+    },
+    {
+      "path": "requirements-inference.lock",
+      "size_bytes": 420,
+      "sha256": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a"
+    },
+    {
+      "path": "scripts/analyze_mistral_gguf.py",
+      "size_bytes": 75738,
+      "sha256": "299cfa26c41437207168fb65850787eb2f1d72f806a8b01e4ee6432d8f3e6b73"
+    },
+    {
+      "path": "scripts/build_gguf_score_helper.py",
+      "size_bytes": 1685,
+      "sha256": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7"
+    },
+    {
+      "path": "scripts/run_genuine_mistral_gguf_smoke.py",
+      "size_bytes": 26016,
+      "sha256": "fe14c273e842d659ab275dc90d465d48477432753b0349d2860ae7ce1aee14d0"
+    },
+    {
+      "path": "scripts/run_mistral_gguf_full.py",
+      "size_bytes": 89987,
+      "sha256": "4a05cc4fa95e5cc64c55b3e5106af430717af83ac012e6db5709beb38dc3a386"
+    },
+    {
+      "path": "scripts/validate_data.py",
+      "size_bytes": 3727,
+      "sha256": "e1fb7b2bf4f29764ae83b4cb85ea8fdb5dd0bcc5e423e14535694b438213aac6"
+    },
+    {
+      "path": "scripts/write_source_preinference_gate.py",
+      "size_bytes": 5087,
+      "sha256": "074b57387027e7370acf62e05677e64480d490b2db3d922b5186c57ad0c7f9a0"
+    },
+    {
+      "path": "src/__init__.py",
+      "size_bytes": 48,
+      "sha256": "bdb93c4e89751d2e0ba5266bd7e251697b4767b3031067f1dc21b88987460935"
+    },
+    {
+      "path": "src/clustered_bootstrap.py",
+      "size_bytes": 16413,
+      "sha256": "dd93f8cc8b9119b809eed868212b6d8508086b169039a9a14d331cba5b720be6"
+    },
+    {
+      "path": "src/data_loader.py",
+      "size_bytes": 7012,
+      "sha256": "d7cfe0011972388380a092823b7eb47c4b17f1266cd33ec7ab7023dbf2d766aa"
+    },
+    {
+      "path": "src/gguf_runner.py",
+      "size_bytes": 24162,
+      "sha256": "f615c1c6be66949f29a7d3e57dd98c4db7a21bcc2a9c3723ad9a9fc19db30b4a"
+    },
+    {
+      "path": "src/gguf_score_helper.cpp",
+      "size_bytes": 22729,
+      "sha256": "86309bf26d2618b75c1cdb6d49c4e5eae2d64042a1555ee96a9b2c5c2e068e64"
+    },
+    {
+      "path": "src/main.py",
+      "size_bytes": 20560,
+      "sha256": "92f7aaf44948d4fa3332ffbe7407602f731b5e430dbea9243db68339cac8685a"
+    },
+    {
+      "path": "src/metrics.py",
+      "size_bytes": 10081,
+      "sha256": "9bb7f775b72b69930ec7b2ca4d46f8c513b4f3c9af64ec11429b316b0d421d41"
+    },
+    {
+      "path": "src/mistral_gguf_contract.py",
+      "size_bytes": 5488,
+      "sha256": "ee2f8d69e8e615e76fd30c07d929291c6bb6d8fc96323ff0d25d230a39babc8b"
+    },
+    {
+      "path": "src/model_runner.py",
+      "size_bytes": 23027,
+      "sha256": "c24a3a4ac0fa00aa16087364e5256bec86f6fd961c3ccd9400e1aab1cb61f10b"
+    },
+    {
+      "path": "src/prompt_builder.py",
+      "size_bytes": 5616,
+      "sha256": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0"
+    },
+    {
+      "path": "src/scoring.py",
+      "size_bytes": 6316,
+      "sha256": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4"
+    },
+    {
+      "path": "tests/__init__.py",
+      "size_bytes": 60,
+      "sha256": "9f0043fcc52decdad62e619583382e5787069b48c5b77a34c3f560a39d708edc"
+    },
+    {
+      "path": "tests/test_data_loader.py",
+      "size_bytes": 3091,
+      "sha256": "52b2713b69632bc0a3379d93d2ac9dfec5220668a4fac5fb2170cf4ef65730e1"
+    },
+    {
+      "path": "tests/test_gguf_runner.py",
+      "size_bytes": 11214,
+      "sha256": "dc858c12ce9a9c5035955523f345771fb9a25d8111d582e79e906dbc054ea287"
+    },
+    {
+      "path": "tests/test_guardrails.py",
+      "size_bytes": 508,
+      "sha256": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "size_bytes": 4214,
+      "sha256": "1c438e051f06adde5abf1abb6e262604ae1b8dfc609be33f64cd897dd703701e"
+    },
+    {
+      "path": "tests/test_mistral_gguf_full.py",
+      "size_bytes": 21769,
+      "sha256": "6b702a2e819de101fceb8142ed907e2fbe1a2810084c518b242c6fa4d59efdd2"
+    },
+    {
+      "path": "tests/test_prompts.py",
+      "size_bytes": 2162,
+      "sha256": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3"
+    },
+    {
+      "path": "tests/test_scoring.py",
+      "size_bytes": 9965,
+      "sha256": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812"
+    }
+  ]
+}

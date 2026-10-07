@@ -1,0 +1,124 @@
+{
+  "qwen": {
+    "display_name": "Qwen2.5-7B-Instruct",
+    "result_file": "results/raw/qwen2.5-7b-instruct/results.jsonl.gz",
+    "model_identifier": "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M",
+    "repository": "Qwen/Qwen2.5-7B-Instruct-GGUF",
+    "revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+    "quantization": "Q4_K_M",
+    "model_files": [
+      {
+        "filename": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+        "size_bytes": 3993201344,
+        "sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+        "role": "selected_entrypoint"
+      },
+      {
+        "filename": "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf",
+        "size_bytes": 689872288,
+        "sha256": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a",
+        "role": "companion_shard"
+      }
+    ],
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "chat_template_sha256": "d5495a1e5db0611132a97e46a65dbb64a642a499421228b9c8b93229097fa9a4",
+    "chat_template_source": "embedded_gguf_metadata",
+    "context_size": 4096,
+    "threads_used": 8,
+    "gpu_layers": 0,
+    "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5",
+    "completed_at_utc": "2026-08-31T02:11:17.329281+00:00",
+    "elapsed_seconds": 2548.517024175999,
+    "rows": 800,
+    "directed_units": 200,
+    "target_units": 144,
+    "question_clusters": 44
+  },
+  "llama": {
+    "display_name": "Llama-3.1-8B-Instruct",
+    "result_file": "results/raw/llama-3.1-8b-instruct/results.jsonl.gz",
+    "model_identifier": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:Q4_K_M",
+    "repository": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+    "revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+    "quantization": "Q4_K_M",
+    "model_files": [
+      {
+        "filename": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+        "size_bytes": 4920739232,
+        "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+        "role": "selected_entrypoint"
+      }
+    ],
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "chat_template_sha256": "e10ca381b1ccc5cf9db52e371f3b6651576caee0a630b452e2816b2d404d4b65",
+    "chat_template_source": "embedded_gguf_metadata",
+    "context_size": 4096,
+    "threads_used": 8,
+    "gpu_layers": 0,
+    "run_fingerprint": "ecd01540748b126d8a5390374c1256a7a8d447a78622493d0ac239285b725b1f",
+    "completed_at_utc": "2026-08-31T23:16:38.318310+00:00",
+    "elapsed_seconds": 737.4855243429993,
+    "rows": 800,
+    "directed_units": 200,
+    "target_units": 144,
+    "question_clusters": 44
+  },
+  "mistral": {
+    "display_name": "Mistral-7B-Instruct-v0.3",
+    "result_file": "results/raw/mistral-7b-instruct-v0.3/results.jsonl.gz",
+    "model_identifier": "bartowski/Mistral-7B-Instruct-v0.3-GGUF@61fd4167fff3ab01ee1cfe0da183fa27a944db48:Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+    "repository": "bartowski/Mistral-7B-Instruct-v0.3-GGUF",
+    "revision": "61fd4167fff3ab01ee1cfe0da183fa27a944db48",
+    "quantization": "Q4_K_M",
+    "model_files": [
+      {
+        "filename": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf",
+        "size_bytes": 4372812000,
+        "sha256": "1270d22c0fbb3d092fb725d4d96c457b7b687a5f5a715abe1e818da303e562b6",
+        "role": "selected_entrypoint"
+      }
+    ],
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "chat_template_sha256": "26a59556925c987317ce5291811ba3b7f32ec4c647c400c6cc7e3a9993007ba7",
+    "chat_template_source": "embedded_gguf_metadata",
+    "context_size": 4096,
+    "threads_used": 9,
+    "gpu_layers": 0,
+    "run_fingerprint": "517bfed01deed63bb45a20c80762b9aba772bb016296b9d7d2f44643688be94f",
+    "completed_at_utc": "2026-08-31T23:56:37.989696+00:00",
+    "elapsed_seconds": 3423.0502008190015,
+    "rows": 800,
+    "directed_units": 200,
+    "target_units": 144,
+    "question_clusters": 44
+  },
+  "gemma": {
+    "display_name": "Gemma-2-9B-It",
+    "result_file": "results/raw/gemma-2-9b-it/results.jsonl.gz",
+    "model_identifier": "bartowski/gemma-2-9b-it-GGUF:Q4_K_M",
+    "repository": "bartowski/gemma-2-9b-it-GGUF",
+    "revision": "d731033f3dc4018261fd39896e50984d398b4ac5",
+    "quantization": "Q4_K_M",
+    "model_files": [
+      {
+        "filename": "gemma-2-9b-it-Q4_K_M.gguf",
+        "size_bytes": 5761057728,
+        "sha256": "13b2a7b4115bbd0900162edcebe476da1ba1fc24e718e8b40d32f6e300f56dfe",
+        "role": "selected_entrypoint"
+      }
+    ],
+    "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+    "chat_template_sha256": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+    "chat_template_source": "embedded_gguf_metadata",
+    "context_size": 4096,
+    "threads_used": 8,
+    "gpu_layers": 0,
+    "run_fingerprint": "a5e7cad6e2122293bdf1ed9e6867bed1ec689b04cc67a7236cd2b5625468f23f",
+    "completed_at_utc": "2026-09-01T00:19:37.118745+00:00",
+    "elapsed_seconds": 1399.4975619260003,
+    "rows": 800,
+    "directed_units": 200,
+    "target_units": 144,
+    "question_clusters": 44
+  }
+}

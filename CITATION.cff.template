@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite the paper associated with this repository."
+title: "Country Name or Cultural Evidence? A Causal Audit of Population-Grounded Steering in Large Language Models"
+type: software
+version: 1.0.0
+# Add the final author list, release date, repository URL, and proceedings DOI
+# after anonymous review, then rename this file to CITATION.cff.

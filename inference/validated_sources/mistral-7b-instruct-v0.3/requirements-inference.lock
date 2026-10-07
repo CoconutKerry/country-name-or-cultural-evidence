@@ -1,0 +1,14 @@
+# Frozen direct dependencies for the repaired inference and analysis pipeline.
+# Install in a fresh Python 3.12 environment, then record `pip freeze` with the
+# result artifact so platform-specific transitive packages are also captured.
+torch==2.5.1
+transformers==4.46.3
+accelerate==1.1.1
+tokenizers==0.20.3
+safetensors==0.4.5
+huggingface-hub==0.26.2
+numpy==2.1.3
+scipy==1.14.1
+pandas==2.2.3
+PyYAML==6.0.2
+pytest==8.3.3

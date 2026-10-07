@@ -1,0 +1,47 @@
+# Smoke-only configuration. This file must never be used for scientific results.
+project:
+  name: "cultural-alignment-audit"
+  version: "1.0.0-smoke"
+  description: "Deterministic end-to-end smoke test for the repaired pipeline"
+
+data:
+  source: "GlobalOpinionQA"
+  dataset_path: "data/processed/dataset_v2.json"
+  pairs_path: "data/pairs/country_pairs_smoke.json"
+
+models:
+  - name: "deterministic-smoke-v1"
+    hub_id: "deterministic://option-label-v1"
+    family: "smoke"
+    backend: "deterministic_smoke"
+
+conditions:
+  - baseline
+  - country_label
+  - population_evidence
+  - conflict
+
+experiment:
+  smoke:
+    question_pairs: 2
+    directed_units: 2
+    expected_records: 8
+    models:
+      - "deterministic-smoke-v1"
+    synthetic_backend: true
+    scientific_inference: false
+
+inference:
+  backend: "deterministic_smoke"
+  temperature: 0.0
+  do_sample: false
+  batch_size: 1
+
+output:
+  base_dir: "experiments/"
+  log_level: "INFO"
+  save_logits: false
+  save_full_outputs: true
+
+shuffle_options: true
+seed: 42

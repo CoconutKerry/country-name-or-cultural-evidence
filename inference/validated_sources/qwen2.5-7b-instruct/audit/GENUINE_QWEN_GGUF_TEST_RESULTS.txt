@@ -1,0 +1,23 @@
+Genuine Qwen GGUF CPU smoke — final validation
+Date: 2026-08-30 UTC
+
+PASS  Python unit suite: 62 tests
+PASS  Repaired data validation: 1,038 questions; 200 unique reciprocal units
+PASS  C++ helper compilation against pinned llama.cpp checkout
+PASS  Official GGUF shard size and SHA-256 verification
+PASS  Final artifact cardinality: 8 rows; 2 reciprocal units; 4 conditions
+PASS  Byte-exact Qwen2.5 system/user/assistant chat serialization
+PASS  Contextual candidate token IDs and answer-position logit indices
+PASS  Full-score softmax and semantic option-permutation recovery
+PASS  Independent base-2 JSD, Country Influence, Evidence Influence, and
+      Evidence Override recomputation
+PASS  Same-first-word semantic-option independence in all 8 rows
+PASS  Independent first-row genuine-model re-score
+PASS  Protected Colab/full-run gate hashes unchanged
+
+No synthetic fallback, answer generation, additional model, full experiment,
+or 200-unit run was used.
+
+Note: A, B, C, and D were each one token for this Qwen tokenizer. Multi-token
+sequence scoring is implemented in the C++ backend but was not dynamically
+activated by this smoke's candidate-label set.

@@ -1,0 +1,1842 @@
+{
+  "created_at_utc": "2026-08-31T02:15:16.281910+00:00",
+  "exclusion_note": "Pinned model and llama.cpp identities, sizes, hashes, build flags, and environment are recorded, but multi-gigabyte runtime assets are excluded.",
+  "files": [
+    {
+      "archive_path": "cultural-alignment-audit-main/.gitignore",
+      "sha256": "48a0be9cde92664892aa81f9d7b168011bde921f8e099a1112adab6f39812eb5",
+      "size_bytes": 1504
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/README.md",
+      "sha256": "e360dd3bc591701017df05ccb612c35c598b994549a7a970f8e9cbecaf404446",
+      "size_bytes": 6064
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/README_CN.md",
+      "sha256": "1bc32a75c7f82af0e604710eea6c00312d2f55591bad3d75ff2d2c526a5bb0a2",
+      "size_bytes": 3980
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/RUNBOOK_COLAB.md",
+      "sha256": "3116c00a0b631d65ec775512856350008a1e300008eeb1c8911cd79ca243d5c8",
+      "size_bytes": 14612
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/error_analysis_sample.json",
+      "sha256": "1cfc4a56541677265949cee42701a2f11361ba63b250c7c39de1301d9d604ae1",
+      "size_bytes": 73656
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/README_INVALID.md",
+      "sha256": "2bc0d09fdcfa62c71cf9c2256aae8f53b50c4799525ea40b9bbd4c69469c9adb",
+      "size_bytes": 375
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/ablation_results.txt",
+      "sha256": "61e25802ee5a40f5f0d944e422976b081bf75379ad9afc04d3fb81b0394dc220",
+      "size_bytes": 871
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/error_analysis_report.txt",
+      "sha256": "071f3f35e14bf874f47807133958221e08f75a19144151bce7cf70cdf64feee3",
+      "size_bytes": 1079
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/evidence_override_summary.txt",
+      "sha256": "397ad6d496be8293392f1e6b0b27e135993879d34f6aed0bdc7f478a8ec75f63",
+      "size_bytes": 932
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/ablation_results.png",
+      "sha256": "ae5dd3fcd6768f811a852bfc45ccfbf774722eb81932f2dddde81a9dc7579163",
+      "size_bytes": 158495
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/main_all_models_comparison.png",
+      "sha256": "365d035179d4bac60df39a0b4303bdc45ac33f88c8521bfaf3e4e5621b8965f2",
+      "size_bytes": 635649
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/main_comparison.png",
+      "sha256": "4ef3a1ed715e56f7e3ba212830e90ab4b92b7169367839d6182cb47667d788d3",
+      "size_bytes": 315953
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/pilot_bar_chart.png",
+      "sha256": "363e0e1e8142c0c9f6839bdd3c1e167f114219844d0f56a4d00b401c98290570",
+      "size_bytes": 184483
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/pilot_boxplot.png",
+      "sha256": "88908b734db69aaf2b59b6a012337cfc008e8bc161ddc19f6da24d61cbdede64",
+      "size_bytes": 67367
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/pilot_qwen_mistral_comparison.png",
+      "sha256": "f8241e38c7c45aa1ccdc06e8de1ed980a5ce9eeda6613e77f56a4a63496c4896",
+      "size_bytes": 255238
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/figures/pilot_scatter.png",
+      "sha256": "8ecc8e709a467510cd139fd35b33d996be2762483311e0a8567b1f635fc1099a",
+      "size_bytes": 227031
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/main_all_models_summary.txt",
+      "sha256": "c58ca1ea4805aacccf8e33e903d2ff2f8405537e7a9dfde2d5c154c9a2e93145",
+      "size_bytes": 2234
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/main_analysis_summary.txt",
+      "sha256": "f7fae5d469b28b76966c568d0515535b4577964dcfad809422625e6a8b91c24b",
+      "size_bytes": 2032
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/pilot_analysis_summary.txt",
+      "sha256": "adf17c43915d6cfd60aa93010709f8d54fa5eea2536f044ac642b6e83b35de2e",
+      "size_bytes": 1892
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/pilot_full_results.txt",
+      "sha256": "a715386b6dd9763ca18cec7fa963eeca7113d3bf8a5b12c556e4acda7ec6b3d0",
+      "size_bytes": 1686
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/pilot_qwen_mistral_summary.txt",
+      "sha256": "9a0b3608d1e7a8e4a68d36bf57827b30ca2bf989538c7c147c13deb9aa5d678a",
+      "size_bytes": 521
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analysis/output/template_robustness_results.txt",
+      "sha256": "23de1b8f67ccd122d684aa1ac14fc6191cdf2c65ca4d2bfbb61a3f4097493be9",
+      "size_bytes": 688
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_ablation.py",
+      "sha256": "de7d81c0267b1cd09163dfdcfb407d8a525f7c96542181b45f191a27d9b811c9",
+      "size_bytes": 5931
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_all_main.py",
+      "sha256": "4828e973670cf4f1238d6453a6da145153ebe5282419abf1d0db617a590bb2e0",
+      "size_bytes": 10624
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_errors.py",
+      "sha256": "142ee903c2c68689d2eccee8cfff026af56b6627c7c55d7e50dac3a633d237bf",
+      "size_bytes": 2861
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_evidence_override.py",
+      "sha256": "b35fa0757b1ca247175e3391a6c199242b8f0bacf5ffce37ffada29a75a7b12e",
+      "size_bytes": 6992
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_main.py",
+      "sha256": "29d5aeaa9c6e5458bc5d993af2b883adf08b1f3131dd00855877166350f1b7da",
+      "size_bytes": 4993
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_pilot.py",
+      "sha256": "4bd6ce67afac33df6b087ca30023c44a6d5ff98af92c92605a4e9ac444d157c9",
+      "size_bytes": 7321
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_pilot_models.py",
+      "sha256": "a4a1d31cc41a4ce89135a29408dbc48729291fcee59c9b4e6f291d4e08c5948d",
+      "size_bytes": 5216
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_shuffle_robustness.py",
+      "sha256": "04524e6cc41cbbe42ba67491130583450055a3e1d35688fddae7a1acbce42acc",
+      "size_bytes": 2590
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/analyze_template_robustness.py",
+      "sha256": "07500538943e5c8959c4ca9bc15a29a5d8b9d4e5b4d6cdfacb950439571acd62",
+      "size_bytes": 4775
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/AUDIT_REPORT.md",
+      "sha256": "da8f25a33055620f74183f27ce3cfe4c635e30bd99aacef558a874f6de01404b",
+      "size_bytes": 14233
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/COLAB_HANDOFF_VALIDATION.md",
+      "sha256": "0f426c62d3545f2679692e8552208ccdc7adafb6dee8a04e3999c6c9112fa14c",
+      "size_bytes": 4233
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/GENUINE_QWEN_GGUF_CHANGED_FILES.txt",
+      "sha256": "4ef84daa14d99015da04f41c8d284ca213de7a46370a5be65b2ba38590deee44",
+      "size_bytes": 855
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/GENUINE_QWEN_GGUF_PACKAGE_MANIFEST.json",
+      "sha256": "145c72eedfdf1abcd44fe6733e758cc994db9a436c866fc52d97dfa7794159d9",
+      "size_bytes": 7320
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/GENUINE_QWEN_GGUF_SMOKE_REPORT.md",
+      "sha256": "612ad4dfb3cd829f29e2c0c40560c0b7ae51341fcc584faa025901684678e1b6",
+      "size_bytes": 3865
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/GENUINE_QWEN_GGUF_TEST_RESULTS.txt",
+      "sha256": "f61b7079f1212d3ab667fb87ca0cf3f59c56894933ba2af92e7556620c4efaec",
+      "size_bytes": 1164
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/QWEN_GGUF_FULL_CHANGED_FILES.txt",
+      "sha256": "27543b4f3c2856d1ad40fa816eccff7f7edcc42841fbed66d68d26a9ffe37516",
+      "size_bytes": 2230
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/QWEN_GGUF_FULL_GATE_INTEGRITY.json",
+      "sha256": "606365b35fd46f3b3c5b92b149908ad8c9951357f76ffd606d5d73bb99b9a880",
+      "size_bytes": 834
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/QWEN_GGUF_FULL_PREINFERENCE_TEST_RESULTS.txt",
+      "sha256": "06e64b19cdc4c4129805d1f5abbf767263dca50ed2365ea2b1f60d04279b1882",
+      "size_bytes": 15143
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/QWEN_GGUF_FULL_REPORT.md",
+      "sha256": "fcbdc11a7f1ac6f6e1e5eaa5d1c7b941fc41dc43edd56e9431b96aa0eb16cfd9",
+      "size_bytes": 4909
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/QWEN_GGUF_FULL_TEST_RESULTS.txt",
+      "sha256": "bf3aa25a1d74d3a158181c9b7e9ff2344b95683baa9963d46f9b0e6f0050d782",
+      "size_bytes": 16044
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/changed_files.txt",
+      "sha256": "305d0918a1d52019b234eb04835eed754a9f34cdd70ee956f716c93907e12061",
+      "size_bytes": 2995
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/environment.txt",
+      "sha256": "24f29323d2a284fb56e34dc36e309b69a14d40e2f45e32fc4162d49200bf1cfd",
+      "size_bytes": 1070
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/smoke_test.txt",
+      "sha256": "1f232a7ceeaf080e7a6a81c5688d0a1bcad29c56ad32894f6e4a10d7a1743e0e",
+      "size_bytes": 2452
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/source_changes.patch",
+      "sha256": "eb5c5bee29bb5e8150019de54fe4ea42ba34031b4d9991ebdf8e00d801b6e5f8",
+      "size_bytes": 259223
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/audit/test_results.txt",
+      "sha256": "13875faa7313185e6b2c8607c627787578c07eef63867730837be3b76f28114a",
+      "size_bytes": 4681
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/config.yaml",
+      "sha256": "5120bbc21217a073b9e09d7bdaa0d2452614552d107ffcf784e3d83f4c64e753",
+      "size_bytes": 3069
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/config_ablation.yaml",
+      "sha256": "de2e634ac5cc1e9357a25a736158192311029ce083d893cb4390f3df28d5b0fa",
+      "size_bytes": 1076
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/config_mistral.yaml",
+      "sha256": "1e72830de705321327d277a9126334b7c7de24884b3cd646508d84a33eda00a6",
+      "size_bytes": 1008
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/config_smoke.yaml",
+      "sha256": "fc8a6e42cc82e1000187ec89f5e97342cb79aab4ad69327b86a4922759793d55",
+      "size_bytes": 1020
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/cultural_alignment_audit_colab.ipynb",
+      "sha256": "263afd981d3f2165f2bece96c1f8af34293d9139346aa65a0d3cc7d172f3c6d1",
+      "size_bytes": 24145
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/audit/data_repair_summary.json",
+      "sha256": "a4643b3aa875b7c1c8cc31b2996e1cdd88c61b8e9d51ae59c581c1d8c6e899ce",
+      "size_bytes": 1806
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/pairs/country_pairs_smoke.json",
+      "sha256": "c0b4aea31c92a474b17f31699070d1a27d26de5d9a800015b5251d2b7bf60096",
+      "size_bytes": 873
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/pairs/country_pairs_v1.json",
+      "sha256": "6dc6d70890e1a185f86c89c8e1776b9ea8fb6ece0e819912294f5f2965876a98",
+      "size_bytes": 27742
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/pairs/country_pairs_v2.json",
+      "sha256": "429e07b5f2019be15fd9306e4722ff3878fb575c0eb03db7f1c0d1aacbad5d8b",
+      "size_bytes": 86211
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/processed/dataset_v1.json",
+      "sha256": "124daec6262eccef71a3f5fe832104785e6091e2a1a01b4e0e50ef5aa18b1b3e",
+      "size_bytes": 14168685
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/data/processed/dataset_v2.json",
+      "sha256": "8e6a0a35dbb96b049e90b075410b68bc84c0a6fc69fee6b4f2255d6302b26e09",
+      "size_bytes": 7830968
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/docs/LEGACY_RESULTS_INVALID.md",
+      "sha256": "660f897bb21262bc30ca0a910e062270d2af02c7311a59ed7df11dd732745a51",
+      "size_bytes": 1151
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/docs/RESULT_SCHEMA.md",
+      "sha256": "86866ac72d7026863293170a20624b7f8b9cf7880f412b42944d4bfc661df7d1",
+      "size_bytes": 3427
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/docs/experiment_protocol.md",
+      "sha256": "5a853d86086aae1be70b723d35a75333e34363d0729cf961496f8ed13a1d273c",
+      "size_bytes": 5149
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/docs/prompt_design_notes.md",
+      "sha256": "dc1d5470e2537c7995e1b023e2186abe6a7a87eec4bdfa7583718d0f00ab2c93",
+      "size_bytes": 1988
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/docs/qwen_gguf_full_result.schema.json",
+      "sha256": "eb05f2a7e6fc1b9e5bb8470beaffe20b004395e5c11fd04cb2a3594a6790095b",
+      "size_bytes": 8868
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/README_INVALID_LEGACY.md",
+      "sha256": "6dbde6be55919159d64d984c5fc09fe9b4403083bb9e423ef8d5af83e42a7e9a",
+      "size_bytes": 325
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/main/results_main_20260722_232556.json",
+      "sha256": "d94fa6837cad341f880265c0a3e7649bfb827304775068011447c73fec63d608",
+      "size_bytes": 2155783
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/main/results_main_20260725_183748.json",
+      "sha256": "c78882250eb93f06c7178f64f5b34532675c5692dbb2d1562eed60c56f633bd0",
+      "size_bytes": 1401235
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/main/results_main_20260725_184452.json",
+      "sha256": "95b00b00135c1e7a6e1755ff57e9f87782e7130f19937e4d8271f5f6ba4a4e93",
+      "size_bytes": 2157680
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/main/results_main_20260726_220452.json",
+      "sha256": "723ca332cde148de01120dd1aa6e835ababfd69b90281e5ac01594802c5ecdf9",
+      "size_bytes": 1410482
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260721_201519.json",
+      "sha256": "2777c70627c839390c74ead8e4395b387f4d06ad3ea8495ceaecf9cded80511b",
+      "size_bytes": 280434
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260725_165256.json",
+      "sha256": "86651be9381c2578db3a5868294f1d811377cfe2d022bcd997704ebd20e33603",
+      "size_bytes": 280607
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260725_171245.json",
+      "sha256": "48ba397ed26bf8c2d132996b2d795dbca271e8486ce88c11d4e45f8d6b1f5437",
+      "size_bytes": 182344
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260725_183559.json",
+      "sha256": "d8bedf479ad64288a712e15d832f0451ebc28d6a28575fec9e3bd6876d9181be",
+      "size_bytes": 180985
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260803_151644.json",
+      "sha256": "1954d7f033100c498370675850d2963674b5f0ba3edaed829363855d098a7938",
+      "size_bytes": 207865
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260803_153029.json",
+      "sha256": "fa3be80d290ceeba4d0c69464a431adba7a9e0acf6d66b0b1b359eaa99712daa",
+      "size_bytes": 186943
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260803_153759.json",
+      "sha256": "ffead2421b397f37894173cd13972231b6e0f820fc8c8e48dc8114d5831025f0",
+      "size_bytes": 1492
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/pilot/results_pilot_20260803_154517.json",
+      "sha256": "b143c6e29d83fd6d7d54a8efbc53282b17aff25e225bcf24fc69051bb0b20995",
+      "size_bytes": 270896
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/EXPERIMENT_REPORT.md",
+      "sha256": "223ae0d9633c0caefdb613b176f04721889146f7f4871425837850049d4b8fba",
+      "size_bytes": 1873
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/analysis.json",
+      "sha256": "b73906de7a37b794800a84179b32f490fc55ab77fbfb84ddea63fc38af33c27d",
+      "size_bytes": 215108
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/bootstrap_summary.csv",
+      "sha256": "8f99dbd5c550180c8d2dd15beb61b1365631742d8e2a81d2a1f98650c829eb1d",
+      "size_bytes": 431
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_01a069cbd6f8bacd587260c0.json",
+      "sha256": "b9d254292857854cc249f2521e14d98e3173a85fbd774c7586ec71482fb715f8",
+      "size_bytes": 50878
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_02c23f53bb87793c68061e8c.json",
+      "sha256": "7e67f3af0532d7e0d5bbaf3cb84a99a41d40c9ddf0de87cca2cfb537fbe40d9b",
+      "size_bytes": 69582
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_03745fcb6fbc0361d83a08eb.json",
+      "sha256": "306d408c0b927ca5365fe57f3bdd5c50c120d6a164b0162e2eb2fd6388ba6fc5",
+      "size_bytes": 49145
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_046e17d07c57e29d1edad8d5.json",
+      "sha256": "8765f942e480174cecfb904a9217315126b42c63ed62ab45f657fb8c317dfc23",
+      "size_bytes": 52241
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_07cbc16216f704a65e611c2d.json",
+      "sha256": "53b65ef7ef090dd5c2decb61eb793536241568d86488eca31302164296816f52",
+      "size_bytes": 68611
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_082c88000e927a546e386051.json",
+      "sha256": "da6aa08e78be8d738fcee1060fa64aa9d810811d58508d24cd400778b6d7df75",
+      "size_bytes": 54914
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_08853b63913de44f671027da.json",
+      "sha256": "2e0bab483d36e212fb5ce29643106b091e9be6116b17f20f4440f0e5e84ea655",
+      "size_bytes": 68759
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_09fc724fa72f3388cc83a2ab.json",
+      "sha256": "03cf686a43bc6f0bcad9eafa72886a0abc02deee65b0bfe6ac0ba38a6a99588e",
+      "size_bytes": 50887
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_0a8975e857e943491a986c98.json",
+      "sha256": "7412b824b206a8215db5b0c0039b72d0996ba2eae1b20871c678b256da35c46b",
+      "size_bytes": 68760
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_0f371ab56bf59453cbc3f73b.json",
+      "sha256": "43acaafad52fcd608b7a231c85bd9f0556dd2577c4c8adacd2b50cbbe862ce70",
+      "size_bytes": 48683
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_0f8bbf1fad12185e08b225e6.json",
+      "sha256": "730f4a2afff7f6ca4f115ec4af7b2db2bfa79fe5fe0cf3e79612f5a3109f7c40",
+      "size_bytes": 65877
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_11c8ad6a5bda5e53ec85dfbb.json",
+      "sha256": "fe456a995408f0f6c272f6ffad5021faf9d849e14975fe0b50833365aab6db66",
+      "size_bytes": 57687
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_125e686092a26a38c635c3ae.json",
+      "sha256": "fd76ff1b1b3f8d0b1a5cd194f419e78a6f5c8a1538aab05d6cc5eabefc066f1d",
+      "size_bytes": 55495
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_128bb7b32db654680748a331.json",
+      "sha256": "71e78e46339dd80153381322d5327f60e382c93634a6e1dce7d9b4b9707f9280",
+      "size_bytes": 57512
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_12c12f2c0ad4e2f2b7bfdffe.json",
+      "sha256": "30aed45d68387da723543de19fbbe874cc5fcdb93561d68f66f33747f846460b",
+      "size_bytes": 57395
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_12e2f4e0a35c056315950cb2.json",
+      "sha256": "71cbf955237cc7ca0bfe6945079ecb22bf6becb8ef8eb55ebe20dd8b41362468",
+      "size_bytes": 50965
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_131a9fc4f74951b67fe6413f.json",
+      "sha256": "76ea44da92f7febf64df21b6702ca54814aa373fb4331e21ebd7a812e5d3ccd8",
+      "size_bytes": 50975
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_14ce111f509515f1b43bfd22.json",
+      "sha256": "30c3d4aec13e8c4cbd0d0dbbd02013377968a8dfc7899cb9a1db456b2776b620",
+      "size_bytes": 65456
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1841bce2fd535ae509a7fa18.json",
+      "sha256": "97c883f86cfe99d9eb3daee6d966e0f85d5a29d7a77a9293f5103b0422280458",
+      "size_bytes": 50871
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_191b6e325b74d9fa142cf051.json",
+      "sha256": "7c415dc2efd74527e9de679274ce57112a0609355201ee62b3b531072b88680c",
+      "size_bytes": 112383
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1a70559c1bdbe754eb5ba5f6.json",
+      "sha256": "2d94d1c0563698542de2677065ff8244bea56e2e075895ea63b5243b56b255ad",
+      "size_bytes": 61681
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1bb41247712f41ff902e6315.json",
+      "sha256": "3ba5fb7ef04c42fced5304ab935b92a863d9faa8a7c8ddf7aaa35a1261558ccd",
+      "size_bytes": 57689
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1bfd67a75293379bec513d4a.json",
+      "sha256": "73f68610620aa80428005787829f9e43f7a659dddc52498e0b883c641c2a2e5b",
+      "size_bytes": 56357
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1c6c945dc8461a8bb51b9f6f.json",
+      "sha256": "bed5c108020ee1ae95b467aab85d5beb5422f33f197ab2e8200cd72631a1d06e",
+      "size_bytes": 46080
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_1c8dd2b39fb3ba86fdcf42fd.json",
+      "sha256": "e9faa10eedff0265f4a364e92efd16ede04c8e32f8e0db27f360f0ade49cdfd9",
+      "size_bytes": 65635
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_211e0599362cf598e82a9b0c.json",
+      "sha256": "2da4cac14e197aa1e1102d77365eaf6225822c9f13750964ba6abd5a6b99be25",
+      "size_bytes": 49411
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_212c104c385f0e87f9bb5394.json",
+      "sha256": "8580cf483401658ab0e7249c97302c05c7036c9a8de0df0e9588103b57322b23",
+      "size_bytes": 68278
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_21a92ef3288c495162f9460e.json",
+      "sha256": "f917044e0f77855f8dea48b3d0f2b431220f56cadbd6c550fd3a46b428e89d0a",
+      "size_bytes": 67407
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_21c935a94a6207354b802b08.json",
+      "sha256": "815560edabf2b5ed3492fcfb0e9ec809239937c1a754ee3379a2faa7e0ee20e6",
+      "size_bytes": 64406
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_235e480229998fbb13617e3a.json",
+      "sha256": "e09f8d2e3b625a83f458ca6e1a8e1f2dbe585ed1a0f32492f9ef82eb3113dd5c",
+      "size_bytes": 49326
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_237bafb011483513b8e2b819.json",
+      "sha256": "2438b0c044fb52c442871bdd81afa34b15acf6e089b62d6a346b8859a52241b2",
+      "size_bytes": 63895
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_23b8fcf929969509a376fa85.json",
+      "sha256": "1cde176f3f6e519fb74a6e315df8f045d06a1ad120242f56d4a9b56ef18d40f1",
+      "size_bytes": 65558
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_24a8ca3d07967edd8e7dc1e2.json",
+      "sha256": "868311f5d29d995975582e00569a9ed26bc7864e2fe3e8d4eaf17c9a92b3eead",
+      "size_bytes": 65819
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_24fb440ed7f812de1caffd48.json",
+      "sha256": "737853dc096f4b63b3fc0db13c9ef300670cb1ae834a1e3d41c72cbc249879c7",
+      "size_bytes": 68783
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2568aad3507b009a18be644b.json",
+      "sha256": "57b994503fcd2536cca8cb1a58ea6d2d865ae5ff1e69880cc89313cdc6c82219",
+      "size_bytes": 68574
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_269aadb74f0d0e1acfbca71d.json",
+      "sha256": "9d221cea7e23e7e7a1fcc3d2d9a3aa01b5ad586498bd027865d99985a22a1a21",
+      "size_bytes": 57735
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2778e322631fd030d6358f0f.json",
+      "sha256": "ad9866d99a347ab0cb0380fccee2832bbca302111ec952da0bb6f6c5d1544d91",
+      "size_bytes": 64419
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_28174461ecc99bd731c15e35.json",
+      "sha256": "0587bf423e04607dc44362604a980837270606629308d9143df3f56fe81c3996",
+      "size_bytes": 68086
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_28cb656b9fd46876a03cc7a2.json",
+      "sha256": "a87ed785c4b3b968ddd1f09e03fb6d873aa4670de5456bcd4b79152667646b71",
+      "size_bytes": 49674
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2a97e5f8ae43333aa4b5b81a.json",
+      "sha256": "1e36492403984fb9c9dc88efcb3cf6ea24c5b1e1af92c82bdaa06d94c2ce9911",
+      "size_bytes": 50860
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2adb423255b168d1b67d1f6a.json",
+      "sha256": "e82b6e717f24217b779f363f671d9054108111cfb0f84062fa7e121db9ce3bc2",
+      "size_bytes": 68792
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2b561f0cd3d40b309d87da7d.json",
+      "sha256": "e24d65e0c7aa591cab23226c9a12cff36183fc25eeff631ba13ad8b01bc730bd",
+      "size_bytes": 68812
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2b794165ded11b71a1077d04.json",
+      "sha256": "8c0af392f2b5efeb2b40e0ebd34b7da981ad52f7e967f9d20232dea2176a58d8",
+      "size_bytes": 64177
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2c2e6621066fdec5e8723ba7.json",
+      "sha256": "704c29b2ef6edb8e5a8147c431b23c88ca1e74b679924d32c61c85da6fba4db0",
+      "size_bytes": 56820
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_2c980d30c0e021b62c4ad3f6.json",
+      "sha256": "fda69faf50af06df8e520a297622e5980e1b5f82994aa9b8e393bc1b7c423b6b",
+      "size_bytes": 56848
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3177281233d1e7cad40d7d23.json",
+      "sha256": "78bde0af60f47df20ebe2ee24b3b1d83c3cc3af7e7060246b9e8c427c623cb03",
+      "size_bytes": 65596
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_33a73971a86654683538956d.json",
+      "sha256": "1073c32505170ddfd06087f9630ffa2feadf92f54a38c2685639be095759eaa7",
+      "size_bytes": 55483
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_340f32497f685dd23d160c09.json",
+      "sha256": "cd8169899a22348738c6012a5e3f084f2a363cf0dacaf461d16b44c72afb5cc2",
+      "size_bytes": 50055
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_342c4500a53d3f4b40dcc6b8.json",
+      "sha256": "a243781dd4c9359c8c0797583dc5e7a851443bf9f4c07f4de6287e5e7dc27004",
+      "size_bytes": 64531
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_38f5b23a40cab75ce43bbd23.json",
+      "sha256": "09e295cbff1cbcf79caef89f92492289f9814bc55d6acb54bb2701418f4bd7ed",
+      "size_bytes": 56282
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3af2c8f51ac87648627eb781.json",
+      "sha256": "7693197f8bab6ef547f068ee7749dc8224082161751e51532b1affe63917c858",
+      "size_bytes": 55517
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3b8cd0b654c4eb483b2c67b1.json",
+      "sha256": "c5c1a0df27054cb5a69fdd17e64882b1523ec94113e03eab2dad67435dc7ab99",
+      "size_bytes": 61825
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3bf2d991ab8f31f703a08357.json",
+      "sha256": "750fc954207edc321b974864c4d567250558bc33439d54efee257b643d0a237d",
+      "size_bytes": 46174
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3dd375ed743856d282f61226.json",
+      "sha256": "ec863f795b5d91e6070972909472df962a19e4e1ca013cb8547d005ced6a2704",
+      "size_bytes": 47180
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3de640e1682c8f6d7a16ec06.json",
+      "sha256": "463f6df5518a2428a66818463f4f4df927a6bf4dc9aa1f1626f86e5bff4a1112",
+      "size_bytes": 64055
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3e5dd2dde5c78a9fdbf2506d.json",
+      "sha256": "67d4514e40e6fbf0f14e9ce1b7fce1c8f733a460589113c46b000563b0453c6b",
+      "size_bytes": 57352
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3ee5656ff405fbec3c062e1e.json",
+      "sha256": "55b3068fee2709e021d506b06b1c4ed9f13620bbe64bcf11c265c1ed450ef8bb",
+      "size_bytes": 47067
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3fc137477a7a338f6f587501.json",
+      "sha256": "409d011f6b42cc436468780c5f446e430a2081197eb415875b7a45bc9485b690",
+      "size_bytes": 55334
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_3fdd4fdc0e78a4d4d31253d1.json",
+      "sha256": "b475dcf502a1d31bb41cf45f3b2c71c810a57923727204712aa822e181ee618a",
+      "size_bytes": 50910
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_40a8ff7e444812b836f089b9.json",
+      "sha256": "6dbee0946914ca3109743c3f77690d3eab43beb71c7ee4ac1a51b7d70c3064b1",
+      "size_bytes": 65502
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_41c934ed86633fb9281b4d97.json",
+      "sha256": "fbd11925ea6d52f6b4d524263080b27d052de8edec1e22a94c005a2fc2def78e",
+      "size_bytes": 50104
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_42c520d492d06d302116c156.json",
+      "sha256": "a0c39f8cdc66803a99b32b6eb1d21d5e06b526783d0d9c1e82aec66af4b25104",
+      "size_bytes": 52080
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_43024676c35de497ddf48a04.json",
+      "sha256": "607ebf1e7ad51a530343c1607ef4dbdde7c1bcb563e970cf499eb700de73fa50",
+      "size_bytes": 65506
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_430b6c958f2029e0ce29fa2e.json",
+      "sha256": "edcdbdd5be5b55b546ae14da53bd5f95660263aa9ba506a04c54d4ba775a0824",
+      "size_bytes": 63888
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4608bd31657e625609dc0e2f.json",
+      "sha256": "019d514b7ebd67b13fb0efca4e0f40260c2dff9905c22a6e5a38bf8e0a1ce99e",
+      "size_bytes": 93658
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_466f05dccdb4c7025d75023e.json",
+      "sha256": "946d3bc212b3fe6ec7de283c6ca8d64783e0583dd34fc9a664bf757c1130c348",
+      "size_bytes": 64560
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4caff199c4236d2075c75b43.json",
+      "sha256": "5534f22aab13b9f7ecb94050cbc08d4ef13a888e84b89a267eb38aa507139444",
+      "size_bytes": 49439
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4e877477deec63bee5892638.json",
+      "sha256": "6e90d940a58fe76337eb4b90c2ad0b6c019ba5dbc14c61b4fa9fdbc05d2e7151",
+      "size_bytes": 61709
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4f20e0854f4de9674c27d98b.json",
+      "sha256": "8fd593698111f524fa49e7454f0cd873365791023d4318940f453de6b88e9986",
+      "size_bytes": 69662
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4f49b1809fc3495d3b544a14.json",
+      "sha256": "cc58efcb1362015d173d754c51446711baf124d4ee6b52b8dd2e18fdda9fea7d",
+      "size_bytes": 65590
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_4fdc5ab9958524ddac425c5f.json",
+      "sha256": "d1c4c13839b98b1c55b833243c960bd95d0e4f11a3fc1d54c509ab9b81648e17",
+      "size_bytes": 48659
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_5262c9454aec00522ec32fc2.json",
+      "sha256": "bbdcd005f013df0f59af156cee37ab245b29c4ffc98b177ee4081420c47ba0f1",
+      "size_bytes": 64196
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_528ba9004b21bf810fe5a13a.json",
+      "sha256": "3c8bd4248956dcf929f905a26f218e56bdc5f46a83b4c3337a296b61b164d783",
+      "size_bytes": 46866
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_53c21bdda388b4e6db609801.json",
+      "sha256": "4fa522eb61d2afc9f78a4ce8d6aeeb8ca37e1d759c6ea3d1ff7c18e27368b167",
+      "size_bytes": 47070
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_547cfb9e790986b1211e5160.json",
+      "sha256": "c7c0e5eb9b95da0c9ad8fbeb2b2465257fb83c83033fb8202697e22d8c4191bc",
+      "size_bytes": 47219
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_57a527df6003090bd690b901.json",
+      "sha256": "ebdb4d1a8d63645ff50f34a101b6beda96e48d7a8d9f7a57bf6981cc659b103b",
+      "size_bytes": 64020
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_580522804dd140338f114624.json",
+      "sha256": "605c19d8f2ca0ccb63a9d3706f4da13ff1c3cc2b853a8617152a596a9df58f98",
+      "size_bytes": 64503
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_58842380209a2d95befb7307.json",
+      "sha256": "ba7bdb3f325a5d804c38475eac49d9a175ae225c147534461a0b10779da76757",
+      "size_bytes": 65863
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_5936ac0ad35ee51f6caebe6a.json",
+      "sha256": "17ef9713af5b44f347a25dd970fd5b22bc69b2555eb1a8a39bc2f8e5b9f3f59f",
+      "size_bytes": 61831
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_5954a030e017d8a7d83e6838.json",
+      "sha256": "cb3cbf64bf9c3f49b8bbc05d78b792900b7fc40cacffbaf92d589d9449572bf5",
+      "size_bytes": 68066
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_5a5d5a6ad42794c3a2ed369f.json",
+      "sha256": "96e90e7cde068bb6e8bb299a1030155e0bfbd9ca0ce4a00a097c4f463af3126a",
+      "size_bytes": 66768
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_5dc1bf5a63895fb10420fdc7.json",
+      "sha256": "5e3ed7e67f8822d23639798ab32cae91ed2dcf101a1717e90d52a7c63742e7d6",
+      "size_bytes": 65856
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_60568c6001538dad4fe7c581.json",
+      "sha256": "c58001f05c52e6d7a0055537c106b60409f2b4c69f75612864a60dc406933f7c",
+      "size_bytes": 50878
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_6133d3e7788ea706d1500713.json",
+      "sha256": "406706b4dcc378e68494086a510a2185a0515880cd9aec2e3a4d4166860a5de2",
+      "size_bytes": 46753
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_628e2a8cc4384686f4a27b18.json",
+      "sha256": "69989b6790fd47ba16e851c4b5e26d5d605d9638e053a406786f317c5c19c7ff",
+      "size_bytes": 68684
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_64c4be3705f285cbe4562cd9.json",
+      "sha256": "4d979bd4caca4fa25a9853fdb057b114f88c8ec20d23ff5d106a52c24d1a565e",
+      "size_bytes": 51056
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_65ab9b6ac3c7dfcc05154e0c.json",
+      "sha256": "6fbbf60e42f854530bd8af8c82882c3d2aa2fc7c9d90ede240d0d9e83ec58773",
+      "size_bytes": 71655
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_668fa111eb1be47fa85af307.json",
+      "sha256": "f756f9ae48ee39fba05d1ec64d5280f1359ffabc3f69cdd494f79f662c24e3ac",
+      "size_bytes": 52241
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_67d386adc332c78e6ff67f8a.json",
+      "sha256": "cb038060a3d05d4d8b34a71e68c288c4887e7b050deeb3907e3ef6815a37a7c4",
+      "size_bytes": 55679
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_6912a51427a82afa0c5e7ff3.json",
+      "sha256": "34eb4f5c7d61b1d5f99dc9579cc63b9a55267f72ae591eeb2eb0f0ac120496d4",
+      "size_bytes": 50916
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_6980a9e1d574249fdc4895cb.json",
+      "sha256": "32b0f36e299504fdc06218077fb3a8a898cc48228f50d9c910601392bc94c79f",
+      "size_bytes": 51136
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_6c73704ff24600970c5ebc15.json",
+      "sha256": "18f90945b28797372eb62056c752bb8e9b228841faa883e87af076fb5fbfd88a",
+      "size_bytes": 65799
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_707018319c33fec862888f1e.json",
+      "sha256": "3407ce7a7538dff2a161314cf283f076080276349b2c88bf20c0b0573461a381",
+      "size_bytes": 50064
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_707b13d416ff8981c2df6486.json",
+      "sha256": "920219efe8c221e5f556fed4e6271b9449beb8cc454f257a199cc2338ac5f91a",
+      "size_bytes": 111780
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_71973560068273da2e475c22.json",
+      "sha256": "5709ffdc482cc9fb9ec07fc48f65856fe7325be381e01a1a2c30f189bf242d6e",
+      "size_bytes": 48864
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7204007443f7c12759e7a12f.json",
+      "sha256": "30b55022a5c5cb01af396e471a38e36a18609a2435095e0f61ac0979cc736401",
+      "size_bytes": 52227
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_72c6eabe73eb0c1b4cb26b1c.json",
+      "sha256": "33d6233d240339cc26c897478ccd219a63a79668810f1b5ee788be959b70bea1",
+      "size_bytes": 50997
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_73a7bae1ff0fc8165e441324.json",
+      "sha256": "dc46170204b13718281153da98bbf3e1717c445d3de5b3848cc069deb799b144",
+      "size_bytes": 93612
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_73d3ca7dfad35a374efddc2a.json",
+      "sha256": "8fa1b043fa69862ab177dd7f27db7ea001978f296b0b53ab180d5b5391dc9985",
+      "size_bytes": 52109
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_77c2905951d528baf96eb942.json",
+      "sha256": "8c11747fc05d0da3453a2acfaf2c41db1a155651431bccf7bbf064393277b7cf",
+      "size_bytes": 68579
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7a10e4316e5234a39335d373.json",
+      "sha256": "e2c388a423a21d76c7108b87b408a3f31f7d705e2dd8a46c6e05782e59ee7108",
+      "size_bytes": 52053
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7b9268285533ea8ba610102d.json",
+      "sha256": "abd715f44a4f7619b71f209d5dfc4c9009dd63a57264ed847db610e5d6c9606c",
+      "size_bytes": 68097
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7c9de79a6be39bfff43785e6.json",
+      "sha256": "4f347f8f94d292b97d81ba267a2dc28576617d6bfaae7725c8dc67a6f5158a2c",
+      "size_bytes": 56387
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7cea50070a3d3ae0debc625a.json",
+      "sha256": "40960804dcf4003b4da977b3475b270b222f8fb1d34c7fc0cbf5a1ce37637fed",
+      "size_bytes": 112366
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7d2733a07e07c05df80169a4.json",
+      "sha256": "536c0ce10d4ef16296e4a435944342efcb3a31fcb640ef0bd1df6f1a4669b9bd",
+      "size_bytes": 46294
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7d8954b6d8e590988b8087af.json",
+      "sha256": "b5840389b3ac007b8077c70c4d89b69c8afd1d04a9a617a7928eb884f72186d5",
+      "size_bytes": 67427
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_7f43a6a60983876505f7bcf9.json",
+      "sha256": "cc10d9d84bb5917695e0cfd1f14fc74fc0da04282701ffbc4095d7823766baef",
+      "size_bytes": 48656
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_80e0b9dec422d4a0060373b9.json",
+      "sha256": "74f21590315d9612c41dc0b148f89db05b7a77cfd9398293ebab227d8fabbf26",
+      "size_bytes": 93794
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_839595f047854ed1a98036d2.json",
+      "sha256": "e031ae4d3e7f0f127adb280181639eac0674e789c7ba5025f17c902ad30e31a8",
+      "size_bytes": 120839
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_863dd9daab37ad796673e463.json",
+      "sha256": "5f6aced584ce025d26c3d1a215c524cb50a13c0c1cd1e13eef8fdf941d570563",
+      "size_bytes": 57575
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_882812390b796ae948676fb4.json",
+      "sha256": "efd248602a520990ee362c362d8d78658b69a1f153fd06403535e0e4ceaa1be0",
+      "size_bytes": 67054
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8896d5c3d9fb4288dbbddf0a.json",
+      "sha256": "4748d594d296539e322ff3f977fbc2cf9ef0efbb1cd8510a1838d78347d6191a",
+      "size_bytes": 66777
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_88a862a5051a24ece7469681.json",
+      "sha256": "456d1361143ab62e909bb2dcfc21820947040692e6c75421fccdedb79847ecfe",
+      "size_bytes": 112317
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8aae9086c19cf5403724145c.json",
+      "sha256": "a42c87b52169c2ce0b53bc378407013356d29ddf8b2d041c969f7d2bf3779073",
+      "size_bytes": 50848
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8ca758b6b9683769439ff9b5.json",
+      "sha256": "076efca16bb1c8b9a7ef2394df7fc976be7a2677ba3bd94a54834017f3d68608",
+      "size_bytes": 49235
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8d181b95d0b9f0994fe18dd4.json",
+      "sha256": "5f6a24687111529170666f08a7e80a3dd148a2d10f2f23d2f13a0bbfc91098ec",
+      "size_bytes": 56325
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8eccc19d5b60bef3e697a32e.json",
+      "sha256": "a7687f276be496fab871135736ac744f996e4639069d007d7dc2268dd605e1e2",
+      "size_bytes": 49410
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8ee4cf31ef7b6e7d745417e3.json",
+      "sha256": "a2d636a4f25ad3719a3b552c4e9e45041b5942a43e34b362c865e567b0618dd6",
+      "size_bytes": 68073
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_8faf690a7c149a98d7451a0e.json",
+      "sha256": "703ad8fcc69cd4bc6c1b144cdca89160672af979a3236850826636e1f99fb8b4",
+      "size_bytes": 47033
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_924e6fda5cdd049e4e48a173.json",
+      "sha256": "8f2b7da5a8b645cf36684b8f7d419d79460b51e0fa18b5c7f28abe79cbc5fb67",
+      "size_bytes": 65515
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_935aaa32afcd08bc80611d15.json",
+      "sha256": "fa1a9db3ab46d4d3b94bcdf50f982c1c95a513dd877b400c3125e74e8f29cd8c",
+      "size_bytes": 67122
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9381ac6a22c9ea1c8b1946b8.json",
+      "sha256": "e0b188cf61ab1c156989ade68d56de39b50c8da5aa3a597ab95711525fdc420c",
+      "size_bytes": 48999
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_93fa70d03460e66330050cbb.json",
+      "sha256": "f9bf10070fbaff3fb82c2a7b637e8d08256afe2d38f7bde2d2c5f336301ea0e8",
+      "size_bytes": 66587
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9431135d11800b35b13abe43.json",
+      "sha256": "0522d8870209e254ffd7d8f702b879f1e209e274ee6eb61bcb8d8156c9b52a96",
+      "size_bytes": 51047
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_947e4bdd6bfc8ad2c2bbc766.json",
+      "sha256": "55ed107047c8f201e489f46041446cd31c9149ef53ca279032ab1a1478f929db",
+      "size_bytes": 68047
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_94f263594d0f6e1742fae51d.json",
+      "sha256": "4e489961860185b3054ceaa73ea948af00e4403b66bd9915715f32080666bd80",
+      "size_bytes": 49193
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_95877298ee4d68e12a86a2f5.json",
+      "sha256": "f441ff0a2768a536a76442b69f1f302452fff4eecbeb22f578f60ae868f4734f",
+      "size_bytes": 49283
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_95f72fbd8d717aff1eccb6b0.json",
+      "sha256": "8d70c24245b33947ccaeb5dc089868a63c7d800774f8748787b73c7fa784b4c5",
+      "size_bytes": 111707
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9975d95220391eb484e78b6e.json",
+      "sha256": "4bdf06a662080fab87552af20122e01b8ad2e0e84cc3bfd51e4b2e7cbd5dd6dc",
+      "size_bytes": 50860
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_99a0ac3cd5cfcfa47809ed23.json",
+      "sha256": "b744b0ad4130b8d8a135babf72f2b521ad572805fdbd252ec76d299187789ccc",
+      "size_bytes": 63957
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9a6de1357868f2f9074d1763.json",
+      "sha256": "617be9b44f0896854dff7cc78ceeab3ad39c77b8523408c6f1b5c191c80d71df",
+      "size_bytes": 46899
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9b7ba8ee45caca5ef6a5eea3.json",
+      "sha256": "87337648eb033cb8b7d0396fe4b9b901b0947b40ba6519aceca31af9ec209448",
+      "size_bytes": 68529
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_9ead4e0be9d312d3c6a367c1.json",
+      "sha256": "453cfb955fa0fa33ad67cdfcca4956e437428a2339c769d05213b00d2b18f660",
+      "size_bytes": 47011
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a196bab10f9db3262c244e3b.json",
+      "sha256": "58b08478d6cc503f6b95821194b1c81b1ff957340492e6f0c2f8f7733ad88665",
+      "size_bytes": 57374
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a49e69b64556dda2eb5756c4.json",
+      "sha256": "b0a11e2e1b301dea138b8562a7d24d0851bb6201874d85a3380fe0447bfd7577",
+      "size_bytes": 68727
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a5b8fd87a170c1c33fcb0c90.json",
+      "sha256": "1f7c700af2a8bd331b238866a74b6b26c41575ca8a5448c6edf26f323a9393f3",
+      "size_bytes": 68669
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a5f50f810dbcf318e2b754a2.json",
+      "sha256": "be271a2e829e40ba28be7a025dfe1e9fa1ed24c8537466a6ce0247faaad10cf3",
+      "size_bytes": 52064
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a653b01ac21514d633e8ddef.json",
+      "sha256": "66cb26c3fbfeca327ab400d3187e7757d727d07b1cade918b20df3241261647f",
+      "size_bytes": 65815
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_a7de3daf0d1f745ac6e5e9ef.json",
+      "sha256": "8a5559ad09730334889a4032dc12b7ef314004b2ca945f17c9e2234310ae112e",
+      "size_bytes": 64082
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_aea665ebe61a739e558392c2.json",
+      "sha256": "7e45c6a49a20bf1a2d7fa65ed47fa80ad04c1a5d842237cd637462d9483ef931",
+      "size_bytes": 49255
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_aefe87a972ae2ebbc78d770f.json",
+      "sha256": "168e7935c574cadcfa39b0878976e723bad14435614f659bc856ca6b129356ea",
+      "size_bytes": 50884
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_affaa733abc64bb3914a4c90.json",
+      "sha256": "1d796434c062f04970892a23602f8214ece6c7457c6705a74842a1ee79496e29",
+      "size_bytes": 61610
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_b0bce033380ab0f912b866ce.json",
+      "sha256": "fe966d8c46f8f5d892dae656c0cfc8bf74fee962758aa7882b3d558addec8af7",
+      "size_bytes": 71605
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_b257aa684dff15231d703da6.json",
+      "sha256": "02c611b77b1817e8a33d7854ca5ac9d38546269ec0e9fd370e5bb73906dbe711",
+      "size_bytes": 52232
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_b38449b989e9fad31ab6f145.json",
+      "sha256": "7deb63516e2faf148d9c1bee6a110e8e3034d37bcd7b4d66c61c1bc5df5be58a",
+      "size_bytes": 49197
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_b91f743a5182f107e1cba5fc.json",
+      "sha256": "dd696647ac0840ef13512959b87b42b72fd19d5d1a665e41b6c480113e792021",
+      "size_bytes": 57397
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_b9632ae7a60663cb1e8c67b0.json",
+      "sha256": "2d9018d369e1278504cdcdb90811d0cd9488c090770944f8fcfb45a4fbb966ed",
+      "size_bytes": 61645
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_bda2aba5506725b054c279ee.json",
+      "sha256": "7fb26b2037e9ff8ff1554d144f4c494c0353c78f822c7e110ee67e938775168f",
+      "size_bytes": 65627
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_bf4ce53c99a39bcb124902d7.json",
+      "sha256": "868e83356ed15214863fc678bc977a88afced5f09418338c4ca2f34f8fade358",
+      "size_bytes": 55659
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c00b70ff47bc1db1c5b288b3.json",
+      "sha256": "1190e95fb78a16088adb89fc0b4d2ad7ea044e29924df7f061f6810de7cc1953",
+      "size_bytes": 46766
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c0109ad0ffc04efb806cc1ab.json",
+      "sha256": "6ff468057d81c57f3434607fbda07e746f9e2bdbcbbb07a8cdf43861d554497e",
+      "size_bytes": 54876
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c03a3ec54663c2302786e67c.json",
+      "sha256": "129c9e50f449eba17a1288e3806212f898bc1a96a461cbacbd95d45e36aba4a9",
+      "size_bytes": 55449
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c18ab46c1b0c0539c8b6bf2f.json",
+      "sha256": "5535c81858da2d3530e4c7deef53e164c022436a073418c610d650d73e839222",
+      "size_bytes": 49913
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c2e677fac00dafd831fa97b4.json",
+      "sha256": "893826c8326de2ad262c6386d4cfabf11dc665b4467a0cbc8329106e51f6ac11",
+      "size_bytes": 55428
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c70bc40835d47f63b972e1b0.json",
+      "sha256": "604c28b3a97dc1e3b4f323b9f2351c0ab9bf7bbe0669022aa036ed0303190462",
+      "size_bytes": 56828
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c8975513caaece58f970f741.json",
+      "sha256": "958b0a8a43fc9a5542950f2955200dac6d12157ec9f809a816aaf0fdd0874a4e",
+      "size_bytes": 52246
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_c9f59bf496852b09a1f8fa45.json",
+      "sha256": "e4f82330d95da55ba77576b389d5ebf6019e3af64c54976ce7f2f63996ad1ea0",
+      "size_bytes": 64306
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ca2507c4dbb73f1f451cf5a5.json",
+      "sha256": "6ba679f204b8d9fdd85418e805f9bf933bcf78bb97e0f9f62250d926e596fe64",
+      "size_bytes": 47498
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_cbd1a4ac68ed9fa8e2aab932.json",
+      "sha256": "123316ad45323cab76fe5cee95c7987ec4cb93e40919f0731ea4f5e732101606",
+      "size_bytes": 56825
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_cf245374b9720b4bc8b1f95e.json",
+      "sha256": "8c5d59a9f6d1ac29e1174bd2ce0e6ec6e5b372570ceaf13078c82bb7fead4a45",
+      "size_bytes": 52009
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d0971ff083f3a1fd22e14b33.json",
+      "sha256": "73997a0c06e5ee18ff4479bd3e195f5f331bb5554dac7911549ba62e8e89cfde",
+      "size_bytes": 68641
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d1291bd9b4350e2179874aaf.json",
+      "sha256": "96b35d41dd28d0fcdecd0756fdbe5bc4afd4fce5ece8716de410e50b15f0c306",
+      "size_bytes": 65414
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d1fe072c4734e0d9ea5963ac.json",
+      "sha256": "533cc23862c0ec4fdc7c71af2a1995d03dc48d5bc7a23693fcf22f0f7adfa481",
+      "size_bytes": 47084
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d2af1339fa7cf32fdd6d4f50.json",
+      "sha256": "fc7bf8866bac39156209b90e5034011aad863fb815acafbbb2c67f4fbf1ac59b",
+      "size_bytes": 112346
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d2f0cd16e973eeaf31b4cf36.json",
+      "sha256": "1bd2c6f76350e4b8441012b6c32f4743a3cde70add12a0b0d5c3359913bda910",
+      "size_bytes": 64163
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d3d38d15dd779b737dde330c.json",
+      "sha256": "bbfac8c20c389ba34aea5af8fcf0ef67c826dea0a4ef13ed6186bf7f57d2092f",
+      "size_bytes": 69614
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d4ae0e29525c152a958b77e2.json",
+      "sha256": "9e8f1bfb08f14f568d1a31f7b95db30faa2a4f535acd0c5ec3b39b0c913eddf9",
+      "size_bytes": 55580
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d4f0254a55bc4d19e2473f44.json",
+      "sha256": "c0426088ddeeb9bc98807ddd791c1dd7c77243dfed664cdc3fee361bc84d9af2",
+      "size_bytes": 49634
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_d7979be3a70cc08b8fac4fd7.json",
+      "sha256": "039e1c953c1b2b9eef471f04cf1c3dade66d7440eb0955fa9025192005b7fab8",
+      "size_bytes": 52057
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_db5b370a61f82a5cc405f3b9.json",
+      "sha256": "86bbe8e52c63310032f62d1faa78309a223ea0cac76965ab540ced7198db91d3",
+      "size_bytes": 57692
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_db972907931df048eb29d716.json",
+      "sha256": "e96f1e2d9037915cec0163c755f5df338e867441a3b6058041202dcd2afbf425",
+      "size_bytes": 65570
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_dbf1b3f81abf8dee68506cb5.json",
+      "sha256": "dfeb6da8595a054dc4aa8c9ab0145be1cb3ca382fb04450958840fef0c2b2396",
+      "size_bytes": 66627
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_dc093102e9fe69d4b597379e.json",
+      "sha256": "5781b00c0bbcb60b112ae38062cbc4fafae3dba738cf8d3f20f3584facd84efc",
+      "size_bytes": 63875
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ddad11a878edd369d0bb17ee.json",
+      "sha256": "973c51508972f36785a5103adc62c7dcdc1c14db7389e869de87e408cebbbcba",
+      "size_bytes": 47435
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ddc030f58a1de783bd4bd0b6.json",
+      "sha256": "56fa8ef6dafc67814b7fe56b7a59e564555e8123c46d4f545af48df58684233f",
+      "size_bytes": 120894
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e1e9b05993d53c8d89657747.json",
+      "sha256": "45a18320862a5ce5d4ff5352174bd9551ab448f3cd5c025d397cd7f4b39cc731",
+      "size_bytes": 49945
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e5c73204d45f2a09bcd0f622.json",
+      "sha256": "0c1c8f5a21f87db406c9dae8dbad85ad89788fe8439afe0a8b938abce22ba484",
+      "size_bytes": 69809
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e60c663b6e9af4d8818459df.json",
+      "sha256": "ae74561d859f97fcca439253019d82d44579c1815285f96b6cbb06bbaecec5c4",
+      "size_bytes": 56596
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e6924bf96c58844ca6466953.json",
+      "sha256": "8d6ea9a3c50c91dbc74150d40b0f1246d9eb742257e5fd11738f29c540bc996d",
+      "size_bytes": 68692
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e7d296bfa9b843b7ed73c908.json",
+      "sha256": "a2770fc43d247603d89b9169295173a21ef7efe75cf767227e6ca2941170daef",
+      "size_bytes": 64232
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_e8a71efe7d8a61721cad0446.json",
+      "sha256": "22643ecd55718cd20ff850f086e8ea694261ecb7c4848b7e8e7817566b3c6f98",
+      "size_bytes": 68060
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_eb33def83f7e7309fabc52ca.json",
+      "sha256": "ebe4481dc03f4a356be59361c961bfdc3743dd612ea684ae8777f92711877028",
+      "size_bytes": 49778
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ebdfbd628882326cb9cb3012.json",
+      "sha256": "c314396d97fbfa6b623bdf1d4bba948a65dcdf0482d8cb839b7825c48fe9cac1",
+      "size_bytes": 64020
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ed2998dbfa0a78b4ffa5d46c.json",
+      "sha256": "e39939d88da0a1426c0550aa1dfe6da63217c185d9d3caf015a46d72e51b3c29",
+      "size_bytes": 68164
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ed29f76e3b8dddd2c9a83510.json",
+      "sha256": "eaadbfb48b7a7b17e9375c5fa041aea357ebd98eb3f54ed5cf999b6c41a043a5",
+      "size_bytes": 47009
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_edb1119e537e0c81276c4946.json",
+      "sha256": "4ece6b38473724202222d7f9b91c6b37f8f951ce1410133f356bc57b1221d7c1",
+      "size_bytes": 49713
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f03e28f6d6bb5bf1f957f05e.json",
+      "sha256": "585e9a9df2a2285fc1ba1819083c5a389ce00870ccc953a856f0c5d9828b4ebe",
+      "size_bytes": 65580
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f17a1dc6f2853a0d4eb9ad5b.json",
+      "sha256": "45972c7fd0d0082fb3fdc27edcccc5684ef0e29844963ab1d020c9e495b4ca6f",
+      "size_bytes": 56561
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f213f62ce3b3baba18f29250.json",
+      "sha256": "07d6928f5e314f016c44ff05c541d74ab2739587c54edcdd8dd9da08f19219f4",
+      "size_bytes": 50958
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f40222fd33cf85df3fc0564c.json",
+      "sha256": "bbb6bdd5187653b9d6fefb74d23509ccf2264004c99e1d022eb0b1c1f8e47bea",
+      "size_bytes": 65514
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f6b8242a49be7b3a9004b528.json",
+      "sha256": "5ab7e459ee060ae19f4b00c7f719a89e7d820b89bbab343e103d20276a3aeb34",
+      "size_bytes": 52221
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f76b023ba4fb8568a020144e.json",
+      "sha256": "8f6444630605c5a8fbf643e58dc9fa556eb3345860c0b229c664c372e74fd9ed",
+      "size_bytes": 71658
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f7796104be176837ade1bca2.json",
+      "sha256": "43bda7ff010bc5e96980e9e17f189006efa8ae642f60fcfd6bd457c4d6ef58c4",
+      "size_bytes": 55524
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f7bb281b98bfc0c58584549c.json",
+      "sha256": "ea5e7cbc65a39c9cccca004ff9e3bd2e9d43481e0ce24ce145317235a1e6464a",
+      "size_bytes": 50980
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_f8c3e2e9abfd6033b68b45e8.json",
+      "sha256": "5a71375ca600f155f61f5b0538310f359100b28740edf3df0e4eaf746848902b",
+      "size_bytes": 71646
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_fb1bff364f73bc161831cd43.json",
+      "sha256": "9ed9f969b0bbf8a36c64c7cd5bb39a5eefb3611adf2d71dccfe972baf7035887",
+      "size_bytes": 48698
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_fc337678cd694c94b0d0261a.json",
+      "sha256": "9d985b6e207e8ee18525758759ac27e207d8dea5193a068853ffbc78a31911b5",
+      "size_bytes": 93611
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_fd7cabbf2bfe95668990e27d.json",
+      "sha256": "384fcead48cb1318b4ee3d6cb020afcc0c142cffa3435308f1a542e2806d3ea9",
+      "size_bytes": 65574
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ff6971c93296d4f690644843.json",
+      "sha256": "acd16109c36edcab8e4842f285b99364571c499bde8fa76d7e4c4db2c6c98e2b",
+      "size_bytes": 46013
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/checkpoints/unit_ff8dd034feb8d9de267c058c.json",
+      "sha256": "df855b5beaefad59af94e2e4e14437a3eb351982c4e5925d570ba8eaf4de240e",
+      "size_bytes": 49505
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/completion.json",
+      "sha256": "7b775021634cf74015c89adaa246840ef5e3921b1482d5846b7c3f510ba9fa37",
+      "size_bytes": 942
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/conflict_classifications.csv",
+      "sha256": "de7784f20969fcf50d664282092e9663d6c502898ef5732f17379bb124d1790f",
+      "size_bytes": 29563
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/directed_unit_metrics.csv",
+      "sha256": "049892e7ad3f66f2b9178926f32447429accb8d6551a27dfd45428137bfb4c3a",
+      "size_bytes": 41697
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/environment.json",
+      "sha256": "a931c9e6b60de596508d819450d559d962e29bec05a85335b2ac7b454dd3f348",
+      "size_bytes": 4165
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/metric_tables.json",
+      "sha256": "de22f71f60498ae870e41a6d1ec56dcf1c7694072f49a9e7e845856d5683e897",
+      "size_bytes": 1486
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/progress.json",
+      "sha256": "d2a6d8e35fe0c6666c05493cd51c5c8b7945848716d0bc477eb95b64ba0a304a",
+      "size_bytes": 565
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/results.csv",
+      "sha256": "4b09a233804c7da81c9f5177a551611a6b3c11f33a36e69ada32a24426f53d08",
+      "size_bytes": 7500396
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/results.jsonl",
+      "sha256": "368c0442b6ebbad8a67b5bfd4b20732e22a28e79a4c55548832ab07705c35d8b",
+      "size_bytes": 8483866
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/run.log",
+      "sha256": "5734132feae42a5266847eb6219b2310d203e037643d4f9d507c42ef7719120f",
+      "size_bytes": 100174
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/run_signature.json",
+      "sha256": "5e589a79f330df58827ab413a7e7332b2eade9d617721c1f5ecb91592143c649",
+      "size_bytes": 15424
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/runtime.json",
+      "sha256": "4bfa9e94be8bc5ac6ea54223a1dd90b9a33670e1353d4b441b69159d16f6c5e9",
+      "size_bytes": 6275
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/tables/conflict_classification.tex",
+      "sha256": "51c78b87a14e8373447ef404449b1ae688cfeb4f0deec00d667d6558ed512383",
+      "size_bytes": 188
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/tables/model_metrics.tex",
+      "sha256": "ac746c9e57d8c7e3d65148cb3ea8a022097e7faef2445e1c1f124882a10f6300",
+      "size_bytes": 357
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/qwen_gguf_full/target_unit_metrics.csv",
+      "sha256": "0d1d6f0077ad5f0dc55460a139bd1d8493841ff64e0faa703ea9995f23db0fdd",
+      "size_bytes": 24962
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/smoke/analysis_smoke.json",
+      "sha256": "4d73eabe80b0db47843a061a29ada02d4d034c2dac2180ce37c280e02efe9480",
+      "size_bytes": 5665
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/smoke/results_smoke.json",
+      "sha256": "53167ec10df9c3953d26aa021d97744a6e5f3825aac44761338d6adaea7ad3d8",
+      "size_bytes": 32555
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/smoke_genuine_qwen_gguf/analysis.json",
+      "sha256": "ea49773915bb75d1aebc4c9e86cbb76cda6f45fa50c019b1812c0c93ae65dd22",
+      "size_bytes": 19034
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/smoke_genuine_qwen_gguf/results.jsonl",
+      "sha256": "dcfcd3a3c8fcce69f4cdc4b0ee9e72b717d5a3c8c5bbbfae079942f3de51f9f7",
+      "size_bytes": 86762
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/experiments/smoke_genuine_qwen_gguf/run.log",
+      "sha256": "8f6869f75f6810d2b69bc14d9e924ad92dc85f18a64a840ecd0934e1fbaf540d",
+      "size_bytes": 72172
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/extract_errors.py",
+      "sha256": "12ce659b648bf11df1ba72e361db287675372ddc3923ea9ef9e37a64fca4baaf",
+      "size_bytes": 3803
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/pytest.ini",
+      "sha256": "4551307f5b1a58adb7ec215d513089ba670b1737b81ada5a5863afe796d67343",
+      "size_bytes": 52
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/requirements-colab.lock",
+      "sha256": "cabe10227c4323e3b090f480f64154a9484e66432658938ae4bf818f934ca418",
+      "size_bytes": 457
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/requirements-inference.lock",
+      "sha256": "0c1679a9473d2fd1969b1cb089f6a7e7e3ab1430c144583e98d69aae815e965a",
+      "size_bytes": 420
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/requirements.txt",
+      "sha256": "509546d284f454865872cd48ecc02153de20349fa20bafb7f1b22c8c5940311a",
+      "size_bytes": 1203
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/analyze_qwen_gguf_full.py",
+      "sha256": "ca911756cfb3144825fa04c1b5c5cf8e1f6d689701c63373147dc7329116bd11",
+      "size_bytes": 45091
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/analyze_results.py",
+      "sha256": "2be17a16d984f0a06ac64aed438928eeddbd74d983537297419e9e8411ec6e2a",
+      "size_bytes": 25110
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/bootstrap_analysis.py",
+      "sha256": "4d7918f5fe8d1e821c2f9b897034e99426fb17f7332b6082221f38c33b55401a",
+      "size_bytes": 2836
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/build_colab_notebook.py",
+      "sha256": "97aa60373b53059e0414a529bb2dad6b197de19bad9a13886cf756634629f766",
+      "size_bytes": 25554
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/build_gguf_score_helper.py",
+      "sha256": "c981ecd24893571fb6131a17fa6f06623eb8f75356cf2317a10daf74ecbed8a7",
+      "size_bytes": 1685
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/download_data.py",
+      "sha256": "b562fc65bfcfeb646ff19081a87dfb82c11bfdace02ac662d19ff5f29654dce5",
+      "size_bytes": 2393
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/generate_qwen_gguf_schema_docs.py",
+      "sha256": "ca59e9aa83ffc6a0c95ba02a18c113e1bbe137e55fb5fe723ba3a9ca647ea337",
+      "size_bytes": 11383
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/inspect_legacy_collisions.py",
+      "sha256": "dd1ac5a4868964cdecff17c942570c9bfae64349a52facf91ec4900dffd172a7",
+      "size_bytes": 1151
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/package_colab_handoff.py",
+      "sha256": "ba70c92836b29b74a29e26b72746e6fdc694437751c6cc688e578204d4b41413",
+      "size_bytes": 5996
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/package_genuine_qwen_gguf_smoke.py",
+      "sha256": "4bd4321b8343109041ddb1ed98e71cb7f6db74f2b8da75cf432820a99f33f342",
+      "size_bytes": 5247
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/package_qwen_gguf_full.py",
+      "sha256": "0317aba7087dd9e8dd5ecdbb9f19e0d93d6f2b7db6a3606f18a595628f836f89",
+      "size_bytes": 30638
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/preprocess_data.py",
+      "sha256": "7cd3a247e5dd728966a86573d5236cf49b00371b6e5657d3a7dc15f473684eaa",
+      "size_bytes": 636
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/repair_data.py",
+      "sha256": "747841af648f2a645f47ca7c85e2a6302acd53ca019e860f40a969a8ea4109ee",
+      "size_bytes": 17735
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/run_genuine_qwen_gguf_smoke.py",
+      "sha256": "f9cef41d05ddecf954160c2624b46bffc69388a067fc78d9517fa2295d39e3af",
+      "size_bytes": 46099
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/run_main.sh",
+      "sha256": "3caf775de190099288f89a09fa803c05e79ef6b813564498ed503276888b2cf5",
+      "size_bytes": 864
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/run_pilot.sh",
+      "sha256": "424718fe4496199b4273db3702759d294d43b3e577441610c32ab6b78f283457",
+      "size_bytes": 871
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/run_qwen_gguf_full.py",
+      "sha256": "268c4d423bf1349d13de73017b3fe5b176711bfd977a29ccfea8f4a90beebee7",
+      "size_bytes": 64537
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/validate_data.py",
+      "sha256": "e1fb7b2bf4f29764ae83b4cb85ea8fdb5dd0bcc5e423e14535694b438213aac6",
+      "size_bytes": 3727
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/scripts/validate_smoke.py",
+      "sha256": "b6113cad4d1f6f2db206a9c964addda57b48c0117864711e51aa1545cc614c73",
+      "size_bytes": 7561
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/__init__.py",
+      "sha256": "bdb93c4e89751d2e0ba5266bd7e251697b4767b3031067f1dc21b88987460935",
+      "size_bytes": 48
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/clustered_bootstrap.py",
+      "sha256": "dd93f8cc8b9119b809eed868212b6d8508086b169039a9a14d331cba5b720be6",
+      "size_bytes": 16413
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/colab_runner.py",
+      "sha256": "3a57bd31b8fa029a39674a377d934fc70448a0d1c71210a3bbd7297c93c344ee",
+      "size_bytes": 78361
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/data_loader.py",
+      "sha256": "d7cfe0011972388380a092823b7eb47c4b17f1266cd33ec7ab7023dbf2d766aa",
+      "size_bytes": 7012
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/gguf_runner.py",
+      "sha256": "db5f995ea75a4f8404ff1a1b9d5a0e275a54ede41e2064a1728cbb9fbccc2283",
+      "size_bytes": 11369
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/gguf_score_helper.cpp",
+      "sha256": "9a2832b5ec82ea4fdd403fee4b92f4a42c3c8e3c3b40706c778e7e83c4790caf",
+      "size_bytes": 15806
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/main.py",
+      "sha256": "92f7aaf44948d4fa3332ffbe7407602f731b5e430dbea9243db68339cac8685a",
+      "size_bytes": 20560
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/metrics.py",
+      "sha256": "9bb7f775b72b69930ec7b2ca4d46f8c513b4f3c9af64ec11429b316b0d421d41",
+      "size_bytes": 10081
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/model_runner.py",
+      "sha256": "c24a3a4ac0fa00aa16087364e5256bec86f6fd961c3ccd9400e1aab1cb61f10b",
+      "size_bytes": 23027
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/prompt_builder.py",
+      "sha256": "b0124b967df62438a494e0ca85d685f7eda1ccc598bf81d9e7e803f2aaba14c0",
+      "size_bytes": 5616
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/result_utils.py",
+      "sha256": "6915e1d4f7aa9435411f038fe800ed3643b7f03a620ca0e620cc0d828134dc26",
+      "size_bytes": 2425
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/src/scoring.py",
+      "sha256": "039dea57f647a1525d12bdaf930a71ded6167a4e1228bb67aac8d274f64ce2c4",
+      "size_bytes": 6316
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/__init__.py",
+      "sha256": "9f0043fcc52decdad62e619583382e5787069b48c5b77a34c3f560a39d708edc",
+      "size_bytes": 60
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_analyze_results.py",
+      "sha256": "887ea3dc075dff212fbb58085f1de67d572f61136e95b2c48b7fe6470318d15b",
+      "size_bytes": 9674
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_clustered_bootstrap.py",
+      "sha256": "f5de348b77dfc2ba0c53fca2533d15a535a3ff304e40db029d51ec87f154e9d2",
+      "size_bytes": 14073
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_colab_handoff.py",
+      "sha256": "27c4425983ad3cbc5e0eabf8ba9910a7c3bf7121c465c9d90eb471483e703eaa",
+      "size_bytes": 21021
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_data_loader.py",
+      "sha256": "52b2713b69632bc0a3379d93d2ac9dfec5220668a4fac5fb2170cf4ef65730e1",
+      "size_bytes": 3091
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_data_repair.py",
+      "sha256": "00feb2e5be320d0d58fefc0d98842d16a18115bc26892fa10d36a1a5231d3315",
+      "size_bytes": 4024
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_gguf_runner.py",
+      "sha256": "ae55eccb64d1828c5439f17c8c16c305a0a57f36263c72f44a70b9e40cbb9f1a",
+      "size_bytes": 3547
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_guardrails.py",
+      "sha256": "79dcf32cf015f5e773dfb5db957910c63dcf7712ec0f1893d2fd4e3a00124839",
+      "size_bytes": 508
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_metrics.py",
+      "sha256": "1c438e051f06adde5abf1abb6e262604ae1b8dfc609be33f64cd897dd703701e",
+      "size_bytes": 4214
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_package_qwen_gguf_full.py",
+      "sha256": "e94e1b63e32c068afdfc2edf1b8eea539dd6bd5eb717b0900fa928df24c4a365",
+      "size_bytes": 12570
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_prompts.py",
+      "sha256": "fad83b480cf6454b4077689d59e287207a7c562c2845f48e857301f4bd5e07d3",
+      "size_bytes": 2162
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_qwen_full_manifest.py",
+      "sha256": "7376d2dc24a95592e4aca5d2b464fcfe50af2528fa0608dfa4ebaa34169c3a3b",
+      "size_bytes": 4814
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_qwen_full_schema_docs.py",
+      "sha256": "56c7797b6e15177c8b918f0b4e3fe84b600b04b015576413eb0e4927a0f2caf4",
+      "size_bytes": 2196
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_qwen_gguf_full.py",
+      "sha256": "f2f2b0f838f8a5454c0b1eb901c028b71feefb057ab22c66d9f313271bab213a",
+      "size_bytes": 13060
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_qwen_gguf_full_analysis.py",
+      "sha256": "fae3b8c3ab59dceb924cf3de35cec01149e595f21f3abe984e372b94a78c0494",
+      "size_bytes": 14372
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_result_utils.py",
+      "sha256": "57753acf8cfb828b223e8cac443f3303538989e9aa498874f3bfcf97a6f5fd02",
+      "size_bytes": 1651
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/tests/test_scoring.py",
+      "sha256": "eb6bf5ef9569bc4d577b5fe1b3fc3bebf4d39bb6fa8413f6981333b5c2380812",
+      "size_bytes": 9965
+    },
+    {
+      "archive_path": "cultural-alignment-audit-main/verify_pilot_count.py",
+      "sha256": "4ed7baf75944e98425689f8dd0cf3b97ca68fee1522a865284d170b30ec908da",
+      "size_bytes": 1274
+    },
+    {
+      "archive_path": "runtime-provenance/runtime_provenance.json",
+      "sha256": "8532643c2e5562189217790075c02a053387e6a625e8f83cddfc67cd730d58f2",
+      "size_bytes": 6224
+    },
+    {
+      "archive_path": "runtime-provenance/PROVENANCE.md",
+      "sha256": "abfab4516a07a8918c451abfe12b153b26491b5bac20259e4600be768b54e8fd",
+      "size_bytes": 5299
+    }
+  ],
+  "llama_cpp_source_or_binaries_included": false,
+  "manifest_member_policy": "Every archive member except this manifest is listed above and is verified byte-for-byte after ZIP creation. The manifest cannot self-hash; its embedded bytes are separately compared with this file.",
+  "model_weights_included": false,
+  "package_scope": "completed_qwen_gguf_full_200_directed_units",
+  "repository_files": 352,
+  "runtime_provenance_files": 2,
+  "validation": {
+    "analysis_sha256": "b73906de7a37b794800a84179b32f490fc55ab77fbfb84ddea63fc38af33c27d",
+    "bootstrap_replicates": 10000,
+    "conflict_classification_counts": {
+      "evidence-side": 189,
+      "label-side": 11,
+      "tie": 0
+    },
+    "derived_artifact_sha256": {
+      "EXPERIMENT_REPORT.md": "223ae0d9633c0caefdb613b176f04721889146f7f4871425837850049d4b8fba",
+      "bootstrap_summary.csv": "8f99dbd5c550180c8d2dd15beb61b1365631742d8e2a81d2a1f98650c829eb1d",
+      "conflict_classifications.csv": "de7784f20969fcf50d664282092e9663d6c502898ef5732f17379bb124d1790f",
+      "directed_unit_metrics.csv": "049892e7ad3f66f2b9178926f32447429accb8d6551a27dfd45428137bfb4c3a",
+      "metric_tables.json": "de22f71f60498ae870e41a6d1ec56dcf1c7694072f49a9e7e845856d5683e897",
+      "results.csv": "4b09a233804c7da81c9f5177a551611a6b3c11f33a36e69ada32a24426f53d08",
+      "tables/conflict_classification.tex": "51c78b87a14e8373447ef404449b1ae688cfeb4f0deec00d667d6558ed512383",
+      "tables/model_metrics.tex": "ac746c9e57d8c7e3d65148cb3ea8a022097e7faef2445e1c1f124882a10f6300",
+      "target_unit_metrics.csv": "0d1d6f0077ad5f0dc55460a139bd1d8493841ff64e0faa703ea9995f23db0fdd"
+    },
+    "external_runtime_provenance": {
+      "helper_sha256": "7593003065c92899a14151b4e7af4742641d2ec76fa0529c8fd05f04f41520d0",
+      "json_sha256": "8532643c2e5562189217790075c02a053387e6a625e8f83cddfc67cd730d58f2",
+      "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+      "markdown_sha256": "abfab4516a07a8918c451abfe12b153b26491b5bac20259e4600be768b54e8fd",
+      "model_shards": 2
+    },
+    "pinned_provenance": {
+      "chat_template_sha256": "d5495a1e5db0611132a97e46a65dbb64a642a499421228b9c8b93229097fa9a4",
+      "dependency_files_reverified": 11,
+      "helper_sha256": "7593003065c92899a14151b4e7af4742641d2ec76fa0529c8fd05f04f41520d0",
+      "llama_cpp_commit": "62acc89c26c66076cb72e049f307fbe93b8b9750",
+      "llama_cpp_version": "0.3.0-dev",
+      "model_identifier": "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M",
+      "model_revision": "bb5d59e06d9551d752d08b292a50eb208b07ab1f",
+      "model_shards_reverified_from_records": 2,
+      "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5"
+    },
+    "question_id_clusters": 44,
+    "results": {
+      "conditions": [
+        "baseline",
+        "country_label",
+        "evidence",
+        "conflict"
+      ],
+      "conflict_classification_counts": {
+        "evidence-side": 189,
+        "label-side": 11
+      },
+      "directed_units": 200,
+      "question_clusters": 44,
+      "rows": 800,
+      "schema_version": "qwen-gguf-full-v2",
+      "status": "PASS",
+      "target_units": 144,
+      "unique_directed_condition_keys": 800
+    },
+    "results_sha256": "368c0442b6ebbad8a67b5bfd4b20732e22a28e79a4c55548832ab07705c35d8b",
+    "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5"
+  }
+}

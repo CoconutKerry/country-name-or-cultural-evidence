@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "four_model_gate_modified": false,
+  "full_run_disabled_cell_text_and_tags_unchanged": true,
+  "protected_hashes": {
+    "require_full_approval_function_sha256": "b9fdc54cb19dcf182d790c300c0acedb2c4d368e7be5c4531568db92d956cd24",
+    "notebook_code_002_sha256": "bf0363f54164ac5461b84dfb3f451b5e6baa651f41ac2f65642157263e59b066",
+    "notebook_markdown_018_sha256": "7313913affeeeed40bcbcd15c15ee5255e8fac22725f9d45ef8fb968ea6f3190",
+    "notebook_code_019_sha256": "b8a46da4c768966e393947748801b0037a3c728f3b75c13e37dc2b50c358ae9d"
+  },
+  "models_started": [
+    "Qwen/Qwen2.5-7B-Instruct-GGUF:Q4_K_M"
+  ],
+  "models_not_started": [
+    "meta-llama/Llama-3.1-8B-Instruct",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "google/gemma-2-9b-it"
+  ],
+  "paper_updated": false,
+  "remote_push_or_publish": false
+}

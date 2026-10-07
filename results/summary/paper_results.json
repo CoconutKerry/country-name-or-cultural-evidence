@@ -1,0 +1,446 @@
+{
+  "experiment": {
+    "predictions": 3200,
+    "models": 4,
+    "conditions": 4,
+    "directed_contrasts": 200,
+    "unordered_population_pairs": 100,
+    "unique_target_units_per_model": 144,
+    "question_clusters": 44,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 42
+  },
+  "metrics_by_model": {
+    "qwen": {
+      "model": "Qwen2.5-7B-Instruct",
+      "country_influence": {
+        "estimate": 0.028082443820185,
+        "ci_95": [
+          -0.0076658929090742,
+          0.065957109864856
+        ],
+        "n": 144
+      },
+      "evidence_influence": {
+        "estimate": 0.2675896248152812,
+        "ci_95": [
+          0.2201952059317182,
+          0.3196677491463949
+        ],
+        "n": 144
+      },
+      "evidence_advantage": {
+        "estimate": 0.2395071809950962,
+        "ci_95": [
+          0.1931694485334122,
+          0.2909842836740523
+        ],
+        "n": 144
+      },
+      "evidence_override_raw": {
+        "estimate": 0.6384224188512423,
+        "ci_95": [
+          0.5713934174203635,
+          0.6953755579025486
+        ],
+        "n": 200
+      },
+      "evidence_override_normalized": {
+        "estimate": 0.6685640350548292,
+        "ci_95": [
+          0.5916200198785708,
+          0.7394185247568318
+        ],
+        "n": 200
+      },
+      "conflict_classification": {
+        "evidence_side": 189,
+        "evidence_side_percent": 94.5,
+        "label_side": 11,
+        "label_side_percent": 5.5,
+        "ties": 0
+      }
+    },
+    "llama": {
+      "model": "Llama-3.1-8B-Instruct",
+      "country_influence": {
+        "estimate": 0.0552899425816612,
+        "ci_95": [
+          0.032934900600856,
+          0.0808038123455606
+        ],
+        "n": 144
+      },
+      "evidence_influence": {
+        "estimate": 0.1844452933921025,
+        "ci_95": [
+          0.1496016852237651,
+          0.2217856127368946
+        ],
+        "n": 144
+      },
+      "evidence_advantage": {
+        "estimate": 0.1291553508104413,
+        "ci_95": [
+          0.0970367970713611,
+          0.1657891024191629
+        ],
+        "n": 144
+      },
+      "evidence_override_raw": {
+        "estimate": 0.6146763959985936,
+        "ci_95": [
+          0.5562955733987088,
+          0.6631355929224961
+        ],
+        "n": 200
+      },
+      "evidence_override_normalized": {
+        "estimate": 0.7114358907606618,
+        "ci_95": [
+          0.6415560824520417,
+          0.7711889788277443
+        ],
+        "n": 200
+      },
+      "conflict_classification": {
+        "evidence_side": 193,
+        "evidence_side_percent": 96.5,
+        "label_side": 7,
+        "label_side_percent": 3.5,
+        "ties": 0
+      }
+    },
+    "mistral": {
+      "model": "Mistral-7B-Instruct-v0.3",
+      "country_influence": {
+        "estimate": 0.0446776316870468,
+        "ci_95": [
+          0.0040663526640463,
+          0.089229599407596
+        ],
+        "n": 144
+      },
+      "evidence_influence": {
+        "estimate": 0.2205303343382123,
+        "ci_95": [
+          0.1647347301074549,
+          0.2786246714795455
+        ],
+        "n": 144
+      },
+      "evidence_advantage": {
+        "estimate": 0.1758527026511654,
+        "ci_95": [
+          0.128654136317259,
+          0.2231478255736365
+        ],
+        "n": 144
+      },
+      "evidence_override_raw": {
+        "estimate": 0.5167487916525012,
+        "ci_95": [
+          0.4273082470611609,
+          0.6017720232006585
+        ],
+        "n": 200
+      },
+      "evidence_override_normalized": {
+        "estimate": 0.5433332134305029,
+        "ci_95": [
+          0.4408328343812688,
+          0.6420706385614148
+        ],
+        "n": 200
+      },
+      "conflict_classification": {
+        "evidence_side": 171,
+        "evidence_side_percent": 85.5,
+        "label_side": 29,
+        "label_side_percent": 14.5,
+        "ties": 0
+      }
+    },
+    "gemma": {
+      "model": "Gemma-2-9B-It",
+      "country_influence": {
+        "estimate": 0.071450928463249,
+        "ci_95": [
+          0.0273015698603164,
+          0.1163948463280745
+        ],
+        "n": 144
+      },
+      "evidence_influence": {
+        "estimate": 0.2835949176283289,
+        "ci_95": [
+          0.2301663793912209,
+          0.3381303420686917
+        ],
+        "n": 144
+      },
+      "evidence_advantage": {
+        "estimate": 0.2121439891650798,
+        "ci_95": [
+          0.161901545212312,
+          0.262619069306728
+        ],
+        "n": 144
+      },
+      "evidence_override_raw": {
+        "estimate": 0.6847342292554661,
+        "ci_95": [
+          0.6287851943236706,
+          0.7271900088374719
+        ],
+        "n": 200
+      },
+      "evidence_override_normalized": {
+        "estimate": 0.7280412992136129,
+        "ci_95": [
+          0.6564566569514566,
+          0.7881940165454694
+        ],
+        "n": 200
+      },
+      "conflict_classification": {
+        "evidence_side": 195,
+        "evidence_side_percent": 97.5,
+        "label_side": 5,
+        "label_side_percent": 2.5,
+        "ties": 0
+      }
+    }
+  },
+  "cross_model_agreement": {
+    "all_four_evidence_side": {
+      "count": 161,
+      "percent": 80.5
+    },
+    "at_least_three_evidence_side": {
+      "count": 190,
+      "percent": 95.0
+    },
+    "all_four_label_side": {
+      "count": 0,
+      "percent": 0.0
+    },
+    "any_cross_model_disagreement": {
+      "count": 39,
+      "percent": 19.5
+    },
+    "three_evidence_one_label": {
+      "count": 29,
+      "percent": 14.499999999999998
+    },
+    "one_evidence_three_label": {
+      "count": 3,
+      "percent": 1.5
+    },
+    "three_to_one_splits_total": {
+      "count": 32,
+      "percent": 16.0
+    },
+    "two_to_two_splits": {
+      "count": 7,
+      "percent": 3.5000000000000004
+    },
+    "mistral_only_label_side": {
+      "count": 20,
+      "percent": 10.0
+    }
+  },
+  "source_stratified_metrics": [
+    {
+      "model_key": "qwen",
+      "model": "Qwen2.5-7B-Instruct",
+      "source": "Global Attitudes",
+      "target_units": 104,
+      "directed_units": 146,
+      "country_influence": 0.0407123482741213,
+      "evidence_influence": 0.2930265130185991,
+      "evidence_advantage": 0.2523141647444778,
+      "EO_raw": 0.6292346942907194,
+      "EO_normalized": 0.6693135358641898,
+      "evidence_side_pct": 93.83561643835615
+    },
+    {
+      "model_key": "qwen",
+      "model": "Qwen2.5-7B-Instruct",
+      "source": "WVS",
+      "target_units": 40,
+      "directed_units": 54,
+      "country_influence": -0.0047553077600494,
+      "evidence_influence": 0.2014537154866547,
+      "evidence_advantage": 0.2062090232467042,
+      "EO_raw": 0.6632633037741378,
+      "EO_normalized": 0.6665376069406318,
+      "evidence_side_pct": 96.29629629629628
+    },
+    {
+      "model_key": "llama",
+      "model": "Llama-3.1-8B-Instruct",
+      "source": "Global Attitudes",
+      "target_units": 104,
+      "directed_units": 146,
+      "country_influence": 0.0698583671339216,
+      "evidence_influence": 0.1932724106584873,
+      "evidence_advantage": 0.1234140435245657,
+      "EO_raw": 0.6188714089387634,
+      "EO_normalized": 0.7258901696211725,
+      "evidence_side_pct": 95.2054794520548
+    },
+    {
+      "model_key": "llama",
+      "model": "Llama-3.1-8B-Instruct",
+      "source": "WVS",
+      "target_units": 40,
+      "directed_units": 54,
+      "country_influence": 0.0174120387457843,
+      "evidence_influence": 0.1614947884995021,
+      "evidence_advantage": 0.1440827497537178,
+      "EO_raw": 0.6033343239751714,
+      "EO_normalized": 0.6723558034711329,
+      "evidence_side_pct": 100.0
+    },
+    {
+      "model_key": "mistral",
+      "model": "Mistral-7B-Instruct-v0.3",
+      "source": "Global Attitudes",
+      "target_units": 104,
+      "directed_units": 146,
+      "country_influence": 0.0604585299264822,
+      "evidence_influence": 0.2414813127128461,
+      "evidence_advantage": 0.181022782786364,
+      "EO_raw": 0.4965689034370297,
+      "EO_normalized": 0.5313615240060265,
+      "evidence_side_pct": 84.93150684931507
+    },
+    {
+      "model_key": "mistral",
+      "model": "Mistral-7B-Instruct-v0.3",
+      "source": "WVS",
+      "target_units": 40,
+      "directed_units": 54,
+      "country_influence": 0.0036472962645149,
+      "evidence_influence": 0.1660577905641644,
+      "evidence_advantage": 0.1624104942996495,
+      "EO_raw": 0.5713092301609981,
+      "EO_normalized": 0.5757011144670499,
+      "evidence_side_pct": 87.03703703703704
+    },
+    {
+      "model_key": "gemma",
+      "model": "Gemma-2-9B-It",
+      "source": "Global Attitudes",
+      "target_units": 104,
+      "directed_units": 146,
+      "country_influence": 0.0749635408453305,
+      "evidence_influence": 0.3026003944615653,
+      "evidence_advantage": 0.2276368536162348,
+      "EO_raw": 0.7192001955139481,
+      "EO_normalized": 0.7798028348780075,
+      "evidence_side_pct": 100.0
+    },
+    {
+      "model_key": "gemma",
+      "model": "Gemma-2-9B-It",
+      "source": "WVS",
+      "target_units": 40,
+      "directed_units": 54,
+      "country_influence": 0.0623181362698372,
+      "evidence_influence": 0.234180677861914,
+      "evidence_advantage": 0.1718625415920768,
+      "EO_raw": 0.5915484686306823,
+      "EO_normalized": 0.5880934435283977,
+      "evidence_side_pct": 90.74074074074076
+    }
+  ],
+  "illustrative_cases": [
+    {
+      "selection_rule": "Largest mean EO",
+      "question_id": "Q0758",
+      "question": "Regardless of how you feel about the protests, were you sympathetic to Muslims who were offended by these cartoons, or not?",
+      "label_country": "Spain",
+      "evidence_country": "Jordan",
+      "qwen": 0.939702432891562,
+      "llama": 0.976096172501085,
+      "mistral": 0.9397026143934366,
+      "gemma": 0.9411638514655668,
+      "cross_model_mean": 0.9491662678129124,
+      "cross_model_variance": 0.0002420958353432
+    },
+    {
+      "selection_rule": "Lowest mean EO",
+      "question_id": "Q1035",
+      "question": "Which one of these comes closest to your opinion, number 1 or number 2?...#1 - It is not necessary to believe in God in order to be moral and have good values or #2 - It is necessary to believe in God in order to be moral and have good values",
+      "label_country": "Sweden",
+      "evidence_country": "Pakistan",
+      "qwen": -0.8850064624510612,
+      "llama": -0.9728207071274142,
+      "mistral": -0.8901367192447485,
+      "gemma": 0.0306395901209436,
+      "cross_model_mean": -0.6793310746755701,
+      "cross_model_variance": 0.1692339735367868
+    },
+    {
+      "selection_rule": "Largest model disagreement",
+      "question_id": "Q0914",
+      "question": "Does the government of Russia respect the personal freedoms of its people?",
+      "label_country": "Netherlands",
+      "evidence_country": "Vietnam",
+      "qwen": -0.8838829689351654,
+      "llama": 0.9294389469813308,
+      "mistral": -0.8990611085434186,
+      "gemma": 0.9090547245614726,
+      "cross_model_mean": 0.0138873985160548,
+      "cross_model_variance": 0.8197564471830222
+    }
+  ],
+  "runtime": [
+    {
+      "model_key": "qwen",
+      "model": "Qwen2.5-7B-Instruct",
+      "elapsed_seconds": 2548.517024175999,
+      "elapsed_minutes": 42.47528373626665,
+      "threads": 8,
+      "context_size": 4096,
+      "gpu_layers": 0,
+      "completed_at_utc": "2026-08-31T02:11:17.329281+00:00",
+      "run_fingerprint": "fa0e7206f0d622bbf90407155855d6d492ca5353eeca63deecd573055defc9d5"
+    },
+    {
+      "model_key": "llama",
+      "model": "Llama-3.1-8B-Instruct",
+      "elapsed_seconds": 737.4855243429993,
+      "elapsed_minutes": 12.291425405716655,
+      "threads": 8,
+      "context_size": 4096,
+      "gpu_layers": 0,
+      "completed_at_utc": "2026-08-31T23:16:38.318310+00:00",
+      "run_fingerprint": "ecd01540748b126d8a5390374c1256a7a8d447a78622493d0ac239285b725b1f"
+    },
+    {
+      "model_key": "mistral",
+      "model": "Mistral-7B-Instruct-v0.3",
+      "elapsed_seconds": 3423.050200819001,
+      "elapsed_minutes": 57.05083668031669,
+      "threads": 9,
+      "context_size": 4096,
+      "gpu_layers": 0,
+      "completed_at_utc": "2026-08-31T23:56:37.989696+00:00",
+      "run_fingerprint": "517bfed01deed63bb45a20c80762b9aba772bb016296b9d7d2f44643688be94f"
+    },
+    {
+      "model_key": "gemma",
+      "model": "Gemma-2-9B-It",
+      "elapsed_seconds": 1399.4975619260003,
+      "elapsed_minutes": 23.32495936543334,
+      "threads": 8,
+      "context_size": 4096,
+      "gpu_layers": 0,
+      "completed_at_utc": "2026-09-01T00:19:37.118745+00:00",
+      "run_fingerprint": "a5e7cad6e2122293bdf1ed9e6867bed1ec689b04cc67a7236cd2b5625468f23f"
+    }
+  ]
+}

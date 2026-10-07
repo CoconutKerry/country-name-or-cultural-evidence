@@ -1,0 +1,100 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+dist/
+build/
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ================================
+# Data files (do not commit large files)
+# ================================
+data/raw/
+*.h5
+*.pkl
+*.pt
+*.bin
+*.csv
+*.parquet
+*.npy
+
+# ================================
+# Model files (do not commit)
+# ================================
+models/
+*.safetensors
+*.ckpt
+*.pth
+
+# ================================
+# Logs and temporary files
+# ================================
+logs/
+experiments/**/*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.iml
+
+# ================================
+# Environment variables
+# ================================
+.env
+.env.local
+*.yaml.local
+
+# ================================
+# LaTeX compilation temporary files
+# ================================
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.bcf
+paper/*.run.xml
+
+# ================================
+# Operating System
+# ================================
+Thumbs.db
+Desktop.ini
+
+# ================================
+# Archive files
+# ================================
+*.zip
+*.tar.gz
+*.7zCA/ 
+CA/
+
